@@ -34,7 +34,7 @@ export default function Sidebar({
           <div className="brand-status-dot"></div>
         </div>
         <div className="brand-meta hide-on-mobile">
-          <h1 className="brand-name">NEURAL AI</h1>
+          <h1 className="brand-name">OMEGA</h1>
           <div className="brand-status-text">
             <span>● ONLINE</span>
             <span className="brand-version">v3.1</span>

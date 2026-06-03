@@ -1,0 +1,58 @@
+# Python virtual environment and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Large Model Files and Encoders
+ml_service/assets/
+ml_service/scratch_assets/
+scratch_assets/
+*.pkl
+*.joblib
+*.pkl.gz
+
+# Frontend Build and Dependency Directories
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Java Spring Boot backend
+target/
+.mvn/
+*.class
+*.jar
+*.war
+*.ear
+*.tar.gz
+backend/target/
+
+# Local Environment Configurations
+.env
+.env.local
+.env.*.local
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

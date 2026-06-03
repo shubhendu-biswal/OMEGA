@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
 * text=auto
+
+# Maven wrapper line endings
+/backend/mvnw text eol=lf
+/backend/*.cmd text eol=crlf

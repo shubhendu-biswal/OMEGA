@@ -11,11 +11,11 @@ import { Bot, User, Wifi } from 'lucide-react';
  */
 function parseInlineMarkdown(inlineText) {
   if (typeof inlineText !== 'string') return inlineText;
-  
+
   // Regex to split text by bold (**), italic (*), and inline code (`)
   const regex = /(\*\*.*?\*\*|\*.*?\*|`.*?`)/g;
   const tokens = inlineText.split(regex);
-  
+
   return tokens.map((token, i) => {
     if (token.startsWith('**') && token.endsWith('**')) {
       return <strong key={i}>{token.slice(2, -2)}</strong>;
@@ -36,10 +36,10 @@ function parseInlineMarkdown(inlineText) {
 function parseBlocks(blockText) {
   const lines = blockText.split('\n');
   const elements = [];
-  
+
   let currentList = null; // { type: 'ul' | 'ol', items: [] }
   let currentTable = null; // { headers: [], rows: [] }
-  
+
   const flushList = () => {
     if (currentList) {
       const ListTag = currentList.type;
@@ -53,7 +53,7 @@ function parseBlocks(blockText) {
       currentList = null;
     }
   };
-  
+
   const flushTable = () => {
     if (currentTable) {
       elements.push(
@@ -85,21 +85,21 @@ function parseBlocks(blockText) {
   for (let i = 0; i < lines.length; i++) {
     const line = lines[i];
     const trimmed = line.trim();
-    
+
     // 1. Check if it's a table line
     if (trimmed.startsWith('|')) {
       flushList();
-      
+
       const cells = line.split('|').map(c => c.trim()).filter((c, idx, arr) => idx > 0 && idx < arr.length - 1);
-      
+
       // Check if it's a separator line like |---|---|
       const isSeparator = cells.every(c => /^:-*|-*:-*|-*:$/.test(c) || c.startsWith('-'));
-      
+
       if (isSeparator) {
         // Just skip the separator line
         continue;
       }
-      
+
       if (!currentTable) {
         currentTable = { headers: cells, rows: [] };
       } else {
@@ -109,7 +109,7 @@ function parseBlocks(blockText) {
     } else {
       flushTable();
     }
-    
+
     // 2. Check if it's a heading
     if (trimmed.startsWith('#')) {
       flushList();
@@ -125,18 +125,18 @@ function parseBlocks(blockText) {
         continue;
       }
     }
-    
+
     // 3. Check if it's a list item
     const listMatch = trimmed.match(/^([-*]|\d+\.)\s+(.*)$/);
     if (listMatch) {
       const marker = listMatch[1];
       const content = listMatch[2];
       const listType = /^\d+\./.test(marker) ? 'ol' : 'ul';
-      
+
       if (currentList && currentList.type !== listType) {
         flushList();
       }
-      
+
       if (!currentList) {
         currentList = { type: listType, items: [content] };
       } else {
@@ -146,7 +146,7 @@ function parseBlocks(blockText) {
     } else {
       flushList();
     }
-    
+
     // 4. Regular paragraph
     if (trimmed) {
       elements.push(
@@ -156,11 +156,11 @@ function parseBlocks(blockText) {
       );
     }
   }
-  
+
   // Flush remaining blocks
   flushList();
   flushTable();
-  
+
   return elements;
 }
 
@@ -176,7 +176,7 @@ function parseMessageContent(text) {
       const firstLineBreak = part.indexOf('\n');
       let lang = 'code';
       let code = part;
-      
+
       if (firstLineBreak !== -1) {
         const potentialLang = part.substring(0, firstLineBreak).trim();
         if (potentialLang.length < 15) {
@@ -216,7 +216,7 @@ export default function ChatPanel({ messages, computing, activeAgent, isSimpleTe
             <AgentIcon size={18} />
           </div>
           <div className="status-agent-meta">
-            <span className="status-agent-name">{activeAgent?.name || 'Neural AI'}</span>
+            <span className="status-agent-name">{activeAgent?.name || 'OMEGA'}</span>
             <div className="status-agent-status">
               <span className="brand-status-dot" style={{ position: 'relative', display: 'inline-block', border: 'none', right: 0, bottom: 0 }}></span>
               <span>ACTIVE AGENT</span>
@@ -225,7 +225,7 @@ export default function ChatPanel({ messages, computing, activeAgent, isSimpleTe
         </div>
 
         <div className="chat-header-actions" style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
-          <button 
+          <button
             className={`readability-toggle-btn ${isSimpleTextMode ? 'active' : ''}`}
             onClick={onToggleSimpleTextMode}
             title={isSimpleTextMode ? "Switch to Sci-Fi Mode" : "Switch to Readability Mode"}
@@ -264,7 +264,7 @@ export default function ChatPanel({ messages, computing, activeAgent, isSimpleTe
             <div className={`msg-avatar ${msg.role}`}>
               {msg.role === 'user' ? <User size={18} /> : <AgentIcon size={18} />}
             </div>
-            
+
             <div className="msg-content-wrapper">
               <div className="msg-bubble">
                 {msg.role === 'user' ? (

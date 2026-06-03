@@ -1,11 +1,62 @@
 /* Reset and Base Styles */
+@property --accent-bg-glow {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgba(0, 210, 255, 0.08);
+}
+@property --accent-grid {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgba(0, 210, 255, 0.02);
+}
+@property --accent {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #00d2ff;
+}
+@property --accent-glow {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgba(0, 210, 255, 0.45);
+}
+@property --border-glass {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgba(0, 240, 255, 0.12);
+}
+@property --border-glass-glow {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgba(0, 240, 255, 0.3);
+}
+@property --bg-primary {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #050814;
+}
+@property --bg-secondary {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: #090e1e;
+}
+@property --sidebar-bg {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgba(9, 14, 30, 0.85);
+}
+@property --status-bar-bg {
+  syntax: '<color>';
+  inherits: true;
+  initial-value: rgba(9, 14, 30, 0.5);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
   scrollbar-width: thin;
-  scrollbar-color: rgba(0, 240, 255, 0.2) rgba(10, 14, 28, 0.5);
+  scrollbar-color: var(--border-glass-glow) rgba(10, 14, 28, 0.5);
 }
 
 /* Custom Scrollbar for Webkit */
@@ -17,11 +68,11 @@
   background: rgba(7, 11, 25, 0.9);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(0, 240, 255, 0.3);
+  background: var(--border-glass-glow);
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 240, 255, 0.6);
+  background: var(--accent);
 }
 
 :root {
@@ -53,21 +104,24 @@
   /* Default active accent */
   --accent: var(--color-cyan);
   --accent-glow: var(--color-cyan-glow);
+  --accent-grid: rgba(0, 210, 255, 0.02);
+  --accent-bg-glow: rgba(0, 210, 255, 0.08);
 }
 
 /* Base Body Setup */
 body {
   background-color: var(--bg-primary);
   background-image: 
-    radial-gradient(at 0% 0%, rgba(182, 36, 255, 0.08) 0px, transparent 50%),
-    radial-gradient(at 100% 0%, rgba(0, 210, 255, 0.08) 0px, transparent 50%),
-    linear-gradient(rgba(0, 240, 255, 0.02) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0, 240, 255, 0.02) 1px, transparent 1px);
+    radial-gradient(at 0% 0%, var(--accent-bg-glow) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, var(--accent-bg-glow) 0px, transparent 50%),
+    linear-gradient(var(--accent-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--accent-grid) 1px, transparent 1px);
   background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px;
   color: var(--color-text-primary);
   min-height: 100vh;
   overflow-x: hidden;
   font-size: 14px;
+  transition: color 0.5s ease, --accent-bg-glow 0.5s ease, --accent-grid 0.5s ease, --bg-primary 0.5s ease;
 }
 
 /* App Shell Wrapper */
@@ -77,6 +131,9 @@ body {
   height: 100vh;
   overflow: hidden;
   position: relative;
+  border: 1px solid var(--border-glass-glow);
+  box-shadow: inset 0 0 30px var(--accent-glow);
+  transition: border-color 0.5s ease, box-shadow 0.5s ease, --border-glass-glow 0.5s ease, --accent-glow 0.5s ease;
 }
 
 /* Futuristic Scanline Effect Overlay */
@@ -95,14 +152,15 @@ body {
 /* Sidebar layout */
 .sidebar {
   width: 320px;
-  background-color: var(--bg-secondary);
+  background-color: var(--sidebar-bg);
+  backdrop-filter: blur(20px);
   border-right: 1px solid var(--border-glass);
   display: flex;
   flex-direction: column;
   height: 100%;
   position: relative;
   z-index: 10;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1), background-color 0.5s ease, border-color 0.5s ease, --border-glass 0.5s ease, --sidebar-bg 0.5s ease;
 }
 
 /* Sidebar collapsed state (responsive support) */
@@ -171,14 +229,15 @@ body {
   position: relative;
   width: 44px;
   height: 44px;
-  background: linear-gradient(135deg, rgba(0, 240, 255, 0.15) 0%, rgba(182, 36, 255, 0.15) 100%);
-  border: 1px solid var(--border-glass-glow);
+  background: linear-gradient(135deg, var(--accent-glow) 0%, rgba(10, 14, 28, 0.6) 100%);
+  border: 1px solid var(--accent);
   border-radius: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
-  color: var(--color-cyan);
+  box-shadow: 0 0 15px var(--accent-glow);
+  color: var(--accent);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .brand-status-dot {
@@ -320,14 +379,14 @@ body {
 }
 
 .session-item:hover {
-  background: rgba(0, 240, 255, 0.03);
-  border-color: rgba(0, 240, 255, 0.08);
+  background: var(--accent-grid);
+  border-color: var(--border-glass);
 }
 
 .session-item.active {
-  background: linear-gradient(90deg, rgba(0, 210, 255, 0.06) 0%, rgba(0, 210, 255, 0.01) 100%);
-  border: 1px solid rgba(0, 210, 255, 0.18);
-  box-shadow: inset 3px 0 0 var(--color-cyan);
+  background: linear-gradient(90deg, var(--accent-bg-glow) 0%, transparent 100%);
+  border: 1px solid var(--border-glass-glow);
+  box-shadow: inset 3px 0 0 var(--accent);
 }
 
 .session-icon {
@@ -336,8 +395,8 @@ body {
 }
 
 .session-item.active .session-icon {
-  color: var(--color-cyan);
-  filter: drop-shadow(0 0 5px var(--color-cyan-glow));
+  color: var(--accent);
+  filter: drop-shadow(0 0 5px var(--accent-glow));
 }
 
 .session-details {
@@ -585,7 +644,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: var(--bg-primary);
+  background-color: transparent;
   position: relative;
   overflow: hidden;
   height: 100%;
@@ -1009,12 +1068,13 @@ body {
 /* Top Active Agent Status bar */
 .chat-status-bar {
   padding: 16px 24px;
-  background: rgba(9, 14, 30, 0.5);
+  background: var(--status-bar-bg);
   border-bottom: 1px solid var(--border-glass);
   display: flex;
   align-items: center;
   justify-content: space-between;
   backdrop-filter: blur(10px);
+  transition: background-color 0.5s ease, border-color 0.5s ease, --status-bar-bg 0.5s ease, --border-glass 0.5s ease;
 }
 
 .status-agent-info {
@@ -1289,171 +1349,6 @@ ol.msg-list {
 .simple-text-mode *:not(svg):not(g):not(circle):not(path):not(line) {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
   text-shadow: none !important;
-  box-shadow: none !important;
-  filter: none !important;
-}
-
-/* 1. Disable Futuristic Overlay Scanlines */
-.app-container.simple-text-mode::before {
-  display: none !important;
-}
-
-/* 2. Brighten and Simplify Hologram Glowing Effects & Animations */
-.simple-text-mode .hologram-glow-core {
-  display: block !important;
-  background: radial-gradient(circle, var(--accent) 0%, rgba(9, 14, 30, 0) 75%) !important;
-  opacity: 0.9 !important;
-  filter: blur(16px) !important;
-}
-.simple-text-mode .hologram-canvas circle,
-.simple-text-mode .hologram-canvas path,
-.simple-text-mode .hologram-canvas line {
-  stroke: var(--accent) !important;
-  opacity: 0.8 !important;
-}
-.simple-text-mode .hologram-canvas circle[fill="var(--accent)"],
-.simple-text-mode .hologram-canvas circle[fill="#fff"] {
-  fill: var(--accent) !important;
-  opacity: 1 !important;
-}
-
-/* 3. Simple Cards and Items */
-.simple-text-mode .brand-icon-wrapper {
-  background: #111827 !important;
-  border-color: #374151 !important;
-  color: #fff !important;
-}
-.simple-text-mode .brand-name {
-  letter-spacing: 0.5px !important;
-}
-.simple-text-mode .new-session-btn {
-  letter-spacing: 0.5px !important;
-  background: #111827 !important;
-  border: 1px solid #374151 !important;
-}
-.simple-text-mode .new-session-btn:hover {
-  background: #1f2937 !important;
-}
-.simple-text-mode .session-item:hover {
-  background: #111827 !important;
-}
-.simple-text-mode .session-item.active {
-  background: #1f2937 !important;
-  border: 1px solid #374151 !important;
-  box-shadow: none !important;
-}
-.simple-text-mode .session-item.active .session-icon {
-  color: #fff !important;
-}
-.simple-text-mode .agent-card {
-  background: #111827 !important;
-  border: 1px solid #374151 !important;
-}
-.simple-text-mode .agent-card:hover {
-  background: #1f2937 !important;
-}
-.simple-text-mode .agent-card.active {
-  background: #1f2937 !important;
-  border-color: #9ca3af !important;
-}
-.simple-text-mode .agent-avatar-dot {
-  background-color: #9ca3af !important;
-  box-shadow: none !important;
-}
-.simple-text-mode .operator-panel {
-  background: #111827 !important;
-  border-top: 1px solid #374151 !important;
-}
-.simple-text-mode .operator-avatar {
-  background: #374151 !important;
-  border-color: #4b5563 !important;
-}
-.simple-text-mode .operator-plan-tag {
-  color: #9ca3af !important;
-  letter-spacing: 0.5px !important;
-}
-
-/* 4. Message Bubble Simplifying */
-.simple-text-mode .message-bubble-row.user .msg-bubble {
-  background: #1f2937 !important;
-  border: 1px solid #374151 !important;
-  color: #fff !important;
-}
-.simple-text-mode .message-bubble-row.assistant .msg-bubble {
-  background: #111827 !important;
-  border: 1px solid #1f2937 !important;
-  color: #f3f4f6 !important;
-}
-.simple-text-mode .msg-avatar.user,
-.simple-text-mode .msg-avatar.assistant {
-  background: #374151 !important;
-  border: 1px solid #4b5563 !important;
-  color: #fff !important;
-}
-.simple-text-mode .msg-code-block {
-  border-left: 3px solid #6b7280 !important;
-  background: #0f172a !important;
-}
-
-/* 5. Suggestions Styling */
-.simple-text-mode .suggestions-title {
-  color: #9ca3af !important;
-}
-.simple-text-mode .suggestion-card {
-  background: #111827 !important;
-  border: 1px solid #374151 !important;
-}
-.simple-text-mode .suggestion-card:hover {
-  background: #1f2937 !important;
-}
-.simple-text-mode .suggestion-icon-container {
-  background: #374151 !important;
-  box-shadow: none !important;
-}
-
-/* 6. Input Panel Simplifying */
-.simple-text-mode .input-container {
-  background: #111827 !important;
-  border: 1px solid #374151 !important;
-}
-.simple-text-mode .input-container:focus-within {
-  border-color: #9ca3af !important;
-  background: #1f2937 !important;
-}
-.simple-text-mode .send-action-btn {
-  background: #374151 !important;
-  border: 1px solid #4b5563 !important;
-}
-.simple-text-mode .send-action-btn:hover {
-  background: #4b5563 !important;
-}
-.simple-text-mode .attached-node {
-  background: #111827 !important;
-  border: 1px solid #374151 !important;
-  color: #fff !important;
-}
-
-/* 7. Top Status Bar Simplifying */
-.simple-text-mode .chat-status-bar {
-  background: #111827 !important;
-  border-bottom: 1px solid #374151 !important;
-}
-.simple-text-mode .chat-view-header-avatar {
-  background: #374151 !important;
-  border: 1px solid #4b5563 !important;
-}
-.simple-text-mode .connected-pill {
-  background: #111827 !important;
-  border: 1px solid #374151 !important;
-  color: #9ca3af !important;
-}
-.simple-text-mode .brand-status-dot {
-  background-color: #10b981 !important;
-  box-shadow: none !important;
-}
-.simple-text-mode .typing-dot {
-  background-color: #9ca3af !important;
-  box-shadow: none !important;
 }
 
 @keyframes micPulse {
