@@ -1,0 +1,242 @@
+[
+  {
+    "id": "PROB-020",
+    "language": "C++",
+    "category": "Debugging",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in C++:\n\nFix C++ runtime error: Segmentation Fault (SIGSEGV) in pointer dereference.\n\nConstraints:\nRuntime Exception Fix\n\nExamples:\nSegmentation Fault -> Added `if (!head) return nullptr;` check"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nValidate pointer initialization and handle null boundary conditions before accessing `next` pointers.\n\n## Algorithm\nMemory Safety Guard & Pointer Check\n\n## Code\n```c++\n#include <iostream>\nstruct ListNode {\n int val;\n ListNode* next;\n ListNode(int x) : val(x), next(nullptr) {}\n};\nListNode* reverseList(ListNode* head) {\n if (!head || !head->next) return head;\n ListNode* prev = nullptr;\n ListNode* curr = head;\n while (curr) {\n ListNode* nextTemp = curr->next;\n curr->next = prev;\n prev = curr;\n curr = nextTemp;\n }\n return prev;\n}\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-006",
+    "language": "TypeScript",
+    "category": "Stack",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in TypeScript:\n\nGiven a string `s` containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\n\nConstraints:\n1 <= s.length <= 10^4\n\nExamples:\nInput: '()[]{}' -> true"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nUse a stack to push open brackets and pop matching opening brackets when closing brackets are encountered.\n\n## Algorithm\nStack Data Structure Evaluation\n\n## Code\n```typescript\nfunction isValid(s) {\n const stack = [];\n const map = { ')': '(', '}': '{', ']': '[' };\n for (const char of s) {\n if (char in map) {\n if (stack.pop() !== map[char]) return false;\n } else {\n stack.push(char);\n }\n }\n return stack.length === 0;\n}\nconsole.log(isValid('()[]{}'));\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(n)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-015",
+    "language": "Ruby",
+    "category": "Arrays",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in Ruby:\n\nSolve array sum problem in Ruby. Given an array of numbers, return the sum of all elements.\n\nConstraints:\n1 <= arr.length <= 10^4\n\nExamples:\n[1, 2, 3, 4, 5] -> 15"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nIterate through array elements and calculate sum in Ruby.\n\n## Algorithm\nLinear Array Traversal\n\n## Code\n```ruby\n// Solution in Ruby\n// Calculates sum of numbers in array\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-005",
+    "language": "JavaScript",
+    "category": "Sliding Window",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in JavaScript:\n\nGiven a string `s`, find the length of the longest substring without repeating characters.\n\nConstraints:\n0 <= s.length <= 5 * 10^4\n\nExamples:\nInput: 'abcabcbb' -> Output: 3 ('abc')"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nUse a sliding window with two pointers (`left` and `right`) and a Set to track characters in the current window. Expand right pointer and shrink left pointer whenever a duplicate character is encountered.\n\n## Algorithm\nSliding Window Hash Set\n\n## Code\n```javascript\nfunction lengthOfLongestSubstring(s) {\n let set = new Set();\n let left = 0, maxLen = 0;\n for (let right = 0; right < s.length; right++) {\n while (set.has(s[right])) {\n set.delete(s[left]);\n left++;\n }\n set.add(s[right]);\n maxLen = Math.max(maxLen, right - left + 1);\n }\n return maxLen;\n}\nconsole.log(lengthOfLongestSubstring('abcabcbb'));\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(min(n, m))"
+      }
+    ]
+  },
+  {
+    "id": "PROB-010",
+    "language": "Swift",
+    "category": "Strings",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in Swift:\n\nCheck if a string is a palindrome ignoring non-alphanumeric characters and case.\n\nConstraints:\n1 <= s.length <= 2 * 10^5\n\nExamples:\nInput: 'A man, a plan, a canal: Panama' -> true"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nFilter non-alphanumeric characters, convert to lowercase, and check equality against reversed string.\n\n## Algorithm\nString Filtering & Two Pointer Reverse Check\n\n## Code\n```swift\nfunc isPalindrome(_ s: String) -> Bool {\n let filtered = s.lowercased().filter { $0.isLetter || $0.isNumber }\n return filtered == String(filtered.reversed())\n}\nprint(isPalindrome(\"A man, a plan, a canal: Panama\"))\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(n)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-014",
+    "language": "PHP",
+    "category": "Arrays",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in PHP:\n\nSolve array sum problem in PHP. Given an array of numbers, return the sum of all elements.\n\nConstraints:\n1 <= arr.length <= 10^4\n\nExamples:\n[1, 2, 3, 4, 5] -> 15"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nIterate through array elements and calculate sum in PHP.\n\n## Algorithm\nLinear Array Traversal\n\n## Code\n```php\n// Solution in PHP\n// Calculates sum of numbers in array\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-016",
+    "language": "Dart",
+    "category": "Arrays",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in Dart:\n\nSolve array sum problem in Dart. Given an array of numbers, return the sum of all elements.\n\nConstraints:\n1 <= arr.length <= 10^4\n\nExamples:\n[1, 2, 3, 4, 5] -> 15"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nIterate through array elements and calculate sum in Dart.\n\n## Algorithm\nLinear Array Traversal\n\n## Code\n```dart\n// Solution in Dart\n// Calculates sum of numbers in array\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-019",
+    "language": "Java",
+    "category": "Debugging",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in Java:\n\nFix Java compilation error: cannot find symbol: class Solution. The code is missing class declaration.\n\nConstraints:\nCompilation Error Fix\n\nExamples:\ncannot find symbol class Solution -> Complete class Solution implementation"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nDefine class Solution with standard public interface method signatures.\n\n## Algorithm\nCompilation Symbol Resolution\n\n## Code\n```java\nimport java.util.*;\n\npublic class Solution {\n public int[] solve(int[] nums) {\n return nums;\n }\n}\n```\n\n## Complexity\n- Time Complexity: O(1)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-007",
+    "language": "Go",
+    "category": "Heap",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in Go:\n\nYou are given an array of `k` linked-lists `lists`, each linked-list is sorted in ascending order. Merge all the linked-lists into one sorted linked-list and return it.\n\nConstraints:\nk == lists.length, 0 <= k <= 10^4\n\nExamples:\nInput: [[1,4,5],[1,3,4],[2,6]] -> Output: [1,1,2,3,4,4,5,6]"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nMaintain a min-heap containing the current head node of each of the k linked lists. Extract the minimum node repeatedly and insert its next node into the min-heap.\n\n## Algorithm\nMin-Heap Priority Queue Merge\n\n## Code\n```go\npackage main\n\nimport (\n \"container/heap\"\n \"fmt\"\n)\n\ntype ListNode struct {\n Val int\n Next *ListNode\n}\n\ntype PriorityQueue []*ListNode\n\nfunc (pq PriorityQueue) Len() int { return len(pq) }\nfunc (pq PriorityQueue) Less(i, j int) bool { return pq[i].Val < pq[j].Val }\nfunc (pq PriorityQueue) Swap(i, j int) { pq[i], pq[j] = pq[j], pq[i] }\nfunc (pq *PriorityQueue) Push(x interface{}) {\n *pq = append(*pq, x.(*ListNode))\n}\nfunc (pq *PriorityQueue) Pop() interface{} {\n old := *pq\n n := len(old)\n item := old[n-1]\n *pq = old[0 : n-1]\n return item\n}\n\nfunc mergeKLists(lists []*ListNode) *ListNode {\n pq := &PriorityQueue{}\n heap.Init(pq)\n for _, list := range lists {\n if list != nil {\n heap.Push(pq, list)\n }\n }\n dummy := &ListNode{}\n curr := dummy\n for pq.Len() > 0 {\n node := heap.Pop(pq).(*ListNode)\n curr.Next = node\n curr = curr.Next\n if node.Next != nil {\n heap.Push(pq, node.Next)\n }\n }\n return dummy.Next\n}\n\nfunc main() {\n fmt.Println(\"Merge K Lists Heap Execution\")\n}\n```\n\n## Complexity\n- Time Complexity: O(N log k)\n- Space Complexity: O(k)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-013",
+    "language": "C#",
+    "category": "Arrays",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in C#:\n\nSolve array sum problem in C#. Given an array of numbers, return the sum of all elements.\n\nConstraints:\n1 <= arr.length <= 10^4\n\nExamples:\n[1, 2, 3, 4, 5] -> 15"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nIterate through array elements and calculate sum in C#.\n\n## Algorithm\nLinear Array Traversal\n\n## Code\n```c#\n// Solution in C#\n// Calculates sum of numbers in array\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-018",
+    "language": "R",
+    "category": "Arrays",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in R:\n\nSolve array sum problem in R. Given an array of numbers, return the sum of all elements.\n\nConstraints:\n1 <= arr.length <= 10^4\n\nExamples:\n[1, 2, 3, 4, 5] -> 15"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nIterate through array elements and calculate sum in R.\n\n## Algorithm\nLinear Array Traversal\n\n## Code\n```r\n// Solution in R\n// Calculates sum of numbers in array\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-011",
+    "language": "SQL",
+    "category": "SQL",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in SQL:\n\nWrite a SQL query to find employees whose salary is higher than their manager's salary.\n\nConstraints:\nStandard relational schema\n\nExamples:\nJoe (Salary 70000, Manager 3) > Sam (Salary 60000) -> Joe"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nPerform a self-join on the `Employee` table matching employee `managerId` to manager `id`, and filter rows where employee `salary` is strictly greater than manager `salary`.\n\n## Algorithm\nRelational Self-JOIN Query\n\n## Code\n```sql\nSELECT e.name AS Employee\nFROM Employee e\nJOIN Employee m ON e.managerId = m.id\nWHERE e.salary > m.salary;\n```\n\n## Complexity\n- Time Complexity: O(n log n)\n- Space Complexity: O(n)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-002",
+    "language": "Python",
+    "category": "Two Pointers",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in Python:\n\nWrite a function that reverses a string in-place with O(1) extra memory.\n\nConstraints:\n1 <= s.length <= 10^5\n\nExamples:\nInput: ['h','e','l','l','o'] -> Output: ['o','l','l','e','h']"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nInitialize two pointers or use in-place list reversal to swap elements inward.\n\n## Algorithm\nTwo Pointer In-Place Swapping\n\n## Code\n```python\ndef reverse_string(s):\n s.reverse()\n\nif __name__ == '__main__':\n chars = ['h', 'e', 'l', 'l', 'o']\n reverse_string(chars)\n print(chars)\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-012",
+    "language": "MATLAB",
+    "category": "Math",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in MATLAB:\n\nWrite a MATLAB function to compute matrix multiplication of two matrices A and B.\n\nConstraints:\nDimensions of A columns must match B rows\n\nExamples:\nA = [1, 2; 3, 4], B = [5, 6; 7, 8] -> [19, 22; 43, 50]"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nValidate dimensions and perform native BLAS-optimized matrix multiplication in MATLAB.\n\n## Algorithm\nMatrix Linear Algebra Operation\n\n## Code\n```matlab\nfunction C = multiply_matrices(A, B)\n if size(A, 2) ~= size(B, 1)\n error('Inner dimensions must agree.');\n end\n C = A * B;\nend\n```\n\n## Complexity\n- Time Complexity: O(n^3)\n- Space Complexity: O(n^2)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-003",
+    "language": "C++",
+    "category": "Dynamic Programming",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in C++:\n\nFind the contiguous subarray with the largest sum and return its sum.\n\nConstraints:\n1 <= nums.length <= 10^5\n\nExamples:\nInput: [-2,1,-3,4,-1,2,1,-5,4] -> Output: 6 (Subarray: [4,-1,2,1])"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nApply Kadane's Algorithm. Maintain running maximum sum ending at each position and update overall maximum sum encountered.\n\n## Algorithm\nKadane's Dynamic Programming Algorithm\n\n## Code\n```c++\n#include <iostream>\n#include <vector>\n#include <algorithm>\n\nint maxSubArray(const std::vector<int>& nums) {\n int max_so_far = nums[0];\n int curr_max = nums[0];\n for (size_t i = 1; i < nums.size(); ++i) {\n curr_max = std::max(nums[i], curr_max + nums[i]);\n max_so_far = std::max(max_so_far, curr_max);\n }\n return max_so_far;\n}\n\nint main() {\n std::vector<int> nums = {-2, 1, -3, 4, -1, 2, 1, -5, 4};\n std::cout << maxSubArray(nums) << std::endl;\n return 0;\n}\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-017",
+    "language": "Scala",
+    "category": "Arrays",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in Scala:\n\nSolve array sum problem in Scala. Given an array of numbers, return the sum of all elements.\n\nConstraints:\n1 <= arr.length <= 10^4\n\nExamples:\n[1, 2, 3, 4, 5] -> 15"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nIterate through array elements and calculate sum in Scala.\n\n## Algorithm\nLinear Array Traversal\n\n## Code\n```scala\n// Solution in Scala\n// Calculates sum of numbers in array\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  }
+]

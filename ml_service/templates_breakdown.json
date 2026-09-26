@@ -1,0 +1,317 @@
+[
+  {
+    "id": 1,
+    "template": "identify the mode of the dataset: [<n>, <n>, <n>, <n>, <n>, <n>, <n>, <n>]",
+    "count": 4167,
+    "topic": "Probability & Statistics",
+    "difficulty": "Hard",
+    "sample_question": "Identify the mode of the dataset: [18, 7, 17, 9, 5, 12, 3, 18]",
+    "sample_solution": "The value that appears most frequently is 18 (frequency: 2)."
+  },
+  {
+    "id": 2,
+    "template": "solve the linear equation: <n>x - <n> = <n>",
+    "count": 3813,
+    "topic": "Algebra",
+    "difficulty": "Hard",
+    "sample_question": "Solve the linear equation: 11x - 11 = 99",
+    "sample_solution": "Step 1: Add 11 to both sides: 11x = 99 + 11 = 110. Step 2: Divide by 11: x = 110/11 = 10."
+  },
+  {
+    "id": 3,
+    "template": "what is <n> + <n>?",
+    "count": 2500,
+    "topic": "Arithmetic",
+    "difficulty": "Medium",
+    "sample_question": "What is 6880 + 9574?",
+    "sample_solution": "Step 1: Align digits. Step 2: Add values: 6880 + 9574 = 16454."
+  },
+  {
+    "id": 4,
+    "template": "if cost price (cp) is $<n> and selling price (sp) is $<n>, find the profit and profit percentage",
+    "count": 2486,
+    "topic": "Applied & Financial Math",
+    "difficulty": "Hard",
+    "sample_question": "If cost price (CP) is $184 and selling price (SP) is $347, find the profit and profit percentage",
+    "sample_solution": "Profit = $347 - $184 = $163. Profit % = (163/184) \u00d7 100 = 88.59%."
+  },
+  {
+    "id": 5,
+    "template": "multiply <n> by <n>",
+    "count": 2469,
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "sample_question": "Multiply 9 by 46",
+    "sample_solution": "Step 1: Compute product: 9 \u00d7 46 = 414."
+  },
+  {
+    "id": 6,
+    "template": "find the greatest common divisor (gcd/hcf) of <n> and <n>",
+    "count": 2386,
+    "topic": "Number Theory",
+    "difficulty": "Medium",
+    "sample_question": "Find the Greatest Common Divisor (GCD/HCF) of 25 and 35",
+    "sample_solution": "Using Euclidean algorithm: GCD(25, 35) = 5."
+  },
+  {
+    "id": 7,
+    "template": "what is <n>% of <n>?",
+    "count": 2355,
+    "topic": "Arithmetic",
+    "difficulty": "Hard",
+    "sample_question": "What is 25% of 1450?",
+    "sample_solution": "Step 1: Convert 25% to decimal: 0.25. Step 2: Multiply by 1450: 0.25 \u00d7 1450 = 362.50."
+  },
+  {
+    "id": 8,
+    "template": "find the remainder when <n> is divided by <n> (modulo)",
+    "count": 2181,
+    "topic": "Arithmetic",
+    "difficulty": "Easy",
+    "sample_question": "Find the remainder when 249 is divided by 12 (modulo)",
+    "sample_solution": "Divide 249 by 12: quotient = 20, remainder = 249 - (12 \u00d7 20) = 9."
+  },
+  {
+    "id": 9,
+    "template": "find the least common multiple (lcm) of <n> and <n>",
+    "count": 1760,
+    "topic": "Number Theory",
+    "difficulty": "Medium",
+    "sample_question": "Find the Least Common Multiple (LCM) of 20 and 29",
+    "sample_solution": "LCM(20, 29) = (20 \u00d7 29) / 1 = 580."
+  },
+  {
+    "id": 10,
+    "template": "find the area and perimeter of a rectangle with length <n> m and width <n> m",
+    "count": 1463,
+    "topic": "Geometry",
+    "difficulty": "Hard",
+    "sample_question": "Find the area and perimeter of a rectangle with length 76 m and width 9 m",
+    "sample_solution": "Area = 76 \u00d7 9 = 684 m\u00b2. Perimeter = 2 \u00d7 (76 + 9) = 170 m."
+  },
+  {
+    "id": 11,
+    "template": "find the area of a triangle with base <n> cm and perpendicular height <n> cm",
+    "count": 1220,
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "sample_question": "Find the area of a triangle with base 37 cm and perpendicular height 3 cm",
+    "sample_solution": "Area = 0.5 \u00d7 37 \u00d7 3 = 55.5 cm\u00b2."
+  },
+  {
+    "id": 12,
+    "template": "find the volume of a cylinder with radius <n> cm and height <n> cm",
+    "count": 790,
+    "topic": "Geometry",
+    "difficulty": "Medium",
+    "sample_question": "Find the volume of a cylinder with radius 23 cm and height 7 cm",
+    "sample_solution": "Volume = \u03c0 \u00d7 23\u00b2 \u00d7 7 = \u03c0 \u00d7 529 \u00d7 7 \u2248 11633.32 cm\u00b3."
+  },
+  {
+    "id": 13,
+    "template": "find the derivative of f(x) = <n>x^<n> + <n>",
+    "count": 600,
+    "topic": "Calculus",
+    "difficulty": "Easy",
+    "sample_question": "Find the derivative of f(x) = 3x^3 + 5",
+    "sample_solution": "Applying the power rule: f'(x) = 3 \u00d7 3 \u00d7 x^(3-1) + 0 = 9x^2."
+  },
+  {
+    "id": 14,
+    "template": "find the <n>th term of an arithmetic progression (ap) with first term a = <n> and common difference d = <n>",
+    "count": 503,
+    "topic": "Number Theory",
+    "difficulty": "Easy",
+    "sample_question": "Find the 9th term of an arithmetic progression (AP) with first term a = 5 and common difference d = 4",
+    "sample_solution": "a_9 = 5 + (9 - 1) \u00d7 4 = 5 + 8 \u00d7 4 = 37."
+  },
+  {
+    "id": 15,
+    "template": "solve the linear equation: <n>x - <n> = -<n>",
+    "count": 502,
+    "topic": "Algebra",
+    "difficulty": "Medium",
+    "sample_question": "Solve the linear equation: 3x - 15 = -9",
+    "sample_solution": "Step 1: Add 15 to both sides: 3x = -9 + 15 = 6. Step 2: Divide by 3: x = 6/3 = 2."
+  },
+  {
+    "id": 16,
+    "template": "in a right triangle with opposite side = <n> and adjacent side = <n>, find tan(\u03b8)",
+    "count": 324,
+    "topic": "Trigonometry",
+    "difficulty": "Hard",
+    "sample_question": "In a right triangle with opposite side = 20 and adjacent side = 12, find tan(\u03b8)",
+    "sample_solution": "tan(\u03b8) = 20/12 \u2248 1.6667."
+  },
+  {
+    "id": 17,
+    "template": "calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years",
+    "count": 210,
+    "topic": "Applied & Financial Math",
+    "difficulty": "Medium",
+    "sample_question": "Calculate the Simple Interest on principal P = $2000 at annual rate r = 7% for t = 5 years",
+    "sample_solution": "SI = (2000 \u00d7 7 \u00d7 5) / 100 = $700.00. Total accumulated amount = $2700.00."
+  },
+  {
+    "id": 18,
+    "template": "is <n> a prime number?",
+    "count": 91,
+    "topic": "Number Theory",
+    "difficulty": "Hard",
+    "sample_question": "Is 89 a prime number?",
+    "sample_solution": "89 is a prime number. It has no positive divisors other than 1 and itself."
+  },
+  {
+    "id": 19,
+    "template": "in a right-angled triangle with legs a = <n> and b = <n>, find hypotenuse c",
+    "count": 72,
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "sample_question": "In a right-angled triangle with legs a = 7 and b = 15, find hypotenuse c",
+    "sample_solution": "c = \u221a(7\u00b2 + 15\u00b2) = \u221a(49 + 225) = \u221a274 = 16.55."
+  },
+  {
+    "id": 20,
+    "template": "what is the square of <n>?",
+    "count": 59,
+    "topic": "Arithmetic",
+    "difficulty": "Medium",
+    "sample_question": "What is the square of 40?",
+    "sample_solution": "Square calculation: 40\u00b2 = 40 \u00d7 40 = 1600."
+  },
+  {
+    "id": 21,
+    "template": "calculate the circumference of a circle with radius r = <n> cm",
+    "count": 50,
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "sample_question": "Calculate the circumference of a circle with radius r = 17 cm",
+    "sample_solution": "Circumference = 2 \u00d7 \u03c0 \u00d7 17 = 2 \u00d7 3.14159 \u00d7 17 \u2248 106.81 cm."
+  },
+  {
+    "id": 22,
+    "template": "calculate the area of a circle with radius r = <n> cm",
+    "count": 50,
+    "topic": "Geometry",
+    "difficulty": "Easy",
+    "sample_question": "Calculate the area of a circle with radius r = 50 cm",
+    "sample_solution": "Area = \u03c0 \u00d7 50\u00b2 = 3.14159 \u00d7 2500 \u2248 7853.98 cm\u00b2."
+  },
+  {
+    "id": 23,
+    "template": "evaluate the indefinite integral: \u222b (<n>x^<n>) dx",
+    "count": 36,
+    "topic": "Calculus",
+    "difficulty": "Hard",
+    "sample_question": "Evaluate the indefinite integral: \u222b (5x^3) dx",
+    "sample_solution": "\u222b 5x^3 dx = (5/4)x^4 + C."
+  },
+  {
+    "id": 24,
+    "template": "an item with marked price $<n> has a <n>% discount. find the selling price",
+    "count": 36,
+    "topic": "Applied & Financial Math",
+    "difficulty": "Easy",
+    "sample_question": "An item with marked price $500 has a 20% discount. Find the selling price",
+    "sample_solution": "Discount = $100.00. Final Selling Price = $400.00."
+  },
+  {
+    "id": 25,
+    "template": "how long does it take to travel <n> km at a constant speed of <n> km/h?",
+    "count": 35,
+    "topic": "Applied & Financial Math",
+    "difficulty": "Easy",
+    "sample_question": "How long does it take to travel 180 km at a constant speed of 60 km/h?",
+    "sample_solution": "Time = 180 / 60 = 3.0 hours."
+  },
+  {
+    "id": 26,
+    "template": "find the volume and total surface area of a cube with side length <n> cm",
+    "count": 29,
+    "topic": "Geometry",
+    "difficulty": "Hard",
+    "sample_question": "Find the volume and total surface area of a cube with side length 7 cm",
+    "sample_solution": "Volume = 7\u00b3 = 343 cm\u00b3. Surface Area = 6 \u00d7 7\u00b2 = 6 \u00d7 49 = 294 cm\u00b2."
+  },
+  {
+    "id": 27,
+    "template": "calculate the compound interest on p = $<n> compounded annually at r = <n>% for t = <n> years",
+    "count": 24,
+    "topic": "Applied & Financial Math",
+    "difficulty": "Hard",
+    "sample_question": "Calculate the Compound Interest on P = $10000 compounded annually at r = 8% for t = 2 years",
+    "sample_solution": "A = 10000 \u00d7 (1 + 0.08)^2 = $11664.00. Compound Interest = $1664.00."
+  },
+  {
+    "id": 28,
+    "template": "how many ways can you choose <n> items from a group of <n>? (combinations c(<n>,<n>))",
+    "count": 18,
+    "topic": "Probability & Statistics",
+    "difficulty": "Medium",
+    "sample_question": "How many ways can you choose 2 items from a group of 4? (Combinations C(4,2))",
+    "sample_solution": "C(4, 2) = 4! / (2! \u00d7 2!) = 6 ways."
+  },
+  {
+    "id": 29,
+    "template": "what is the probability of rolling a sum of <n> with two fair six-sided dice?",
+    "count": 11,
+    "topic": "Probability & Statistics",
+    "difficulty": "Easy",
+    "sample_question": "What is the probability of rolling a sum of 5 with two fair six-sided dice?",
+    "sample_solution": "Total outcomes = 36. Favorable outcomes summing to 5 = 4. Probability = 4/36 = 0.1111."
+  },
+  {
+    "id": 30,
+    "template": "evaluate the limit: lim(x -> <n>) (x\u00b2 - <n>) / (x - <n>)",
+    "count": 8,
+    "topic": "Calculus",
+    "difficulty": "Medium",
+    "sample_question": "Evaluate the limit: lim(x -> 2) (x\u00b2 - 4) / (x - 2)",
+    "sample_solution": "Factoring numerator: (x - 2)(x + 2) / (x - 2) = x + 2. As x -> 2, limit = 2 + 2 = 4."
+  },
+  {
+    "id": 31,
+    "template": "what is <n>! (factorial of <n>)?",
+    "count": 8,
+    "topic": "Number Theory",
+    "difficulty": "Hard",
+    "sample_question": "What is 10! (factorial of 10)?",
+    "sample_solution": "10! = 10 \u00d7 9 \u00d7 8 \u00d7 7 \u00d7 6 \u00d7 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 3628800."
+  },
+  {
+    "id": 32,
+    "template": "state and explain the fundamental pythagorean trigonometric identity.",
+    "count": 1,
+    "topic": "Trigonometry",
+    "difficulty": "Easy",
+    "sample_question": "State and explain the fundamental Pythagorean trigonometric identity.",
+    "sample_solution": "The fundamental identity is sin\u00b2(\u03b8) + cos\u00b2(\u03b8) = 1, derived from the Pythagorean theorem on the unit circle where x = cos(\u03b8) and y = sin(\u03b8)."
+  },
+  {
+    "id": 33,
+    "template": "what is the exact value of cos(<n>\u00b0)?",
+    "count": 1,
+    "topic": "Trigonometry",
+    "difficulty": "Hard",
+    "sample_question": "What is the exact value of cos(30\u00b0)? ",
+    "sample_solution": "From the standard trigonometric table, cos(30\u00b0) = \u221a3/2."
+  },
+  {
+    "id": 34,
+    "template": "what is the exact value of tan(<n>\u00b0)?",
+    "count": 1,
+    "topic": "Trigonometry",
+    "difficulty": "Easy",
+    "sample_question": "What is the exact value of tan(45\u00b0)? ",
+    "sample_solution": "tan(45\u00b0) = sin(45\u00b0)/cos(45\u00b0) = 1."
+  },
+  {
+    "id": 35,
+    "template": "what is the exact value of sin(<n>\u00b0)?",
+    "count": 1,
+    "topic": "Trigonometry",
+    "difficulty": "Hard",
+    "sample_question": "What is the exact value of sin(0\u00b0)? ",
+    "sample_solution": "From the standard trigonometric table, sin(0\u00b0) = 0."
+  }
+]

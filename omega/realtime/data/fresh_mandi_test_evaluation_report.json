@@ -1,0 +1,18 @@
+{
+  "fresh_test_set_size": 150,
+  "overlap_with_train": 0,
+  "accuracy": 99.33,
+  "average_confidence": 96.77,
+  "min_confidence": 63.01,
+  "num_failures": 1,
+  "failures": [
+    {
+      "index": 59,
+      "text": "dharwad cotton spot market price",
+      "true_intent": "realtime",
+      "predicted_intent": "agriculture",
+      "predicted_confidence": 87.06,
+      "realtime_confidence": 11.69
+    }
+  ]
+}

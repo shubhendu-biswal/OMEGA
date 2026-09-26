@@ -1,0 +1,182 @@
+[
+  {
+    "index": 1,
+    "query": "What is 45 * 12?",
+    "expected_domain": "math",
+    "routed_intent": "math",
+    "confidence": 0.9688,
+    "handler": "OmegaMathSolverV2",
+    "full_response": "Reasoning: We extract the key numbers and translate the problem constraints into mathematical equations.\n```python\n# Mathematical reasoning and calculation\n# Problem: What is 45 * 12?...\nnumbers = [45.0, 12.0]\nans = numbers[-1]\nprint(int(ans) if isinstance(ans, float) and ans.is_integer() else round(ans, 2))\n```\nFinal Answer: 12"
+  },
+  {
+    "index": 2,
+    "query": "Solve the linear equation: 4x - 8 = 28",
+    "expected_domain": "math",
+    "routed_intent": "math",
+    "confidence": 0.9933,
+    "handler": "OmegaMathSolverV2",
+    "full_response": "Reasoning: To solve the linear equation 4x - 8 = 28, we isolate x algebraically.\n```python\nfrom sympy import symbols, Eq, solve\nx = symbols('x')\neq = Eq(4*x - 8, 28)\nsol = solve(eq, x)\nprint(sol[0])\n```\nFinal Answer: 9"
+  },
+  {
+    "index": 3,
+    "query": "Find the least common multiple (LCM) of 24 and 36",
+    "expected_domain": "math",
+    "routed_intent": "math",
+    "confidence": 0.9923,
+    "handler": "OmegaMathSolverV2",
+    "full_response": "Reasoning: The least common multiple (LCM) of 24 and 36 is the smallest positive integer divisible by both.\n```python\nimport math\nprint(math.lcm(24, 36))\n```\nFinal Answer: 72"
+  },
+  {
+    "index": 4,
+    "query": "500 rupaye ka 15 pratishat kitna hoga?",
+    "expected_domain": "math (hinglish)",
+    "routed_intent": "math",
+    "confidence": 0.9894,
+    "handler": "OmegaMathSolverV2",
+    "full_response": "Reasoning: We extract the key numbers and translate the problem constraints into mathematical equations.\n```python\n# Mathematical reasoning and calculation\n# Problem: 500 rupaye ka 15 pratishat kitna hoga?...\nnumbers = [500.0, 15.0]\nans = numbers[-1]\nprint(int(ans) if isinstance(ans, float) and ans.is_integer() else round(ans, 2))\n```\nFinal Answer: 15"
+  },
+  {
+    "index": 5,
+    "query": "Who was the first President of India?",
+    "expected_domain": "gk",
+    "routed_intent": "gk",
+    "confidence": 0.9879,
+    "handler": "GeneralKnowledgeRetrieval",
+    "full_response": "Dr. Rajendra Prasad served as the first President of India from 1950 to 1962."
+  },
+  {
+    "index": 6,
+    "query": "Which body of water does the Godavari river flow into?",
+    "expected_domain": "gk",
+    "routed_intent": "gk",
+    "confidence": 0.9854,
+    "handler": "GeneralKnowledgeRetrieval",
+    "full_response": "The Godavari river drains into the Bay of Bengal. It has a length of 1465 km and starts at Trimbakeshwar."
+  },
+  {
+    "index": 7,
+    "query": "What is the capital of Australia?",
+    "expected_domain": "gk",
+    "routed_intent": "gk",
+    "confidence": 0.7661,
+    "handler": "GeneralKnowledgeRetrieval",
+    "full_response": "The Conservative Party won the General Election in Australia in 2026, securing a parliamentary majority under the leadership of Carlos Masri."
+  },
+  {
+    "index": 8,
+    "query": "ISRO ka mukhyalaya kis shahar mein sthit hai?",
+    "expected_domain": "gk (hinglish)",
+    "routed_intent": "gk",
+    "confidence": 0.9451,
+    "handler": "GeneralKnowledgeRetrieval",
+    "full_response": "'Garba' is recognized as a traditional folk dance form, originating from Gujarat."
+  },
+  {
+    "index": 9,
+    "query": "Which crop is best for Black soil with temperature 28 degrees?",
+    "expected_domain": "crop_recommendation",
+    "routed_intent": "crop_recommendation",
+    "confidence": 0.9944,
+    "handler": "CropRecommendationModel",
+    "full_response": "🌾 **Crop Recommendation Analysis**\n- **Soil Type**: Black\n- **Temperature**: 28.0°C\n- **Primary Recommended Crop**: **Peas**\n- **Top Candidates**: Peas (53.6%), Sugarcane (44.1%), Coffee (2.2%)\n\n*Agronomic Tip*: Ensure appropriate field drainage and seed-bed preparation suitable for Black soil."
+  },
+  {
+    "index": 10,
+    "query": "Suggest a suitable crop for Loamy soil at 18 degrees celsius",
+    "expected_domain": "crop_recommendation",
+    "routed_intent": "crop_recommendation",
+    "confidence": 0.9901,
+    "handler": "CropRecommendationModel",
+    "full_response": "🌾 **Crop Recommendation Analysis**\n- **Soil Type**: Loamy\n- **Temperature**: 18.0°C\n- **Primary Recommended Crop**: **Potato**\n- **Top Candidates**: Potato (81.7%), Grapes (14.0%), Lentil (1.1%)\n\n*Agronomic Tip*: Ensure appropriate field drainage and seed-bed preparation suitable for Loamy soil."
+  },
+  {
+    "index": 11,
+    "query": "Kali mitti me kharif season me konsi fasal lagana achha rahega?",
+    "expected_domain": "crop_recommendation (hinglish)",
+    "routed_intent": "crop_recommendation",
+    "confidence": 0.6292,
+    "handler": "CropRecommendationModel",
+    "full_response": "🌾 **Crop Recommendation Analysis**\n- **Soil Type**: Black\n- **Temperature**: 25.0°C\n- **Primary Recommended Crop**: **Sugarcane**\n- **Top Candidates**: Sugarcane (45.0%), Soybean (32.8%), Oats (18.2%)\n\n*Agronomic Tip*: Ensure appropriate field drainage and seed-bed preparation suitable for Black soil."
+  },
+  {
+    "index": 12,
+    "query": "What fertilizer should I apply for Wheat in Alluvial soil?",
+    "expected_domain": "fertilizer_recommendation",
+    "routed_intent": "fertilizer_recommendation",
+    "confidence": 0.9957,
+    "handler": "FertilizerRecommendationModel",
+    "full_response": "🌱 **Fertilizer Recommendation**\n- **Crop**: Wheat\n- **Soil Type**: Alluvial\n- **Ambient Temperature**: 25.0°C\n- **Optimal Fertilizer**: **Urea**\n\n*Application Protocol*: Apply Urea in split doses. Ensure adequate soil moisture during application to maximize nutrient absorption."
+  },
+  {
+    "index": 13,
+    "query": "Which fertilizer is recommended for Rice in Clayey soil at 25 degrees?",
+    "expected_domain": "fertilizer_recommendation",
+    "routed_intent": "fertilizer_recommendation",
+    "confidence": 0.9714,
+    "handler": "FertilizerRecommendationModel",
+    "full_response": "🌱 **Fertilizer Recommendation**\n- **Crop**: Rice\n- **Soil Type**: Clayey\n- **Ambient Temperature**: 25.0°C\n- **Optimal Fertilizer**: **Urea**\n\n*Application Protocol*: Apply Urea in split doses. Ensure adequate soil moisture during application to maximize nutrient absorption."
+  },
+  {
+    "index": 14,
+    "query": "Tamatar me nitrogen ki kami door karne ke liye konsi khad dale?",
+    "expected_domain": "fertilizer_recommendation (hinglish)",
+    "routed_intent": "fertilizer_recommendation",
+    "confidence": 0.7389,
+    "handler": "FertilizerRecommendationModel",
+    "full_response": "🌱 **Fertilizer Recommendation**\n- **Crop**: Tomato\n- **Soil Type**: Alluvial\n- **Ambient Temperature**: 25.0°C\n- **Optimal Fertilizer**: **Urea**\n\n*Application Protocol*: Apply Urea in split doses. Ensure adequate soil moisture during application to maximize nutrient absorption."
+  },
+  {
+    "index": 15,
+    "query": "How to control stem borer and yellow rust in wheat crops?",
+    "expected_domain": "agriculture",
+    "routed_intent": "agriculture",
+    "confidence": 0.9939,
+    "handler": "AgricultureDomainExpert",
+    "full_response": "🌾 **Agricultural Advisory: Pest & Disease Management**\n\nIdentify whether the symptom is bacterial, fungal, or viral. For insect pests like aphids or whiteflies, use organic neem seed kernel extract (NSKE 5%) or systemic insecticide spray. Ensure infected plant debris is cleared.\n\n*Note: For personalized pest diagnosis or fertilizer plans, provide crop species and soil type.*"
+  },
+  {
+    "index": 16,
+    "query": "What is the wholesale mandi market price for mustard today?",
+    "expected_domain": "agriculture",
+    "routed_intent": "agriculture",
+    "confidence": 0.9948,
+    "handler": "AgricultureDomainExpert",
+    "full_response": "🌾 **Agricultural Advisory: Market Price & Mandi Intelligence**\n\nCheck current state APMC / Agmarknet mandi portal for real-time modal prices. Selling at local electronic National Agriculture Market (e-NAM) mandis ensures competitive rates.\n\n*Note: For personalized pest diagnosis or fertilizer plans, provide crop species and soil type.*"
+  },
+  {
+    "index": 17,
+    "query": "Khet me drip sinchai aur sprinkler sinchai lagane ke kya fayde hain?",
+    "expected_domain": "agriculture (hinglish)",
+    "routed_intent": "agriculture",
+    "confidence": 0.9902,
+    "handler": "AgricultureDomainExpert",
+    "full_response": "🌾 **Agricultural Advisory: Irrigation Management**\n\nDrip irrigation saves 40-60% water while maintaining optimal root-zone moisture. For field crops, furrow or sprinkler irrigation is recommended. Avoid water stagnation.\n\n*Note: For personalized pest diagnosis or fertilizer plans, provide crop species and soil type.*"
+  },
+  {
+    "index": 18,
+    "query": "Hello Omega! What are your capabilities and how can you help me?",
+    "expected_domain": "conversation",
+    "routed_intent": "conversation",
+    "confidence": 0.9972,
+    "handler": "ConversationalAssistant",
+    "full_response": "I can assist you across several core capabilities:\n1. 🧮 **Mathematical Reasoning**: Exact arithmetic, algebra, statistics, and word problems via verified sandbox execution.\n2. 🌾 **Crop Recommendation**: Machine-learned crop suitability based on temperature and soil type.\n3. 🌱 **Fertilizer Planning**: Tailored NPK and nutrient recommendations for your target crops.\n4. 📚 **General Knowledge**: Verified facts on Indian and global history, geography, and science.\n5. 🚜 **Agriculture Advice**: Integrated pest management, irrigation techniques, and soil testing guidance."
+  },
+  {
+    "index": 19,
+    "query": "Namaste bhai, kya haal chaal hai?",
+    "expected_domain": "conversation (hinglish)",
+    "routed_intent": "conversation",
+    "confidence": 0.5333,
+    "handler": "ConversationalAssistant",
+    "full_response": "Hello! How can I assist you today? Feel free to ask a math problem, agricultural query, or general knowledge question."
+  },
+  {
+    "index": 20,
+    "query": "Write a Python script to implement binary search algorithm",
+    "expected_domain": "out_of_scope",
+    "routed_intent": "out_of_scope",
+    "confidence": 0.9386,
+    "handler": "OutOfScopeHandler",
+    "full_response": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a Python script to implement binary search algorithm\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n\nPlease submit a query related to one of these core domains for verified answers."
+  }
+]

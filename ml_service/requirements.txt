@@ -1,9 +1,13 @@
 flask
 flask-cors
-scikit-learn
+scikit-learn==1.9.1
 joblib
 numpy
 pandas
 sqlalchemy
 oracledb
 requests
+langchain
+langchain-core
+langchain-google-genai
+langchain-groq

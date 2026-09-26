@@ -1,0 +1,129 @@
+import json
+import os
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+handwritten_100 = [
+    # 1. math (13 queries) - arithmetic, algebra, percentages, word problems, short queries, typos
+    {"text": "solve 4x - 12 = 36", "intent": "math"},
+    {"text": "what is 35% of 4800", "intent": "math"},
+    {"text": "5000 ka 18% gst kitna hoga", "intent": "math"},
+    {"text": "multiply 245 by 18", "intent": "math"},
+    {"text": "sqrt(784)", "intent": "math"},
+    {"text": "find the lcm of 16 and 54", "intent": "math"},
+    {"text": "if a table costs 1200 and is sold at 1500 find the profit percentage", "intent": "math"},
+    {"text": "area of a circle with radius 14 cm", "intent": "math"},
+    {"text": "125 divided by 8 remainder", "intent": "math"},
+    {"text": "calulate simple interest on 25000 at 7 percent for 3 years", "intent": "math"}, # typo: calulate
+    {"text": "ratio of 45 to 120 in simplest form", "intent": "math"},
+    {"text": "3x + 5 = 20 find x", "intent": "math"},
+    {"text": "do sankhyao ka jod 85 hai aur antar 15 hai to sankhya bataye", "intent": "math"},
+
+    # 2. gk (13 queries) - geography, history, politics, science, short queries, Hindi, typos
+    {"text": "capital of bhutan", "intent": "gk"},
+    {"text": "who was the first vice president of india", "intent": "gk"},
+    {"text": "longest river in south india godavari or krishna", "intent": "gk"},
+    {"text": "who discovered electron in 1897", "intent": "gk"},
+    {"text": "which state in india has the longest coastline", "intent": "gk"},
+    {"text": "when was the battle of panipat fought", "intent": "gk"},
+    {"text": "bharat ka sabse bada national park kaun sa hai", "intent": "gk"},
+    {"text": "who wrote the indian national anthem", "intent": "gk"},
+    {"text": "hawa mahal kis shahar me sthit hai", "intent": "gk"},
+    {"text": "what is the chemical symbol for lead", "intent": "gk"},
+    {"text": "in which year did quit india movement take place", "intent": "gk"},
+    {"text": "whos the father of modern chemistry", "intent": "gk"}, # typo: whos
+    {"text": "bharat me pehla aam chunav kab hua tha", "intent": "gk"},
+
+    # 3. agriculture (13 queries) - pests, diseases, irrigation, soil health, farming practices
+    {"text": "gehu me peela gerua rog ka ilaj kya hai", "intent": "agriculture"},
+    {"text": "how to control fall armyworm in maize crops organically", "intent": "agriculture"},
+    {"text": "drip irrigation lagane me kitna kharcha aata hai aur fayde", "intent": "agriculture"},
+    {"text": "white fly infestation on cotton leaves solution", "intent": "agriculture"},
+    {"text": "mitti ki janch kaise karwaye aur soil health card kaise banega", "intent": "agriculture"},
+    {"text": "tamatar me fruit borer lag gaya hai konsi dawai spray kare", "intent": "agriculture"},
+    {"text": "how to improve organic carbon content in agricultural soil", "intent": "agriculture"},
+    {"text": "neem cake powder use in vegetable nursery", "intent": "agriculture"},
+    {"text": "sprinkler sinchai aur drip sinchai me kya antar hai", "intent": "agriculture"},
+    {"text": "paddy crop me stem borer se bachav ke upaye", "intent": "agriculture"},
+    {"text": "mulching paper lagane ke kya benefits hote hain kheti me", "intent": "agriculture"},
+    {"text": "blight disease treatment in potato plants", "intent": "agriculture"},
+    {"text": "kisan credit card banwane ke liye jaruri documents", "intent": "agriculture"},
+
+    # 4. crop_recommendation (12 queries) - which crop to grow, soil-crop match, seasonal recommendation
+    {"text": "which crop is suitable for sandy loam soil with moderate irrigation", "intent": "crop_recommendation"},
+    {"text": "kali mitti me barish ke mausam me konsi fasal achhi paida hoti hai", "intent": "crop_recommendation"},
+    {"text": "best cash crop to grow in punjab during rabi season", "intent": "crop_recommendation"},
+    {"text": "low rainfall area me konsi daal lagana faydemand hoga", "intent": "crop_recommendation"},
+    {"text": "can i grow dragon fruit in rajasthan arid climate", "intent": "crop_recommendation"},
+    {"text": "retili mitti ke liye best crop batao", "intent": "crop_recommendation"},
+    {"text": "which crop grows best in red soil with high humidity", "intent": "crop_recommendation"},
+    {"text": "kharif me dhaan ke alawa kya bo sakte hain up me", "intent": "crop_recommendation"},
+    {"text": "heavy clay soil with waterlogging issue which crop to cultivate", "intent": "crop_recommendation"},
+    {"text": "short duration vegetable crop between wheat and paddy harvest", "intent": "crop_recommendation"},
+    {"text": "dalhan fasal konsi lagaye jisse khet ki urvara shakti badhe", "intent": "crop_recommendation"},
+    {"text": "suitable crop for hilly terrace farming in uttarakhand", "intent": "crop_recommendation"},
+
+    # 5. fertilizer_recommendation (12 queries) - NPK dosage, deficiency symptoms, application timing
+    {"text": "gehu ki fasal me pehli sinchai par kitna urea dalna chahiye", "intent": "fertilizer_recommendation"},
+    {"text": "how much dap and potash per acre for sugarcane planting", "intent": "fertilizer_recommendation"},
+    {"text": "paddy leaves turning yellow from bottom which nutrient deficiency", "intent": "fertilizer_recommendation"},
+    {"text": "zinc sulphate application timing in paddy", "intent": "fertilizer_recommendation"},
+    {"text": "tamatar me phool aate samay konsa micronutrient spray kare", "intent": "fertilizer_recommendation"},
+    {"text": "recommended npk dosage for potato in alluvial soil", "intent": "fertilizer_recommendation"},
+    {"text": "sarso me tel ki matra badhane ke liye sulphur kab dale", "intent": "fertilizer_recommendation"},
+    {"text": "dosage of vermicompost per plant in banana cultivation", "intent": "fertilizer_recommendation"},
+    {"text": "cotton me square drop rokne ke liye magnesium sulphate spray", "intent": "fertilizer_recommendation"},
+    {"text": "urea overdose ke kya nuksan hote hain fasal par", "intent": "fertilizer_recommendation"},
+    {"text": "19 19 19 water soluble fertilizer spray timing in vegetables", "intent": "fertilizer_recommendation"},
+    {"text": "chane me phool aate waqt kaun si khad dalte hain", "intent": "fertilizer_recommendation"},
+
+    # 6. conversation (12 queries) - greetings, bot capabilities, identity, chit-chat
+    {"text": "hello omega how are you doing today", "intent": "conversation"},
+    {"text": "kya hal chal hai bhai", "intent": "conversation"},
+    {"text": "who developed you and what can you help me with", "intent": "conversation"},
+    {"text": "good morning assistant", "intent": "conversation"},
+    {"text": "namaste", "intent": "conversation"},
+    {"text": "can you solve difficult math and agriculture problems", "intent": "conversation"},
+    {"text": "thanks a lot for your help buddy", "intent": "conversation"},
+    {"text": "are you a human or an artificial intelligence program", "intent": "conversation"},
+    {"text": "tell me a fun fact about yourself", "intent": "conversation"},
+    {"text": "bye see you later", "intent": "conversation"},
+    {"text": "shukriya aapka", "intent": "conversation"},
+    {"text": "who made this omega app", "intent": "conversation"},
+
+    # 7. out_of_scope (12 queries) - coding, medical diagnosis, cooking, travel, device troubleshooting
+    {"text": "write a python function to find duplicates in an array", "intent": "out_of_scope"},
+    {"text": "mere sir me subah se bahut dard hai konsi tablet khau", "intent": "out_of_scope"},
+    {"text": "best itinerary for 3 days trip to manali and rohtang", "intent": "out_of_scope"},
+    {"text": "how to make restaurant style paneer tikka masala at home", "intent": "out_of_scope"},
+    {"text": "laptop wifi keeps disconnecting windows 11 fix", "intent": "out_of_scope"},
+    {"text": "explain react useeffect hook lifecycle with simple example", "intent": "out_of_scope"},
+    {"text": "flight tickets from mumbai to dubai cheapest date booking", "intent": "out_of_scope"},
+    {"text": "how to treat food poisoning and dehydration symptoms at home", "intent": "out_of_scope"},
+    {"text": "hyderabadi dum biryani authentic recipe", "intent": "out_of_scope"},
+    {"text": "iphone battery draining very fast after update what to do", "intent": "out_of_scope"},
+    {"text": "create a rest api using spring boot and postgresql", "intent": "out_of_scope"},
+    {"text": "fever aur khansi ka desi ilaj", "intent": "out_of_scope"},
+
+    # 8. realtime (14 queries) - live weather, mandi, currency, gold, sports, news, exam result
+    {"text": "delhi weather right now", "intent": "realtime"},
+    {"text": "aaj mumbai me barish hone ke kitne chance hain", "intent": "realtime"},
+    {"text": "pyaz bhav lasalgaon mandi today", "intent": "realtime"},
+    {"text": "aaj sarso ka mandi rate kya chal raha hai rajasthan me", "intent": "realtime"},
+    {"text": "current usd to inr exchange rate right now", "intent": "realtime"},
+    {"text": "aaj 24k sona ka bhav kitna hai delhi me", "intent": "realtime"},
+    {"text": "live cricket score ind vs aus today", "intent": "realtime"},
+    {"text": "ipl match me aaj kaun jeeta", "intent": "realtime"},
+    {"text": "breaking news headlines today in india", "intent": "realtime"},
+    {"text": "isro gaganyaan mission latest news today", "intent": "realtime"},
+    {"text": "upsc prelims 2026 result announced today or not", "intent": "realtime"},
+    {"text": "aaj ka petrol price jaipur me kitna hai", "intent": "realtime"},
+    {"text": "pm kisan 17th installment release date latest government update", "intent": "realtime"},
+    {"text": "nifty 50 live points status right now", "intent": "realtime"}
+]
+
+out_file = os.path.join(CURRENT_DIR, "handwritten_test_100.json")
+with open(out_file, "w", encoding="utf-8") as f:
+    json.dump(handwritten_100, f, indent=2, ensure_ascii=False)
+
+print(f"Created independent hand-written test set with {len(handwritten_100)} queries across all 8 classes at: {out_file}")

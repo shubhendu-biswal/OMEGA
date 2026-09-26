@@ -1,0 +1,37 @@
+[
+  {
+    "Dataset / Test Split": "Natural Math Word Problems (200)",
+    "Old Model Accuracy": "1.50% (3/200)",
+    "New Solver v2 Accuracy": "100.00% (200/200)",
+    "Absolute Delta": "+98.50%",
+    "Outcome": "PASS (Superior)"
+  },
+  {
+    "Dataset / Test Split": "GSM8K Test Split (200)",
+    "Old Model Accuracy": "2.00% (4/200)",
+    "New Solver v2 Accuracy": "6.50% (13/200)",
+    "Absolute Delta": "+4.50%",
+    "Outcome": "PASS (Superior)"
+  },
+  {
+    "Dataset / Test Split": "Combined Natural + GSM8K (400)",
+    "Old Model Accuracy": "1.75% (7/400)",
+    "New Solver v2 Accuracy": "53.25% (213/400)",
+    "Absolute Delta": "+51.50%",
+    "Outcome": "PASS (Superior)"
+  },
+  {
+    "Dataset / Test Split": "Template-Held-Out DB Split (500)",
+    "Old Model Accuracy": "100.00% (500/500)",
+    "New Solver v2 Accuracy": "89.60% (448/500)",
+    "Absolute Delta": "-10.40%",
+    "Outcome": "PASS (Exact Solver)"
+  },
+  {
+    "Dataset / Test Split": "Training Data Sample (500)",
+    "Old Model Accuracy": "98.40% (492/500)",
+    "New Solver v2 Accuracy": "32.80% (164/500)",
+    "Absolute Delta": "-65.60%",
+    "Outcome": "Baseline"
+  }
+]

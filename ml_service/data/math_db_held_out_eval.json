@@ -1,0 +1,4502 @@
+[
+  {
+    "id":57986,
+    "question":"Solve the linear equation: 10x - 25 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 25 to both sides: 10x = -5 + 25 = 20. Step 2: Divide by 10: x = 20\/10 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":602,
+    "question":"Solve the linear equation: 9x - 19 = -1",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 19 to both sides: 9x = -1 + 19 = 18. Step 2: Divide by 9: x = 18\/9 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":23562,
+    "question":"Solve the linear equation: 5x - 24 = -9",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 24 to both sides: 5x = -9 + 24 = 15. Step 2: Divide by 5: x = 15\/5 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":42994,
+    "question":"Solve the linear equation: 6x - 23 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 23 to both sides: 6x = -5 + 23 = 18. Step 2: Divide by 6: x = 18\/6 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":33687,
+    "question":"Find the Least Common Multiple (LCM) of 10 and 57",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(10, 57) = (10 \u00d7 57) \/ 1 = 570.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":6216,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 5% for t = 3 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 5 \u00d7 3) \/ 100 = $1500.00. Total accumulated amount = $11500.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":41527,
+    "question":"Find the Least Common Multiple (LCM) of 34 and 11",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(34, 11) = (34 \u00d7 11) \/ 1 = 374.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":55047,
+    "question":"Find the Least Common Multiple (LCM) of 8 and 32",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(8, 32) = (8 \u00d7 32) \/ 8 = 32.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1320,
+    "question":"An item with marked price $100 has a 20% discount. Find the selling price",
+    "formula":"Discount = MP * (Discount% \/ 100), SP = MP - Discount",
+    "solution":"Discount = $20.00. Final Selling Price = $80.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"an item with marked price $<n> has a <n>% discount. find the selling price"
+  },
+  {
+    "id":8287,
+    "question":"Find the Least Common Multiple (LCM) of 56 and 16",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(56, 16) = (56 \u00d7 16) \/ 8 = 112.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":38447,
+    "question":"Find the Least Common Multiple (LCM) of 34 and 39",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(34, 39) = (34 \u00d7 39) \/ 1 = 1326.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":18967,
+    "question":"Find the Least Common Multiple (LCM) of 25 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(25, 49) = (25 \u00d7 49) \/ 1 = 1225.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1283,
+    "question":"Calculate the circumference of a circle with radius r = 46 cm",
+    "formula":"Circumference = 2 * \u03c0 * r",
+    "solution":"Circumference = 2 \u00d7 \u03c0 \u00d7 46 = 2 \u00d7 3.14159 \u00d7 46 \u2248 289.03 cm.",
+    "topic":"Geometry",
+    "difficulty":"Medium",
+    "template":"calculate the circumference of a circle with radius r = <n> cm"
+  },
+  {
+    "id":10487,
+    "question":"Find the Least Common Multiple (LCM) of 46 and 31",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(46, 31) = (46 \u00d7 31) \/ 1 = 1426.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":360,
+    "question":"An item with marked price $100 has a 50% discount. Find the selling price",
+    "formula":"Discount = MP * (Discount% \/ 100), SP = MP - Discount",
+    "solution":"Discount = $50.00. Final Selling Price = $50.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"an item with marked price $<n> has a <n>% discount. find the selling price"
+  },
+  {
+    "id":2287,
+    "question":"Find the Least Common Multiple (LCM) of 48 and 10",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(48, 10) = (48 \u00d7 10) \/ 2 = 240.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":379,
+    "question":"Calculate the area of a circle with radius r = 6 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 6\u00b2 = 3.14159 \u00d7 36 \u2248 113.1 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Easy",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":34807,
+    "question":"Find the Least Common Multiple (LCM) of 12 and 8",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(12, 8) = (12 \u00d7 8) \/ 4 = 24.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":41927,
+    "question":"Find the Least Common Multiple (LCM) of 27 and 45",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(27, 45) = (27 \u00d7 45) \/ 9 = 135.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":87506,
+    "question":"Solve the linear equation: 2x - 12 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 12 to both sides: 2x = -2 + 12 = 10. Step 2: Divide by 2: x = 10\/2 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":40967,
+    "question":"Find the Least Common Multiple (LCM) of 60 and 24",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(60, 24) = (60 \u00d7 24) \/ 12 = 120.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":47967,
+    "question":"Find the Least Common Multiple (LCM) of 16 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(16, 21) = (16 \u00d7 21) \/ 1 = 336.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":27287,
+    "question":"Find the Least Common Multiple (LCM) of 55 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(55, 44) = (55 \u00d7 44) \/ 11 = 220.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":67047,
+    "question":"Find the Least Common Multiple (LCM) of 35 and 10",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(35, 10) = (35 \u00d7 10) \/ 5 = 70.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":90247,
+    "question":"Find the Least Common Multiple (LCM) of 58 and 22",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(58, 22) = (58 \u00d7 22) \/ 2 = 638.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":48247,
+    "question":"Find the Least Common Multiple (LCM) of 53 and 24",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(53, 24) = (53 \u00d7 24) \/ 1 = 1272.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":3336,
+    "question":"Calculate the Simple Interest on principal P = $1000 at annual rate r = 4% for t = 4 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (1000 \u00d7 4 \u00d7 4) \/ 100 = $160.00. Total accumulated amount = $1160.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":66007,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 8",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 8) = (20 \u00d7 8) \/ 4 = 40.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":70767,
+    "question":"Find the Least Common Multiple (LCM) of 54 and 11",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(54, 11) = (54 \u00d7 11) \/ 1 = 594.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":23327,
+    "question":"Find the Least Common Multiple (LCM) of 37 and 24",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(37, 24) = (37 \u00d7 24) \/ 1 = 888.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":23887,
+    "question":"Find the Least Common Multiple (LCM) of 8 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(8, 37) = (8 \u00d7 37) \/ 1 = 296.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":40807,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 39",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 39) = (47 \u00d7 39) \/ 1 = 1833.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":25887,
+    "question":"Find the Least Common Multiple (LCM) of 8 and 50",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(8, 50) = (8 \u00d7 50) \/ 2 = 200.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":141,
+    "question":"Evaluate the indefinite integral: \u222b (6x^4) dx",
+    "formula":"Power Rule for Integration: \u222b x^n dx = (x^(n+1))\/(n+1) + C",
+    "solution":"\u222b 6x^4 dx = (6\/5)x^5 + C.",
+    "topic":"Calculus",
+    "difficulty":"Hard",
+    "template":"evaluate the indefinite integral: \u222b (<n>x^<n>) dx"
+  },
+  {
+    "id":77607,
+    "question":"Find the Least Common Multiple (LCM) of 48 and 54",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(48, 54) = (48 \u00d7 54) \/ 6 = 432.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":62058,
+    "question":"Solve the linear equation: 5x - 26 = -1",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 5x = -1 + 26 = 25. Step 2: Divide by 5: x = 25\/5 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":84407,
+    "question":"Find the Least Common Multiple (LCM) of 17 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(17, 38) = (17 \u00d7 38) \/ 1 = 646.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7647,
+    "question":"Find the Least Common Multiple (LCM) of 21 and 50",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(21, 50) = (21 \u00d7 50) \/ 1 = 1050.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":27338,
+    "question":"Solve the linear equation: 2x - 27 = -23",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 2x = -23 + 27 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":1536,
+    "question":"Calculate the Simple Interest on principal P = $50000 at annual rate r = 5% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (50000 \u00d7 5 \u00d7 5) \/ 100 = $12500.00. Total accumulated amount = $62500.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":69447,
+    "question":"Find the Least Common Multiple (LCM) of 21 and 20",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(21, 20) = (21 \u00d7 20) \/ 1 = 420.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1920,
+    "question":"An item with marked price $800 has a 15% discount. Find the selling price",
+    "formula":"Discount = MP * (Discount% \/ 100), SP = MP - Discount",
+    "solution":"Discount = $120.00. Final Selling Price = $680.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"an item with marked price $<n> has a <n>% discount. find the selling price"
+  },
+  {
+    "id":1723,
+    "question":"Calculate the area of a circle with radius r = 42 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 42\u00b2 = 3.14159 \u00d7 1764 \u2248 5541.77 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Easy",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":25207,
+    "question":"Find the Least Common Multiple (LCM) of 60 and 19",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(60, 19) = (60 \u00d7 19) \/ 1 = 1140.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":25727,
+    "question":"Find the Least Common Multiple (LCM) of 43 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(43, 21) = (43 \u00d7 21) \/ 1 = 903.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":92567,
+    "question":"Find the Least Common Multiple (LCM) of 19 and 47",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(19, 47) = (19 \u00d7 47) \/ 1 = 893.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":3056,
+    "question":"Calculate the Simple Interest on principal P = $25000 at annual rate r = 7% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (25000 \u00d7 7 \u00d7 5) \/ 100 = $8750.00. Total accumulated amount = $33750.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":16687,
+    "question":"Find the Least Common Multiple (LCM) of 54 and 17",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(54, 17) = (54 \u00d7 17) \/ 1 = 918.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":9247,
+    "question":"Find the Least Common Multiple (LCM) of 57 and 10",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(57, 10) = (57 \u00d7 10) \/ 1 = 570.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":11047,
+    "question":"Find the Least Common Multiple (LCM) of 18 and 46",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(18, 46) = (18 \u00d7 46) \/ 2 = 414.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":64567,
+    "question":"Find the Least Common Multiple (LCM) of 57 and 47",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(57, 47) = (57 \u00d7 47) \/ 1 = 2679.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":95047,
+    "question":"Find the Least Common Multiple (LCM) of 58 and 11",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(58, 11) = (58 \u00d7 11) \/ 1 = 638.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":10407,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 41",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 41) = (20 \u00d7 41) \/ 1 = 820.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7527,
+    "question":"Find the Least Common Multiple (LCM) of 14 and 24",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(14, 24) = (14 \u00d7 24) \/ 2 = 168.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":16962,
+    "question":"Solve the linear equation: 2x - 18 = -6",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 18 to both sides: 2x = -6 + 18 = 12. Step 2: Divide by 2: x = 12\/2 = 6.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":8896,
+    "question":"Calculate the Simple Interest on principal P = $1000 at annual rate r = 8% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (1000 \u00d7 8 \u00d7 5) \/ 100 = $400.00. Total accumulated amount = $1400.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":96967,
+    "question":"Find the Least Common Multiple (LCM) of 44 and 4",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(44, 4) = (44 \u00d7 4) \/ 4 = 44.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4762,
+    "question":"Solve the linear equation: 5x - 16 = -1",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 16 to both sides: 5x = -1 + 16 = 15. Step 2: Divide by 5: x = 15\/5 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":61687,
+    "question":"Find the Least Common Multiple (LCM) of 31 and 23",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(31, 23) = (31 \u00d7 23) \/ 1 = 713.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":99847,
+    "question":"Find the Least Common Multiple (LCM) of 21 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(21, 37) = (21 \u00d7 37) \/ 1 = 777.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":49967,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 41",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 41) = (47 \u00d7 41) \/ 1 = 1927.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":31647,
+    "question":"Find the Least Common Multiple (LCM) of 31 and 47",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(31, 47) = (31 \u00d7 47) \/ 1 = 1457.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":2856,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 4% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 4 \u00d7 5) \/ 100 = $2000.00. Total accumulated amount = $12000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":83087,
+    "question":"Find the Least Common Multiple (LCM) of 30 and 15",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(30, 15) = (30 \u00d7 15) \/ 15 = 30.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":207,
+    "question":"Find the Least Common Multiple (LCM) of 46 and 10",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(46, 10) = (46 \u00d7 10) \/ 2 = 230.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":285,
+    "question":"Evaluate the indefinite integral: \u222b (4x^4) dx",
+    "formula":"Power Rule for Integration: \u222b x^n dx = (x^(n+1))\/(n+1) + C",
+    "solution":"\u222b 4x^4 dx = (4\/5)x^5 + C.",
+    "topic":"Calculus",
+    "difficulty":"Hard",
+    "template":"evaluate the indefinite integral: \u222b (<n>x^<n>) dx"
+  },
+  {
+    "id":4096,
+    "question":"Calculate the Simple Interest on principal P = $2000 at annual rate r = 8% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (2000 \u00d7 8 \u00d7 1) \/ 100 = $160.00. Total accumulated amount = $2160.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":11447,
+    "question":"Find the Least Common Multiple (LCM) of 58 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(58, 35) = (58 \u00d7 35) \/ 1 = 2030.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1327,
+    "question":"Find the Least Common Multiple (LCM) of 51 and 11",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(51, 11) = (51 \u00d7 11) \/ 1 = 561.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":53727,
+    "question":"Find the Least Common Multiple (LCM) of 48 and 6",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(48, 6) = (48 \u00d7 6) \/ 6 = 48.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":71527,
+    "question":"Find the Least Common Multiple (LCM) of 60 and 50",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(60, 50) = (60 \u00d7 50) \/ 10 = 300.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":41007,
+    "question":"Find the Least Common Multiple (LCM) of 42 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(42, 49) = (42 \u00d7 49) \/ 7 = 294.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":23967,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 34",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 34) = (20 \u00d7 34) \/ 2 = 340.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":23567,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 26",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 26) = (47 \u00d7 26) \/ 1 = 1222.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":56287,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 53",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 53) = (13 \u00d7 53) \/ 1 = 689.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":2167,
+    "question":"Find the Least Common Multiple (LCM) of 18 and 18",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(18, 18) = (18 \u00d7 18) \/ 18 = 18.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":50506,
+    "question":"Solve the linear equation: 2x - 25 = -19",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 25 to both sides: 2x = -19 + 25 = 6. Step 2: Divide by 2: x = 6\/2 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":79090,
+    "question":"Solve the linear equation: 4x - 28 = -20",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 28 to both sides: 4x = -20 + 28 = 8. Step 2: Divide by 4: x = 8\/4 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":68047,
+    "question":"Find the Least Common Multiple (LCM) of 7 and 43",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(7, 43) = (7 \u00d7 43) \/ 1 = 301.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":96447,
+    "question":"Find the Least Common Multiple (LCM) of 11 and 59",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(11, 59) = (11 \u00d7 59) \/ 1 = 649.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":11322,
+    "question":"Solve the linear equation: 7x - 18 = -4",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 18 to both sides: 7x = -4 + 18 = 14. Step 2: Divide by 7: x = 14\/7 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":61487,
+    "question":"Find the Least Common Multiple (LCM) of 44 and 22",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(44, 22) = (44 \u00d7 22) \/ 22 = 44.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":29730,
+    "question":"Solve the linear equation: 2x - 19 = -11",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 19 to both sides: 2x = -11 + 19 = 8. Step 2: Divide by 2: x = 8\/2 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":32607,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 40) = (32 \u00d7 40) \/ 8 = 160.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":27927,
+    "question":"Find the Least Common Multiple (LCM) of 21 and 8",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(21, 8) = (21 \u00d7 8) \/ 1 = 168.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":10067,
+    "question":"Calculate the area of a circle with radius r = 1 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 1\u00b2 = 3.14159 \u00d7 1 \u2248 3.14 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Medium",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":14647,
+    "question":"Find the Least Common Multiple (LCM) of 51 and 19",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(51, 19) = (51 \u00d7 19) \/ 1 = 969.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7687,
+    "question":"Find the Least Common Multiple (LCM) of 24 and 46",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(24, 46) = (24 \u00d7 46) \/ 2 = 552.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7202,
+    "question":"Solve the linear equation: 2x - 21 = -3",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 21 to both sides: 2x = -3 + 21 = 18. Step 2: Divide by 2: x = 18\/2 = 9.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":65847,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 45",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 45) = (13 \u00d7 45) \/ 1 = 585.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":15482,
+    "question":"Solve the linear equation: 3x - 28 = -7",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 28 to both sides: 3x = -7 + 28 = 21. Step 2: Divide by 3: x = 21\/3 = 7.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":28487,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 30",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 30) = (32 \u00d7 30) \/ 2 = 480.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":86647,
+    "question":"Find the Least Common Multiple (LCM) of 21 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(21, 49) = (21 \u00d7 49) \/ 7 = 147.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":43327,
+    "question":"Find the Least Common Multiple (LCM) of 7 and 11",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(7, 11) = (7 \u00d7 11) \/ 1 = 77.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4576,
+    "question":"Calculate the Simple Interest on principal P = $1000 at annual rate r = 8% for t = 4 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (1000 \u00d7 8 \u00d7 4) \/ 100 = $320.00. Total accumulated amount = $1320.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":8807,
+    "question":"Find the Least Common Multiple (LCM) of 29 and 4",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(29, 4) = (29 \u00d7 4) \/ 1 = 116.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":73410,
+    "question":"Solve the linear equation: 4x - 27 = -7",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 4x = -7 + 27 = 20. Step 2: Divide by 4: x = 20\/4 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":49927,
+    "question":"Find the Least Common Multiple (LCM) of 53 and 54",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(53, 54) = (53 \u00d7 54) \/ 1 = 2862.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":33887,
+    "question":"Find the Least Common Multiple (LCM) of 27 and 51",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(27, 51) = (27 \u00d7 51) \/ 3 = 459.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4327,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 15",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 15) = (20 \u00d7 15) \/ 5 = 60.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":76447,
+    "question":"Find the Least Common Multiple (LCM) of 15 and 4",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(15, 4) = (15 \u00d7 4) \/ 1 = 60.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1402,
+    "question":"Solve the linear equation: 6x - 30 = -18",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 30 to both sides: 6x = -18 + 30 = 12. Step 2: Divide by 6: x = 12\/6 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":22727,
+    "question":"Find the Least Common Multiple (LCM) of 36 and 14",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(36, 14) = (36 \u00d7 14) \/ 2 = 252.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":45367,
+    "question":"Find the Least Common Multiple (LCM) of 51 and 22",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(51, 22) = (51 \u00d7 22) \/ 1 = 1122.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":52127,
+    "question":"Find the Least Common Multiple (LCM) of 50 and 31",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(50, 31) = (50 \u00d7 31) \/ 1 = 1550.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":47927,
+    "question":"Find the Least Common Multiple (LCM) of 29 and 14",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(29, 14) = (29 \u00d7 14) \/ 1 = 406.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":9487,
+    "question":"Find the Least Common Multiple (LCM) of 55 and 12",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(55, 12) = (55 \u00d7 12) \/ 1 = 660.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":13607,
+    "question":"Find the Least Common Multiple (LCM) of 51 and 7",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(51, 7) = (51 \u00d7 7) \/ 1 = 357.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":24898,
+    "question":"Solve the linear equation: 4x - 27 = -19",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 4x = -19 + 27 = 8. Step 2: Divide by 4: x = 8\/4 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":35530,
+    "question":"Solve the linear equation: 12x - 28 = -4",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 28 to both sides: 12x = -4 + 28 = 24. Step 2: Divide by 12: x = 24\/12 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":23234,
+    "question":"Solve the linear equation: 2x - 22 = -12",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 22 to both sides: 2x = -12 + 22 = 10. Step 2: Divide by 2: x = 10\/2 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":3040,
+    "question":"An item with marked price $200 has a 20% discount. Find the selling price",
+    "formula":"Discount = MP * (Discount% \/ 100), SP = MP - Discount",
+    "solution":"Discount = $40.00. Final Selling Price = $160.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"an item with marked price $<n> has a <n>% discount. find the selling price"
+  },
+  {
+    "id":13807,
+    "question":"Find the Least Common Multiple (LCM) of 19 and 15",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(19, 15) = (19 \u00d7 15) \/ 1 = 285.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":3656,
+    "question":"Calculate the Simple Interest on principal P = $25000 at annual rate r = 4% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (25000 \u00d7 4 \u00d7 5) \/ 100 = $5000.00. Total accumulated amount = $30000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":82207,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 20",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 20) = (23 \u00d7 20) \/ 1 = 460.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":63287,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 56",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 56) = (23 \u00d7 56) \/ 1 = 1288.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":25007,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 21) = (47 \u00d7 21) \/ 1 = 987.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":16527,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 5",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 5) = (13 \u00d7 5) \/ 1 = 65.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":27327,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 25",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 25) = (32 \u00d7 25) \/ 1 = 800.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":67327,
+    "question":"Find the Least Common Multiple (LCM) of 25 and 7",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(25, 7) = (25 \u00d7 7) \/ 1 = 175.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":17087,
+    "question":"Find the Least Common Multiple (LCM) of 7 and 33",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(7, 33) = (7 \u00d7 33) \/ 1 = 231.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":38687,
+    "question":"Find the Least Common Multiple (LCM) of 39 and 8",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(39, 8) = (39 \u00d7 8) \/ 1 = 312.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":37087,
+    "question":"Find the Least Common Multiple (LCM) of 55 and 29",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(55, 29) = (55 \u00d7 29) \/ 1 = 1595.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":30487,
+    "question":"Find the Least Common Multiple (LCM) of 10 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(10, 37) = (10 \u00d7 37) \/ 1 = 370.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":58327,
+    "question":"Find the Least Common Multiple (LCM) of 45 and 17",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(45, 17) = (45 \u00d7 17) \/ 1 = 765.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7167,
+    "question":"Find the Least Common Multiple (LCM) of 29 and 53",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(29, 53) = (29 \u00d7 53) \/ 1 = 1537.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":34330,
+    "question":"Solve the linear equation: 12x - 26 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 12x = -2 + 26 = 24. Step 2: Divide by 12: x = 24\/12 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":5256,
+    "question":"Calculate the Simple Interest on principal P = $50000 at annual rate r = 5% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (50000 \u00d7 5 \u00d7 1) \/ 100 = $2500.00. Total accumulated amount = $52500.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":42858,
+    "question":"Solve the linear equation: 2x - 27 = -19",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 2x = -19 + 27 = 8. Step 2: Divide by 2: x = 8\/2 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":74847,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 60",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 60) = (20 \u00d7 60) \/ 20 = 60.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":41807,
+    "question":"Find the Least Common Multiple (LCM) of 18 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(18, 44) = (18 \u00d7 44) \/ 2 = 396.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14247,
+    "question":"Find the Least Common Multiple (LCM) of 33 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(33, 38) = (33 \u00d7 38) \/ 1 = 1254.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":9098,
+    "question":"Solve the linear equation: 2x - 28 = -12",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 28 to both sides: 2x = -12 + 28 = 16. Step 2: Divide by 2: x = 16\/2 = 8.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":60367,
+    "question":"Find the Least Common Multiple (LCM) of 46 and 18",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(46, 18) = (46 \u00d7 18) \/ 2 = 414.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":26767,
+    "question":"Find the Least Common Multiple (LCM) of 30 and 20",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(30, 20) = (30 \u00d7 20) \/ 10 = 60.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":60687,
+    "question":"Find the Least Common Multiple (LCM) of 14 and 50",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(14, 50) = (14 \u00d7 50) \/ 2 = 350.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":6474,
+    "question":"Solve the linear equation: 4x - 12 = -4",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 12 to both sides: 4x = -4 + 12 = 8. Step 2: Divide by 4: x = 8\/4 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":25810,
+    "question":"Solve the linear equation: 7x - 30 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 30 to both sides: 7x = -2 + 30 = 28. Step 2: Divide by 7: x = 28\/7 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":10467,
+    "question":"Calculate the circumference of a circle with radius r = 23 cm",
+    "formula":"Circumference = 2 * \u03c0 * r",
+    "solution":"Circumference = 2 \u00d7 \u03c0 \u00d7 23 = 2 \u00d7 3.14159 \u00d7 23 \u2248 144.51 cm.",
+    "topic":"Geometry",
+    "difficulty":"Hard",
+    "template":"calculate the circumference of a circle with radius r = <n> cm"
+  },
+  {
+    "id":206,
+    "question":"How many ways can you choose 2 items from a group of 9? (Combinations C(9,2))",
+    "formula":"C(n, r) = n! \/ (r! * (n - r)!)",
+    "solution":"C(9, 2) = 9! \/ (2! \u00d7 7!) = 36 ways.",
+    "topic":"Probability & Statistics",
+    "difficulty":"Medium",
+    "template":"how many ways can you choose <n> items from a group of <n>? (combinations c(<n>,<n>))"
+  },
+  {
+    "id":19287,
+    "question":"Find the Least Common Multiple (LCM) of 14 and 13",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(14, 13) = (14 \u00d7 13) \/ 1 = 182.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":46770,
+    "question":"Solve the linear equation: 2x - 13 = -9",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 13 to both sides: 2x = -9 + 13 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":81447,
+    "question":"Find the Least Common Multiple (LCM) of 33 and 19",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(33, 19) = (33 \u00d7 19) \/ 1 = 627.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":63407,
+    "question":"Find the Least Common Multiple (LCM) of 48 and 48",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(48, 48) = (48 \u00d7 48) \/ 48 = 48.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":40247,
+    "question":"Find the Least Common Multiple (LCM) of 50 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(50, 21) = (50 \u00d7 21) \/ 1 = 1050.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":26682,
+    "question":"Solve the linear equation: 5x - 29 = -19",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 29 to both sides: 5x = -19 + 29 = 10. Step 2: Divide by 5: x = 10\/5 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":67207,
+    "question":"Find the Least Common Multiple (LCM) of 29 and 48",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(29, 48) = (29 \u00d7 48) \/ 1 = 1392.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":20407,
+    "question":"Find the Least Common Multiple (LCM) of 10 and 29",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(10, 29) = (10 \u00d7 29) \/ 1 = 290.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":53207,
+    "question":"Find the Least Common Multiple (LCM) of 26 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(26, 21) = (26 \u00d7 21) \/ 1 = 546.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":97047,
+    "question":"Find the Least Common Multiple (LCM) of 25 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(25, 37) = (25 \u00d7 37) \/ 1 = 925.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":10162,
+    "question":"Solve the linear equation: 4x - 15 = -3",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 15 to both sides: 4x = -3 + 15 = 12. Step 2: Divide by 4: x = 12\/4 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":26847,
+    "question":"Find the Least Common Multiple (LCM) of 31 and 48",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(31, 48) = (31 \u00d7 48) \/ 1 = 1488.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":3976,
+    "question":"Calculate the Simple Interest on principal P = $1000 at annual rate r = 12% for t = 3 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (1000 \u00d7 12 \u00d7 3) \/ 100 = $360.00. Total accumulated amount = $1360.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":22306,
+    "question":"Solve the linear equation: 2x - 21 = -17",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 21 to both sides: 2x = -17 + 21 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":16167,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 21) = (32 \u00d7 21) \/ 1 = 672.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":22487,
+    "question":"Find the Least Common Multiple (LCM) of 16 and 45",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(16, 45) = (16 \u00d7 45) \/ 1 = 720.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":19247,
+    "question":"Find the Least Common Multiple (LCM) of 24 and 17",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(24, 17) = (24 \u00d7 17) \/ 1 = 408.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1647,
+    "question":"Find the Least Common Multiple (LCM) of 54 and 57",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(54, 57) = (54 \u00d7 57) \/ 3 = 1026.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":30447,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 58",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 58) = (47 \u00d7 58) \/ 1 = 2726.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":49074,
+    "question":"Solve the linear equation: 2x - 17 = -1",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 17 to both sides: 2x = -1 + 17 = 16. Step 2: Divide by 2: x = 16\/2 = 8.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":71050,
+    "question":"Solve the linear equation: 2x - 24 = -14",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 24 to both sides: 2x = -14 + 24 = 10. Step 2: Divide by 2: x = 10\/2 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":99178,
+    "question":"Solve the linear equation: 3x - 20 = -8",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 20 to both sides: 3x = -8 + 20 = 12. Step 2: Divide by 3: x = 12\/3 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":38127,
+    "question":"Find the Least Common Multiple (LCM) of 43 and 24",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(43, 24) = (43 \u00d7 24) \/ 1 = 1032.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":98607,
+    "question":"Find the Least Common Multiple (LCM) of 41 and 34",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(41, 34) = (41 \u00d7 34) \/ 1 = 1394.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":37007,
+    "question":"Find the Least Common Multiple (LCM) of 40 and 46",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(40, 46) = (40 \u00d7 46) \/ 2 = 920.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":23687,
+    "question":"Find the Least Common Multiple (LCM) of 57 and 36",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(57, 36) = (57 \u00d7 36) \/ 3 = 684.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4299,
+    "question":"Calculate the area of a circle with radius r = 19 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 19\u00b2 = 3.14159 \u00d7 361 \u2248 1134.11 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Hard",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":57367,
+    "question":"Find the Least Common Multiple (LCM) of 37 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(37, 44) = (37 \u00d7 44) \/ 1 = 1628.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":99327,
+    "question":"Find the Least Common Multiple (LCM) of 10 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(10, 40) = (10 \u00d7 40) \/ 10 = 40.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7256,
+    "question":"Calculate the Simple Interest on principal P = $25000 at annual rate r = 6% for t = 3 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (25000 \u00d7 6 \u00d7 3) \/ 100 = $4500.00. Total accumulated amount = $29500.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":2514,
+    "question":"Solve the linear equation: 2x - 25 = -15",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 25 to both sides: 2x = -15 + 25 = 10. Step 2: Divide by 2: x = 10\/2 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":91447,
+    "question":"Find the Least Common Multiple (LCM) of 33 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(33, 49) = (33 \u00d7 49) \/ 1 = 1617.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":39607,
+    "question":"Find the Least Common Multiple (LCM) of 55 and 7",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(55, 7) = (55 \u00d7 7) \/ 1 = 385.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4607,
+    "question":"Find the Least Common Multiple (LCM) of 18 and 29",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(18, 29) = (18 \u00d7 29) \/ 1 = 522.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":18127,
+    "question":"Find the Least Common Multiple (LCM) of 12 and 46",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(12, 46) = (12 \u00d7 46) \/ 2 = 276.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14287,
+    "question":"Find the Least Common Multiple (LCM) of 36 and 42",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(36, 42) = (36 \u00d7 42) \/ 6 = 252.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":36247,
+    "question":"Find the Least Common Multiple (LCM) of 43 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(43, 44) = (43 \u00d7 44) \/ 1 = 1892.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7336,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 8% for t = 4 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 8 \u00d7 4) \/ 100 = $3200.00. Total accumulated amount = $13200.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":78727,
+    "question":"Find the Least Common Multiple (LCM) of 37 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(37, 40) = (37 \u00d7 40) \/ 1 = 1480.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":23447,
+    "question":"Find the Least Common Multiple (LCM) of 37 and 6",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(37, 6) = (37 \u00d7 6) \/ 1 = 222.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":94247,
+    "question":"Find the Least Common Multiple (LCM) of 27 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(27, 35) = (27 \u00d7 35) \/ 1 = 945.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":97167,
+    "question":"Find the Least Common Multiple (LCM) of 50 and 9",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(50, 9) = (50 \u00d7 9) \/ 1 = 450.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":84967,
+    "question":"Find the Least Common Multiple (LCM) of 28 and 34",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(28, 34) = (28 \u00d7 34) \/ 2 = 476.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":69847,
+    "question":"Find the Least Common Multiple (LCM) of 29 and 45",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(29, 45) = (29 \u00d7 45) \/ 1 = 1305.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":54447,
+    "question":"Find the Least Common Multiple (LCM) of 39 and 58",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(39, 58) = (39 \u00d7 58) \/ 1 = 2262.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":43154,
+    "question":"Solve the linear equation: 6x - 27 = -9",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 6x = -9 + 27 = 18. Step 2: Divide by 6: x = 18\/6 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":86967,
+    "question":"Find the Least Common Multiple (LCM) of 31 and 42",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(31, 42) = (31 \u00d7 42) \/ 1 = 1302.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1207,
+    "question":"Find the Least Common Multiple (LCM) of 29 and 46",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(29, 46) = (29 \u00d7 46) \/ 1 = 1334.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":37610,
+    "question":"Solve the linear equation: 3x - 27 = -9",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 3x = -9 + 27 = 18. Step 2: Divide by 3: x = 18\/3 = 6.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":10642,
+    "question":"Solve the linear equation: 2x - 23 = -19",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 23 to both sides: 2x = -19 + 23 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":8416,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 10% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 10 \u00d7 1) \/ 100 = $1000.00. Total accumulated amount = $11000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":15007,
+    "question":"Find the Least Common Multiple (LCM) of 44 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(44, 38) = (44 \u00d7 38) \/ 2 = 836.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":12216,
+    "question":"Calculate the Simple Interest on principal P = $50000 at annual rate r = 5% for t = 3 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (50000 \u00d7 5 \u00d7 3) \/ 100 = $7500.00. Total accumulated amount = $57500.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":26327,
+    "question":"Find the Least Common Multiple (LCM) of 17 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(17, 37) = (17 \u00d7 37) \/ 1 = 629.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":35690,
+    "question":"Solve the linear equation: 4x - 28 = -16",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 28 to both sides: 4x = -16 + 28 = 12. Step 2: Divide by 4: x = 12\/4 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":5362,
+    "question":"Solve the linear equation: 2x - 8 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 8 to both sides: 2x = -2 + 8 = 6. Step 2: Divide by 2: x = 6\/2 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":66767,
+    "question":"Find the Least Common Multiple (LCM) of 33 and 26",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(33, 26) = (33 \u00d7 26) \/ 1 = 858.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":48207,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 42",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 42) = (47 \u00d7 42) \/ 1 = 1974.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":44567,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 35) = (13 \u00d7 35) \/ 1 = 455.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":38186,
+    "question":"Solve the linear equation: 5x - 20 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 20 to both sides: 5x = -5 + 20 = 15. Step 2: Divide by 5: x = 15\/5 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":8847,
+    "question":"Find the Least Common Multiple (LCM) of 14 and 15",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(14, 15) = (14 \u00d7 15) \/ 1 = 210.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":69247,
+    "question":"Find the Least Common Multiple (LCM) of 26 and 19",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(26, 19) = (26 \u00d7 19) \/ 1 = 494.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":38487,
+    "question":"Find the Least Common Multiple (LCM) of 24 and 27",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(24, 27) = (24 \u00d7 27) \/ 3 = 216.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":79487,
+    "question":"Find the Least Common Multiple (LCM) of 30 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(30, 21) = (30 \u00d7 21) \/ 3 = 210.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":48007,
+    "question":"Find the Least Common Multiple (LCM) of 51 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(51, 44) = (51 \u00d7 44) \/ 1 = 2244.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1258,
+    "question":"Solve the linear equation: 2x - 14 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 14 to both sides: 2x = -2 + 14 = 12. Step 2: Divide by 2: x = 12\/2 = 6.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":2410,
+    "question":"Solve the linear equation: 10x - 21 = -1",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 21 to both sides: 10x = -1 + 21 = 20. Step 2: Divide by 10: x = 20\/10 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":80647,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 12",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 12) = (20 \u00d7 12) \/ 4 = 60.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":46087,
+    "question":"Find the Least Common Multiple (LCM) of 43 and 26",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(43, 26) = (43 \u00d7 26) \/ 1 = 1118.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":12727,
+    "question":"Find the Least Common Multiple (LCM) of 9 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(9, 35) = (9 \u00d7 35) \/ 1 = 315.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":39407,
+    "question":"Find the Least Common Multiple (LCM) of 26 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(26, 37) = (26 \u00d7 37) \/ 1 = 962.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":52407,
+    "question":"Find the Least Common Multiple (LCM) of 14 and 59",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(14, 59) = (14 \u00d7 59) \/ 1 = 826.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1696,
+    "question":"Calculate the Simple Interest on principal P = $5000 at annual rate r = 10% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (5000 \u00d7 10 \u00d7 1) \/ 100 = $500.00. Total accumulated amount = $5500.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":9955,
+    "question":"Calculate the area of a circle with radius r = 41 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 41\u00b2 = 3.14159 \u00d7 1681 \u2248 5281.02 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Easy",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":84087,
+    "question":"Find the Least Common Multiple (LCM) of 60 and 56",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(60, 56) = (60 \u00d7 56) \/ 4 = 840.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":17738,
+    "question":"Solve the linear equation: 2x - 30 = -26",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 30 to both sides: 2x = -26 + 30 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":72647,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 21) = (13 \u00d7 21) \/ 1 = 273.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":16647,
+    "question":"Find the Least Common Multiple (LCM) of 9 and 47",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(9, 47) = (9 \u00d7 47) \/ 1 = 423.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":39327,
+    "question":"Find the Least Common Multiple (LCM) of 39 and 26",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(39, 26) = (39 \u00d7 26) \/ 13 = 78.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14127,
+    "question":"Find the Least Common Multiple (LCM) of 24 and 50",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(24, 50) = (24 \u00d7 50) \/ 2 = 600.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":62047,
+    "question":"Find the Least Common Multiple (LCM) of 6 and 48",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(6, 48) = (6 \u00d7 48) \/ 6 = 48.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":22658,
+    "question":"Solve the linear equation: 3x - 26 = -20",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 3x = -20 + 26 = 6. Step 2: Divide by 3: x = 6\/3 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":11098,
+    "question":"Solve the linear equation: 2x - 16 = -10",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 16 to both sides: 2x = -10 + 16 = 6. Step 2: Divide by 2: x = 6\/2 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":31586,
+    "question":"Solve the linear equation: 8x - 27 = -3",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 8x = -3 + 27 = 24. Step 2: Divide by 8: x = 24\/8 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":8256,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 10% for t = 3 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 10 \u00d7 3) \/ 100 = $3000.00. Total accumulated amount = $13000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":79007,
+    "question":"Find the Least Common Multiple (LCM) of 44 and 53",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(44, 53) = (44 \u00d7 53) \/ 1 = 2332.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":70447,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 22",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 22) = (23 \u00d7 22) \/ 1 = 506.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":75762,
+    "question":"Solve the linear equation: 4x - 17 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 17 to both sides: 4x = -5 + 17 = 12. Step 2: Divide by 4: x = 12\/4 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":25770,
+    "question":"Solve the linear equation: 2x - 20 = -16",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 20 to both sides: 2x = -16 + 20 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":687,
+    "question":"Find the Least Common Multiple (LCM) of 49 and 32",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(49, 32) = (49 \u00d7 32) \/ 1 = 1568.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":69087,
+    "question":"Find the Least Common Multiple (LCM) of 33 and 17",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(33, 17) = (33 \u00d7 17) \/ 1 = 561.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":26247,
+    "question":"Find the Least Common Multiple (LCM) of 14 and 56",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(14, 56) = (14 \u00d7 56) \/ 14 = 56.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":41047,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 56",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 56) = (32 \u00d7 56) \/ 8 = 224.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":99247,
+    "question":"Find the Least Common Multiple (LCM) of 5 and 4",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(5, 4) = (5 \u00d7 4) \/ 1 = 20.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":11607,
+    "question":"Find the Least Common Multiple (LCM) of 30 and 46",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(30, 46) = (30 \u00d7 46) \/ 2 = 690.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":807,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 44) = (32 \u00d7 44) \/ 4 = 352.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1533,
+    "question":"Evaluate the indefinite integral: \u222b (3x^1) dx",
+    "formula":"Power Rule for Integration: \u222b x^n dx = (x^(n+1))\/(n+1) + C",
+    "solution":"\u222b 3x^1 dx = (3\/2)x^2 + C.",
+    "topic":"Calculus",
+    "difficulty":"Hard",
+    "template":"evaluate the indefinite integral: \u222b (<n>x^<n>) dx"
+  },
+  {
+    "id":4567,
+    "question":"Find the Least Common Multiple (LCM) of 56 and 14",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(56, 14) = (56 \u00d7 14) \/ 14 = 56.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":69274,
+    "question":"Solve the linear equation: 2x - 21 = -7",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 21 to both sides: 2x = -7 + 21 = 14. Step 2: Divide by 2: x = 14\/2 = 7.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":47487,
+    "question":"Find the Least Common Multiple (LCM) of 41 and 15",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(41, 15) = (41 \u00d7 15) \/ 1 = 615.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":43927,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 56",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 56) = (47 \u00d7 56) \/ 1 = 2632.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":89327,
+    "question":"Find the Least Common Multiple (LCM) of 28 and 58",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(28, 58) = (28 \u00d7 58) \/ 2 = 812.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":11567,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 38) = (23 \u00d7 38) \/ 1 = 874.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":97247,
+    "question":"Find the Least Common Multiple (LCM) of 28 and 14",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(28, 14) = (28 \u00d7 14) \/ 14 = 28.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":11407,
+    "question":"Find the Least Common Multiple (LCM) of 53 and 29",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(53, 29) = (53 \u00d7 29) \/ 1 = 1537.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":30567,
+    "question":"Find the Least Common Multiple (LCM) of 15 and 18",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(15, 18) = (15 \u00d7 18) \/ 3 = 90.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":38327,
+    "question":"Find the Least Common Multiple (LCM) of 45 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(45, 44) = (45 \u00d7 44) \/ 1 = 1980.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":45687,
+    "question":"Find the Least Common Multiple (LCM) of 36 and 12",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(36, 12) = (36 \u00d7 12) \/ 12 = 36.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14447,
+    "question":"Find the Least Common Multiple (LCM) of 51 and 28",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(51, 28) = (51 \u00d7 28) \/ 1 = 1428.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":8890,
+    "question":"Solve the linear equation: 4x - 28 = -8",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 28 to both sides: 4x = -8 + 28 = 20. Step 2: Divide by 4: x = 20\/4 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":79327,
+    "question":"Find the Least Common Multiple (LCM) of 60 and 9",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(60, 9) = (60 \u00d7 9) \/ 3 = 180.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":42447,
+    "question":"Find the Least Common Multiple (LCM) of 34 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(34, 44) = (34 \u00d7 44) \/ 2 = 748.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1367,
+    "question":"Find the Least Common Multiple (LCM) of 57 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(57, 44) = (57 \u00d7 44) \/ 1 = 2508.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":53527,
+    "question":"Find the Least Common Multiple (LCM) of 16 and 57",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(16, 57) = (16 \u00d7 57) \/ 1 = 912.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":22146,
+    "question":"Solve the linear equation: 2x - 23 = -11",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 23 to both sides: 2x = -11 + 23 = 12. Step 2: Divide by 2: x = 12\/2 = 6.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":13527,
+    "question":"Find the Least Common Multiple (LCM) of 24 and 52",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(24, 52) = (24 \u00d7 52) \/ 4 = 312.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":12058,
+    "question":"Solve the linear equation: 7x - 26 = -12",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 7x = -12 + 26 = 14. Step 2: Divide by 7: x = 14\/7 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":64367,
+    "question":"Find the Least Common Multiple (LCM) of 34 and 17",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(34, 17) = (34 \u00d7 17) \/ 17 = 34.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":43002,
+    "question":"Solve the linear equation: 10x - 22 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 22 to both sides: 10x = -2 + 22 = 20. Step 2: Divide by 10: x = 20\/10 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":16407,
+    "question":"Find the Least Common Multiple (LCM) of 59 and 47",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(59, 47) = (59 \u00d7 47) \/ 1 = 2773.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":10727,
+    "question":"Find the Least Common Multiple (LCM) of 43 and 18",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(43, 18) = (43 \u00d7 18) \/ 1 = 774.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":62087,
+    "question":"Find the Least Common Multiple (LCM) of 19 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(19, 38) = (19 \u00d7 38) \/ 19 = 38.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":90202,
+    "question":"Solve the linear equation: 2x - 27 = -7",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 2x = -7 + 27 = 20. Step 2: Divide by 2: x = 20\/2 = 10.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":17607,
+    "question":"Find the Least Common Multiple (LCM) of 27 and 28",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(27, 28) = (27 \u00d7 28) \/ 1 = 756.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1416,
+    "question":"Calculate the Simple Interest on principal P = $50000 at annual rate r = 8% for t = 3 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (50000 \u00d7 8 \u00d7 3) \/ 100 = $12000.00. Total accumulated amount = $62000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":56647,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 49) = (47 \u00d7 49) \/ 1 = 2303.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7416,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 8% for t = 2 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 8 \u00d7 2) \/ 100 = $1600.00. Total accumulated amount = $11600.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":1776,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 6% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 6 \u00d7 5) \/ 100 = $3000.00. Total accumulated amount = $13000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":66986,
+    "question":"Solve the linear equation: 6x - 19 = -1",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 19 to both sides: 6x = -1 + 19 = 18. Step 2: Divide by 6: x = 18\/6 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":2336,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 5% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 5 \u00d7 1) \/ 100 = $500.00. Total accumulated amount = $10500.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":76767,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 5",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 5) = (47 \u00d7 5) \/ 1 = 235.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":5867,
+    "question":"Calculate the area of a circle with radius r = 15 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 15\u00b2 = 3.14159 \u00d7 225 \u2248 706.86 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Medium",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":5647,
+    "question":"Find the Least Common Multiple (LCM) of 59 and 36",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(59, 36) = (59 \u00d7 36) \/ 1 = 2124.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":21927,
+    "question":"Find the Least Common Multiple (LCM) of 28 and 9",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(28, 9) = (28 \u00d7 9) \/ 1 = 252.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":50047,
+    "question":"Find the Least Common Multiple (LCM) of 41 and 6",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(41, 6) = (41 \u00d7 6) \/ 1 = 246.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":5416,
+    "question":"Calculate the Simple Interest on principal P = $50000 at annual rate r = 4% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (50000 \u00d7 4 \u00d7 1) \/ 100 = $2000.00. Total accumulated amount = $52000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":93967,
+    "question":"Find the Least Common Multiple (LCM) of 26 and 13",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(26, 13) = (26 \u00d7 13) \/ 13 = 26.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":27447,
+    "question":"Find the Least Common Multiple (LCM) of 30 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(30, 37) = (30 \u00d7 37) \/ 1 = 1110.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":78807,
+    "question":"Find the Least Common Multiple (LCM) of 48 and 57",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(48, 57) = (48 \u00d7 57) \/ 3 = 912.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":53047,
+    "question":"Find the Least Common Multiple (LCM) of 4 and 54",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(4, 54) = (4 \u00d7 54) \/ 2 = 108.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":22607,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 27",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 27) = (20 \u00d7 27) \/ 1 = 540.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":762,
+    "question":"Solve the linear equation: 2x - 7 = -3",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 7 to both sides: 2x = -3 + 7 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":45914,
+    "question":"Solve the linear equation: 2x - 15 = -9",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 15 to both sides: 2x = -9 + 15 = 6. Step 2: Divide by 2: x = 6\/2 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":62647,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 51",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 51) = (13 \u00d7 51) \/ 1 = 663.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":6736,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 5% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 5 \u00d7 5) \/ 100 = $2500.00. Total accumulated amount = $12500.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":10906,
+    "question":"Solve the linear equation: 11x - 24 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 24 to both sides: 11x = -2 + 24 = 22. Step 2: Divide by 11: x = 22\/11 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":19567,
+    "question":"Find the Least Common Multiple (LCM) of 42 and 55",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(42, 55) = (42 \u00d7 55) \/ 1 = 2310.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":52807,
+    "question":"Find the Least Common Multiple (LCM) of 43 and 33",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(43, 33) = (43 \u00d7 33) \/ 1 = 1419.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1840,
+    "question":"An item with marked price $200 has a 10% discount. Find the selling price",
+    "formula":"Discount = MP * (Discount% \/ 100), SP = MP - Discount",
+    "solution":"Discount = $20.00. Final Selling Price = $180.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"an item with marked price $<n> has a <n>% discount. find the selling price"
+  },
+  {
+    "id":1898,
+    "question":"Solve the linear equation: 2x - 5 = -1",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 5 to both sides: 2x = -1 + 5 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":4407,
+    "question":"Find the Least Common Multiple (LCM) of 59 and 32",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(59, 32) = (59 \u00d7 32) \/ 1 = 1888.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":87887,
+    "question":"Find the Least Common Multiple (LCM) of 14 and 10",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(14, 10) = (14 \u00d7 10) \/ 2 = 70.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":525,
+    "question":"Evaluate the indefinite integral: \u222b (7x^3) dx",
+    "formula":"Power Rule for Integration: \u222b x^n dx = (x^(n+1))\/(n+1) + C",
+    "solution":"\u222b 7x^3 dx = (7\/4)x^4 + C.",
+    "topic":"Calculus",
+    "difficulty":"Hard",
+    "template":"evaluate the indefinite integral: \u222b (<n>x^<n>) dx"
+  },
+  {
+    "id":247,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 46",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 46) = (23 \u00d7 46) \/ 23 = 46.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":33167,
+    "question":"Find the Least Common Multiple (LCM) of 56 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(56, 38) = (56 \u00d7 38) \/ 2 = 1064.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":22847,
+    "question":"Find the Least Common Multiple (LCM) of 28 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(28, 35) = (28 \u00d7 35) \/ 7 = 140.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":12336,
+    "question":"Calculate the Simple Interest on principal P = $2000 at annual rate r = 7% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (2000 \u00d7 7 \u00d7 1) \/ 100 = $140.00. Total accumulated amount = $2140.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":57807,
+    "question":"Find the Least Common Multiple (LCM) of 15 and 39",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(15, 39) = (15 \u00d7 39) \/ 3 = 195.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":3010,
+    "question":"Solve the linear equation: 4x - 22 = -14",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 22 to both sides: 4x = -14 + 22 = 8. Step 2: Divide by 4: x = 8\/4 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":65127,
+    "question":"Find the Least Common Multiple (LCM) of 4 and 41",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(4, 41) = (4 \u00d7 41) \/ 1 = 164.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":65687,
+    "question":"Find the Least Common Multiple (LCM) of 5 and 46",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(5, 46) = (5 \u00d7 46) \/ 1 = 230.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":29127,
+    "question":"Find the Least Common Multiple (LCM) of 19 and 41",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(19, 41) = (19 \u00d7 41) \/ 1 = 779.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":17407,
+    "question":"Find the Least Common Multiple (LCM) of 19 and 44",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(19, 44) = (19 \u00d7 44) \/ 1 = 836.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":3674,
+    "question":"Solve the linear equation: 3x - 29 = -20",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 29 to both sides: 3x = -20 + 29 = 9. Step 2: Divide by 3: x = 9\/3 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":58287,
+    "question":"Find the Least Common Multiple (LCM) of 58 and 8",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(58, 8) = (58 \u00d7 8) \/ 2 = 232.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":74327,
+    "question":"Find the Least Common Multiple (LCM) of 17 and 30",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(17, 30) = (17 \u00d7 30) \/ 1 = 510.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":63447,
+    "question":"Find the Least Common Multiple (LCM) of 57 and 50",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(57, 50) = (57 \u00d7 50) \/ 1 = 2850.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":26127,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 58",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 58) = (32 \u00d7 58) \/ 2 = 928.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1555,
+    "question":"Calculate the area of a circle with radius r = 40 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 40\u00b2 = 3.14159 \u00d7 1600 \u2248 5026.55 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Easy",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":47407,
+    "question":"Find the Least Common Multiple (LCM) of 21 and 15",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(21, 15) = (21 \u00d7 15) \/ 3 = 105.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":6247,
+    "question":"Find the Least Common Multiple (LCM) of 18 and 60",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(18, 60) = (18 \u00d7 60) \/ 6 = 180.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":57546,
+    "question":"Solve the linear equation: 7x - 29 = -8",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 29 to both sides: 7x = -8 + 29 = 21. Step 2: Divide by 7: x = 21\/7 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":30727,
+    "question":"Find the Least Common Multiple (LCM) of 22 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(22, 35) = (22 \u00d7 35) \/ 1 = 770.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":18167,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 29",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 29) = (32 \u00d7 29) \/ 1 = 928.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":48994,
+    "question":"Solve the linear equation: 9x - 29 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 29 to both sides: 9x = -2 + 29 = 27. Step 2: Divide by 9: x = 27\/9 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":98207,
+    "question":"Find the Least Common Multiple (LCM) of 56 and 52",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(56, 52) = (56 \u00d7 52) \/ 4 = 728.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1586,
+    "question":"Solve the linear equation: 11x - 26 = -4",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 11x = -4 + 26 = 22. Step 2: Divide by 11: x = 22\/11 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":18367,
+    "question":"Find the Least Common Multiple (LCM) of 25 and 16",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(25, 16) = (25 \u00d7 16) \/ 1 = 400.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":70042,
+    "question":"Solve the linear equation: 2x - 26 = -4",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 2x = -4 + 26 = 22. Step 2: Divide by 2: x = 22\/2 = 11.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":80687,
+    "question":"Find the Least Common Multiple (LCM) of 33 and 54",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(33, 54) = (33 \u00d7 54) \/ 3 = 594.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":52007,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 7",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 7) = (13 \u00d7 7) \/ 1 = 91.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":10167,
+    "question":"Find the Least Common Multiple (LCM) of 17 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(17, 40) = (17 \u00d7 40) \/ 1 = 680.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":28807,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 43",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 43) = (13 \u00d7 43) \/ 1 = 559.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":10447,
+    "question":"Find the Least Common Multiple (LCM) of 36 and 33",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(36, 33) = (36 \u00d7 33) \/ 3 = 396.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":97527,
+    "question":"Find the Least Common Multiple (LCM) of 9 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(9, 37) = (9 \u00d7 37) \/ 1 = 333.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4167,
+    "question":"Find the Least Common Multiple (LCM) of 7 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(7, 35) = (7 \u00d7 35) \/ 7 = 35.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":49527,
+    "question":"Find the Least Common Multiple (LCM) of 28 and 11",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(28, 11) = (28 \u00d7 11) \/ 1 = 308.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":21007,
+    "question":"Find the Least Common Multiple (LCM) of 4 and 8",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(4, 8) = (4 \u00d7 8) \/ 4 = 8.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":21047,
+    "question":"Find the Least Common Multiple (LCM) of 51 and 54",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(51, 54) = (51 \u00d7 54) \/ 3 = 918.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7434,
+    "question":"Solve the linear equation: 2x - 21 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 21 to both sides: 2x = -5 + 21 = 16. Step 2: Divide by 2: x = 16\/2 = 8.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":36767,
+    "question":"Find the Least Common Multiple (LCM) of 4 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(4, 37) = (4 \u00d7 37) \/ 1 = 148.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":44287,
+    "question":"Find the Least Common Multiple (LCM) of 16 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(16, 35) = (16 \u00d7 35) \/ 1 = 560.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":9607,
+    "question":"Find the Least Common Multiple (LCM) of 59 and 22",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(59, 22) = (59 \u00d7 22) \/ 1 = 1298.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":39530,
+    "question":"Solve the linear equation: 6x - 26 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 6x = -2 + 26 = 24. Step 2: Divide by 6: x = 24\/6 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":49402,
+    "question":"Solve the linear equation: 5x - 29 = -9",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 29 to both sides: 5x = -9 + 29 = 20. Step 2: Divide by 5: x = 20\/5 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":55986,
+    "question":"Solve the linear equation: 2x - 30 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 30 to both sides: 2x = -2 + 30 = 28. Step 2: Divide by 2: x = 28\/2 = 14.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":45394,
+    "question":"Solve the linear equation: 8x - 22 = -6",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 22 to both sides: 8x = -6 + 22 = 16. Step 2: Divide by 8: x = 16\/8 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":38407,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 38) = (20 \u00d7 38) \/ 2 = 380.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14727,
+    "question":"Find the Least Common Multiple (LCM) of 26 and 54",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(26, 54) = (26 \u00d7 54) \/ 2 = 702.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":21287,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 40) = (20 \u00d7 40) \/ 20 = 40.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":17767,
+    "question":"Find the Least Common Multiple (LCM) of 53 and 47",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(53, 47) = (53 \u00d7 47) \/ 1 = 2491.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":75967,
+    "question":"Find the Least Common Multiple (LCM) of 42 and 19",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(42, 19) = (42 \u00d7 19) \/ 1 = 798.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":2007,
+    "question":"Find the Least Common Multiple (LCM) of 9 and 28",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(9, 28) = (9 \u00d7 28) \/ 1 = 252.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":715,
+    "question":"Calculate the area of a circle with radius r = 47 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 47\u00b2 = 3.14159 \u00d7 2209 \u2248 6939.78 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Easy",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":2277,
+    "question":"Evaluate the indefinite integral: \u222b (9x^3) dx",
+    "formula":"Power Rule for Integration: \u222b x^n dx = (x^(n+1))\/(n+1) + C",
+    "solution":"\u222b 9x^3 dx = (9\/4)x^4 + C.",
+    "topic":"Calculus",
+    "difficulty":"Hard",
+    "template":"evaluate the indefinite integral: \u222b (<n>x^<n>) dx"
+  },
+  {
+    "id":68786,
+    "question":"Solve the linear equation: 2x - 26 = -22",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 2x = -22 + 26 = 4. Step 2: Divide by 2: x = 4\/2 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":54687,
+    "question":"Find the Least Common Multiple (LCM) of 9 and 50",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(9, 50) = (9 \u00d7 50) \/ 1 = 450.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":63087,
+    "question":"Find the Least Common Multiple (LCM) of 10 and 14",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(10, 14) = (10 \u00d7 14) \/ 2 = 70.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":85407,
+    "question":"Find the Least Common Multiple (LCM) of 5 and 50",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(5, 50) = (5 \u00d7 50) \/ 5 = 50.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":28247,
+    "question":"Find the Least Common Multiple (LCM) of 8 and 25",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(8, 25) = (8 \u00d7 25) \/ 1 = 200.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":25767,
+    "question":"Find the Least Common Multiple (LCM) of 22 and 42",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(22, 42) = (22 \u00d7 42) \/ 2 = 462.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":78887,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 17",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 17) = (23 \u00d7 17) \/ 1 = 391.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":62927,
+    "question":"Find the Least Common Multiple (LCM) of 51 and 14",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(51, 14) = (51 \u00d7 14) \/ 1 = 714.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":62967,
+    "question":"Find the Least Common Multiple (LCM) of 35 and 11",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(35, 11) = (35 \u00d7 11) \/ 1 = 385.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7287,
+    "question":"Find the Least Common Multiple (LCM) of 25 and 25",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(25, 25) = (25 \u00d7 25) \/ 25 = 25.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":76967,
+    "question":"Find the Least Common Multiple (LCM) of 4 and 6",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(4, 6) = (4 \u00d7 6) \/ 2 = 12.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":35207,
+    "question":"Find the Least Common Multiple (LCM) of 47 and 14",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(47, 14) = (47 \u00d7 14) \/ 1 = 658.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":6930,
+    "question":"Solve the linear equation: 3x - 14 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 14 to both sides: 3x = -5 + 14 = 9. Step 2: Divide by 3: x = 9\/3 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":4730,
+    "question":"Solve the linear equation: 4x - 19 = -7",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 19 to both sides: 4x = -7 + 19 = 12. Step 2: Divide by 4: x = 12\/4 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":4251,
+    "question":"Calculate the circumference of a circle with radius r = 6 cm",
+    "formula":"Circumference = 2 * \u03c0 * r",
+    "solution":"Circumference = 2 \u00d7 \u03c0 \u00d7 6 = 2 \u00d7 3.14159 \u00d7 6 \u2248 37.7 cm.",
+    "topic":"Geometry",
+    "difficulty":"Hard",
+    "template":"calculate the circumference of a circle with radius r = <n> cm"
+  },
+  {
+    "id":23847,
+    "question":"Find the Least Common Multiple (LCM) of 20 and 7",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(20, 7) = (20 \u00d7 7) \/ 1 = 140.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7847,
+    "question":"Find the Least Common Multiple (LCM) of 53 and 59",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(53, 59) = (53 \u00d7 59) \/ 1 = 3127.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":65047,
+    "question":"Find the Least Common Multiple (LCM) of 6 and 31",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(6, 31) = (6 \u00d7 31) \/ 1 = 186.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":85887,
+    "question":"Find the Least Common Multiple (LCM) of 38 and 31",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(38, 31) = (38 \u00d7 31) \/ 1 = 1178.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7618,
+    "question":"Solve the linear equation: 2x - 28 = -10",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 28 to both sides: 2x = -10 + 28 = 18. Step 2: Divide by 2: x = 18\/2 = 9.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":31327,
+    "question":"Find the Least Common Multiple (LCM) of 43 and 55",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(43, 55) = (43 \u00d7 55) \/ 1 = 2365.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":48527,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 36",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 36) = (32 \u00d7 36) \/ 4 = 288.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14847,
+    "question":"Find the Least Common Multiple (LCM) of 12 and 52",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(12, 52) = (12 \u00d7 52) \/ 4 = 156.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":56927,
+    "question":"Find the Least Common Multiple (LCM) of 9 and 31",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(9, 31) = (9 \u00d7 31) \/ 1 = 279.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4527,
+    "question":"Find the Least Common Multiple (LCM) of 17 and 9",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(17, 9) = (17 \u00d7 9) \/ 1 = 153.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":81167,
+    "question":"Find the Least Common Multiple (LCM) of 29 and 43",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(29, 43) = (29 \u00d7 43) \/ 1 = 1247.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14967,
+    "question":"Find the Least Common Multiple (LCM) of 12 and 26",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(12, 26) = (12 \u00d7 26) \/ 2 = 156.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":37607,
+    "question":"Find the Least Common Multiple (LCM) of 7 and 19",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(7, 19) = (7 \u00d7 19) \/ 1 = 133.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":127,
+    "question":"Find the Least Common Multiple (LCM) of 38 and 32",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(38, 32) = (38 \u00d7 32) \/ 2 = 608.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":32047,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 30",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 30) = (23 \u00d7 30) \/ 1 = 690.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":35247,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 12",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 12) = (23 \u00d7 12) \/ 1 = 276.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":35807,
+    "question":"Find the Least Common Multiple (LCM) of 48 and 24",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(48, 24) = (48 \u00d7 24) \/ 24 = 48.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":86887,
+    "question":"Find the Least Common Multiple (LCM) of 57 and 34",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(57, 34) = (57 \u00d7 34) \/ 1 = 1938.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":10767,
+    "question":"Find the Least Common Multiple (LCM) of 17 and 57",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(17, 57) = (17 \u00d7 57) \/ 1 = 969.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":39087,
+    "question":"Find the Least Common Multiple (LCM) of 24 and 9",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(24, 9) = (24 \u00d7 9) \/ 3 = 72.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":56127,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 14",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 14) = (23 \u00d7 14) \/ 1 = 322.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":338,
+    "question":"Solve the linear equation: 9x - 24 = -6",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 24 to both sides: 9x = -6 + 24 = 18. Step 2: Divide by 9: x = 18\/9 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":91927,
+    "question":"Find the Least Common Multiple (LCM) of 40 and 35",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(40, 35) = (40 \u00d7 35) \/ 5 = 280.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":3859,
+    "question":"Calculate the circumference of a circle with radius r = 47 cm",
+    "formula":"Circumference = 2 * \u03c0 * r",
+    "solution":"Circumference = 2 \u00d7 \u03c0 \u00d7 47 = 2 \u00d7 3.14159 \u00d7 47 \u2248 295.31 cm.",
+    "topic":"Geometry",
+    "difficulty":"Easy",
+    "template":"calculate the circumference of a circle with radius r = <n> cm"
+  },
+  {
+    "id":11096,
+    "question":"Calculate the Simple Interest on principal P = $1000 at annual rate r = 5% for t = 2 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (1000 \u00d7 5 \u00d7 2) \/ 100 = $100.00. Total accumulated amount = $1100.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":6367,
+    "question":"Find the Least Common Multiple (LCM) of 27 and 12",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(27, 12) = (27 \u00d7 12) \/ 3 = 108.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":26722,
+    "question":"Solve the linear equation: 5x - 21 = -6",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 21 to both sides: 5x = -6 + 21 = 15. Step 2: Divide by 5: x = 15\/5 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":49687,
+    "question":"Find the Least Common Multiple (LCM) of 22 and 43",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(22, 43) = (22 \u00d7 43) \/ 1 = 946.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":8607,
+    "question":"Find the Least Common Multiple (LCM) of 57 and 55",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(57, 55) = (57 \u00d7 55) \/ 1 = 3135.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1967,
+    "question":"Find the Least Common Multiple (LCM) of 27 and 4",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(27, 4) = (27 \u00d7 4) \/ 1 = 108.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4120,
+    "question":"An item with marked price $400 has a 25% discount. Find the selling price",
+    "formula":"Discount = MP * (Discount% \/ 100), SP = MP - Discount",
+    "solution":"Discount = $100.00. Final Selling Price = $300.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"an item with marked price $<n> has a <n>% discount. find the selling price"
+  },
+  {
+    "id":19647,
+    "question":"Find the Least Common Multiple (LCM) of 36 and 34",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(36, 34) = (36 \u00d7 34) \/ 2 = 612.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":518,
+    "question":"How many ways can you choose 4 items from a group of 7? (Combinations C(7,4))",
+    "formula":"C(n, r) = n! \/ (r! * (n - r)!)",
+    "solution":"C(7, 4) = 7! \/ (4! \u00d7 3!) = 35 ways.",
+    "topic":"Probability & Statistics",
+    "difficulty":"Medium",
+    "template":"how many ways can you choose <n> items from a group of <n>? (combinations c(<n>,<n>))"
+  },
+  {
+    "id":29706,
+    "question":"Solve the linear equation: 5x - 15 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 15 to both sides: 5x = -5 + 15 = 10. Step 2: Divide by 5: x = 10\/5 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":25090,
+    "question":"Solve the linear equation: 7x - 19 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 19 to both sides: 7x = -5 + 19 = 14. Step 2: Divide by 7: x = 14\/7 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":44527,
+    "question":"Find the Least Common Multiple (LCM) of 33 and 34",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(33, 34) = (33 \u00d7 34) \/ 1 = 1122.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1059,
+    "question":"Calculate the circumference of a circle with radius r = 10 cm",
+    "formula":"Circumference = 2 * \u03c0 * r",
+    "solution":"Circumference = 2 \u00d7 \u03c0 \u00d7 10 = 2 \u00d7 3.14159 \u00d7 10 \u2248 62.83 cm.",
+    "topic":"Geometry",
+    "difficulty":"Hard",
+    "template":"calculate the circumference of a circle with radius r = <n> cm"
+  },
+  {
+    "id":42247,
+    "question":"Find the Least Common Multiple (LCM) of 31 and 59",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(31, 59) = (31 \u00d7 59) \/ 1 = 1829.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":17927,
+    "question":"Find the Least Common Multiple (LCM) of 5 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(5, 49) = (5 \u00d7 49) \/ 1 = 245.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":2282,
+    "question":"Solve the linear equation: 3x - 25 = -16",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 25 to both sides: 3x = -16 + 25 = 9. Step 2: Divide by 3: x = 9\/3 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":56687,
+    "question":"Find the Least Common Multiple (LCM) of 42 and 59",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(42, 59) = (42 \u00d7 59) \/ 1 = 2478.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":26578,
+    "question":"Solve the linear equation: 4x - 18 = -2",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 18 to both sides: 4x = -2 + 18 = 16. Step 2: Divide by 4: x = 16\/4 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":28127,
+    "question":"Find the Least Common Multiple (LCM) of 55 and 34",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(55, 34) = (55 \u00d7 34) \/ 1 = 1870.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":82647,
+    "question":"Find the Least Common Multiple (LCM) of 46 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(46, 38) = (46 \u00d7 38) \/ 2 = 874.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":38834,
+    "question":"Solve the linear equation: 5x - 25 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 25 to both sides: 5x = -5 + 25 = 20. Step 2: Divide by 5: x = 20\/5 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":15687,
+    "question":"Find the Least Common Multiple (LCM) of 46 and 26",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(46, 26) = (46 \u00d7 26) \/ 2 = 598.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":70567,
+    "question":"Find the Least Common Multiple (LCM) of 38 and 41",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(38, 41) = (38 \u00d7 41) \/ 1 = 1558.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":35047,
+    "question":"Find the Least Common Multiple (LCM) of 16 and 30",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(16, 30) = (16 \u00d7 30) \/ 2 = 240.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":24167,
+    "question":"Find the Least Common Multiple (LCM) of 7 and 54",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(7, 54) = (7 \u00d7 54) \/ 1 = 378.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14898,
+    "question":"Solve the linear equation: 4x - 25 = -9",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 25 to both sides: 4x = -9 + 25 = 16. Step 2: Divide by 4: x = 16\/4 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":62447,
+    "question":"Find the Least Common Multiple (LCM) of 30 and 8",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(30, 8) = (30 \u00d7 8) \/ 2 = 120.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":27394,
+    "question":"Solve the linear equation: 4x - 26 = -18",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 4x = -18 + 26 = 8. Step 2: Divide by 4: x = 8\/4 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":7530,
+    "question":"Solve the linear equation: 9x - 25 = -7",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 25 to both sides: 9x = -7 + 25 = 18. Step 2: Divide by 9: x = 18\/9 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":17338,
+    "question":"Solve the linear equation: 5x - 20 = -10",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 20 to both sides: 5x = -10 + 20 = 10. Step 2: Divide by 5: x = 10\/5 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":36327,
+    "question":"Find the Least Common Multiple (LCM) of 32 and 20",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(32, 20) = (32 \u00d7 20) \/ 4 = 160.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":5456,
+    "question":"Calculate the Simple Interest on principal P = $25000 at annual rate r = 12% for t = 4 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (25000 \u00d7 12 \u00d7 4) \/ 100 = $12000.00. Total accumulated amount = $37000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":24047,
+    "question":"Find the Least Common Multiple (LCM) of 42 and 29",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(42, 29) = (42 \u00d7 29) \/ 1 = 1218.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":67567,
+    "question":"Find the Least Common Multiple (LCM) of 17 and 17",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(17, 17) = (17 \u00d7 17) \/ 17 = 17.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4367,
+    "question":"Find the Least Common Multiple (LCM) of 50 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(50, 40) = (50 \u00d7 40) \/ 10 = 200.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":40127,
+    "question":"Find the Least Common Multiple (LCM) of 12 and 12",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(12, 12) = (12 \u00d7 12) \/ 12 = 12.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":28314,
+    "question":"Solve the linear equation: 3x - 11 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 11 to both sides: 3x = -5 + 11 = 6. Step 2: Divide by 3: x = 6\/3 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":10456,
+    "question":"Calculate the Simple Interest on principal P = $2000 at annual rate r = 4% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (2000 \u00d7 4 \u00d7 1) \/ 100 = $80.00. Total accumulated amount = $2080.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":26946,
+    "question":"Solve the linear equation: 8x - 26 = -10",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 26 to both sides: 8x = -10 + 26 = 16. Step 2: Divide by 8: x = 16\/8 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":16087,
+    "question":"Find the Least Common Multiple (LCM) of 37 and 60",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(37, 60) = (37 \u00d7 60) \/ 1 = 2220.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":24687,
+    "question":"Find the Least Common Multiple (LCM) of 36 and 53",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(36, 53) = (36 \u00d7 53) \/ 1 = 1908.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":5247,
+    "question":"Find the Least Common Multiple (LCM) of 50 and 57",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(50, 57) = (50 \u00d7 57) \/ 1 = 2850.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":50087,
+    "question":"Find the Least Common Multiple (LCM) of 22 and 33",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(22, 33) = (22 \u00d7 33) \/ 11 = 66.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":17456,
+    "question":"Calculate the Simple Interest on principal P = $5000 at annual rate r = 7% for t = 2 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (5000 \u00d7 7 \u00d7 2) \/ 100 = $700.00. Total accumulated amount = $5700.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":34487,
+    "question":"Find the Least Common Multiple (LCM) of 55 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(55, 49) = (55 \u00d7 49) \/ 1 = 2695.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":730,
+    "question":"Solve the linear equation: 2x - 30 = -8",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 30 to both sides: 2x = -8 + 30 = 22. Step 2: Divide by 2: x = 22\/2 = 11.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":2816,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 6% for t = 1 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 6 \u00d7 1) \/ 100 = $600.00. Total accumulated amount = $10600.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":21687,
+    "question":"Find the Least Common Multiple (LCM) of 30 and 48",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(30, 48) = (30 \u00d7 48) \/ 6 = 240.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":5607,
+    "question":"Find the Least Common Multiple (LCM) of 31 and 15",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(31, 15) = (31 \u00d7 15) \/ 1 = 465.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":6287,
+    "question":"Find the Least Common Multiple (LCM) of 33 and 4",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(33, 4) = (33 \u00d7 4) \/ 1 = 132.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":29274,
+    "question":"Solve the linear equation: 4x - 16 = -8",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 16 to both sides: 4x = -8 + 16 = 8. Step 2: Divide by 4: x = 8\/4 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":69687,
+    "question":"Find the Least Common Multiple (LCM) of 44 and 13",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(44, 13) = (44 \u00d7 13) \/ 1 = 572.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":2016,
+    "question":"Calculate the Simple Interest on principal P = $25000 at annual rate r = 8% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (25000 \u00d7 8 \u00d7 5) \/ 100 = $10000.00. Total accumulated amount = $35000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":49618,
+    "question":"Solve the linear equation: 5x - 23 = -8",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 23 to both sides: 5x = -8 + 23 = 15. Step 2: Divide by 5: x = 15\/5 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":43336,
+    "question":"Calculate the Simple Interest on principal P = $10000 at annual rate r = 5% for t = 4 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (10000 \u00d7 5 \u00d7 4) \/ 100 = $2000.00. Total accumulated amount = $12000.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":7155,
+    "question":"Calculate the area of a circle with radius r = 36 cm",
+    "formula":"Area = \u03c0 * r\u00b2",
+    "solution":"Area = \u03c0 \u00d7 36\u00b2 = 3.14159 \u00d7 1296 \u2248 4071.5 cm\u00b2.",
+    "topic":"Geometry",
+    "difficulty":"Hard",
+    "template":"calculate the area of a circle with radius r = <n> cm"
+  },
+  {
+    "id":66687,
+    "question":"Find the Least Common Multiple (LCM) of 46 and 32",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(46, 32) = (46 \u00d7 32) \/ 2 = 736.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":66567,
+    "question":"Find the Least Common Multiple (LCM) of 49 and 59",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(49, 59) = (49 \u00d7 59) \/ 1 = 2891.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1376,
+    "question":"Calculate the Simple Interest on principal P = $1000 at annual rate r = 4% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (1000 \u00d7 4 \u00d7 5) \/ 100 = $200.00. Total accumulated amount = $1200.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":3042,
+    "question":"Solve the linear equation: 9x - 30 = -12",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 30 to both sides: 9x = -12 + 30 = 18. Step 2: Divide by 9: x = 18\/9 = 2.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":77487,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 32",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 32) = (13 \u00d7 32) \/ 1 = 416.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":50727,
+    "question":"Find the Least Common Multiple (LCM) of 53 and 6",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(53, 6) = (53 \u00d7 6) \/ 1 = 318.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1994,
+    "question":"Solve the linear equation: 3x - 29 = -5",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 29 to both sides: 3x = -5 + 29 = 24. Step 2: Divide by 3: x = 24\/3 = 8.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":26976,
+    "question":"Calculate the Simple Interest on principal P = $5000 at annual rate r = 4% for t = 3 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (5000 \u00d7 4 \u00d7 3) \/ 100 = $600.00. Total accumulated amount = $5600.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":55607,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 10",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 10) = (23 \u00d7 10) \/ 1 = 230.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":60647,
+    "question":"Find the Least Common Multiple (LCM) of 36 and 17",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(36, 17) = (36 \u00d7 17) \/ 1 = 612.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":9087,
+    "question":"Find the Least Common Multiple (LCM) of 10 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(10, 21) = (10 \u00d7 21) \/ 1 = 210.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":13167,
+    "question":"Find the Least Common Multiple (LCM) of 9 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(9, 40) = (9 \u00d7 40) \/ 1 = 360.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":79927,
+    "question":"Find the Least Common Multiple (LCM) of 18 and 26",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(18, 26) = (18 \u00d7 26) \/ 2 = 234.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":2347,
+    "question":"Calculate the circumference of a circle with radius r = 48 cm",
+    "formula":"Circumference = 2 * \u03c0 * r",
+    "solution":"Circumference = 2 \u00d7 \u03c0 \u00d7 48 = 2 \u00d7 3.14159 \u00d7 48 \u2248 301.59 cm.",
+    "topic":"Geometry",
+    "difficulty":"Easy",
+    "template":"calculate the circumference of a circle with radius r = <n> cm"
+  },
+  {
+    "id":880,
+    "question":"An item with marked price $1000 has a 30% discount. Find the selling price",
+    "formula":"Discount = MP * (Discount% \/ 100), SP = MP - Discount",
+    "solution":"Discount = $300.00. Final Selling Price = $700.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Easy",
+    "template":"an item with marked price $<n> has a <n>% discount. find the selling price"
+  },
+  {
+    "id":43282,
+    "question":"Solve the linear equation: 2x - 30 = -14",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 30 to both sides: 2x = -14 + 30 = 16. Step 2: Divide by 2: x = 16\/2 = 8.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":77367,
+    "question":"Find the Least Common Multiple (LCM) of 13 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(13, 40) = (13 \u00d7 40) \/ 1 = 520.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":66367,
+    "question":"Find the Least Common Multiple (LCM) of 22 and 53",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(22, 53) = (22 \u00d7 53) \/ 1 = 1166.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":5736,
+    "question":"Calculate the Simple Interest on principal P = $2000 at annual rate r = 4% for t = 2 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (2000 \u00d7 4 \u00d7 2) \/ 100 = $160.00. Total accumulated amount = $2160.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":8687,
+    "question":"Find the Least Common Multiple (LCM) of 55 and 48",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(55, 48) = (55 \u00d7 48) \/ 1 = 2640.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":12122,
+    "question":"Solve the linear equation: 3x - 30 = -9",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 30 to both sides: 3x = -9 + 30 = 21. Step 2: Divide by 3: x = 21\/3 = 7.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":67770,
+    "question":"Solve the linear equation: 3x - 23 = -11",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 23 to both sides: 3x = -11 + 23 = 12. Step 2: Divide by 3: x = 12\/3 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":67247,
+    "question":"Find the Least Common Multiple (LCM) of 19 and 40",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(19, 40) = (19 \u00d7 40) \/ 1 = 760.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":74807,
+    "question":"Find the Least Common Multiple (LCM) of 38 and 7",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(38, 7) = (38 \u00d7 7) \/ 1 = 266.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":4687,
+    "question":"Find the Least Common Multiple (LCM) of 60 and 47",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(60, 47) = (60 \u00d7 47) \/ 1 = 2820.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":7496,
+    "question":"Calculate the Simple Interest on principal P = $2000 at annual rate r = 12% for t = 4 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (2000 \u00d7 12 \u00d7 4) \/ 100 = $960.00. Total accumulated amount = $2960.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":64127,
+    "question":"Find the Least Common Multiple (LCM) of 41 and 52",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(41, 52) = (41 \u00d7 52) \/ 1 = 2132.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":14887,
+    "question":"Find the Least Common Multiple (LCM) of 21 and 9",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(21, 9) = (21 \u00d7 9) \/ 3 = 63.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":48610,
+    "question":"Solve the linear equation: 2x - 20 = -8",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 20 to both sides: 2x = -8 + 20 = 12. Step 2: Divide by 2: x = 12\/2 = 6.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":10847,
+    "question":"Find the Least Common Multiple (LCM) of 37 and 18",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(37, 18) = (37 \u00d7 18) \/ 1 = 666.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":1787,
+    "question":"Calculate the circumference of a circle with radius r = 27 cm",
+    "formula":"Circumference = 2 * \u03c0 * r",
+    "solution":"Circumference = 2 \u00d7 \u03c0 \u00d7 27 = 2 \u00d7 3.14159 \u00d7 27 \u2248 169.65 cm.",
+    "topic":"Geometry",
+    "difficulty":"Medium",
+    "template":"calculate the circumference of a circle with radius r = <n> cm"
+  },
+  {
+    "id":23367,
+    "question":"Find the Least Common Multiple (LCM) of 24 and 16",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(24, 16) = (24 \u00d7 16) \/ 8 = 48.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":21242,
+    "question":"Solve the linear equation: 2x - 19 = -3",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 19 to both sides: 2x = -3 + 19 = 16. Step 2: Divide by 2: x = 16\/2 = 8.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":85567,
+    "question":"Find the Least Common Multiple (LCM) of 60 and 39",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(60, 39) = (60 \u00d7 39) \/ 3 = 780.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":41487,
+    "question":"Find the Least Common Multiple (LCM) of 7 and 7",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(7, 7) = (7 \u00d7 7) \/ 7 = 7.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":92607,
+    "question":"Find the Least Common Multiple (LCM) of 39 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(39, 49) = (39 \u00d7 49) \/ 1 = 1911.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":74087,
+    "question":"Find the Least Common Multiple (LCM) of 49 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(49, 38) = (49 \u00d7 38) \/ 1 = 1862.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":3202,
+    "question":"Solve the linear equation: 2x - 29 = -19",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 29 to both sides: 2x = -19 + 29 = 10. Step 2: Divide by 2: x = 10\/2 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Easy",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":83106,
+    "question":"Solve the linear equation: 3x - 15 = -6",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 15 to both sides: 3x = -6 + 15 = 9. Step 2: Divide by 3: x = 9\/3 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Hard",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":30327,
+    "question":"Find the Least Common Multiple (LCM) of 41 and 53",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(41, 53) = (41 \u00d7 53) \/ 1 = 2173.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":120,
+    "question":"An item with marked price $1000 has a 25% discount. Find the selling price",
+    "formula":"Discount = MP * (Discount% \/ 100), SP = MP - Discount",
+    "solution":"Discount = $250.00. Final Selling Price = $750.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Hard",
+    "template":"an item with marked price $<n> has a <n>% discount. find the selling price"
+  },
+  {
+    "id":6007,
+    "question":"Find the Least Common Multiple (LCM) of 56 and 45",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(56, 45) = (56 \u00d7 45) \/ 1 = 2520.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":35042,
+    "question":"Solve the linear equation: 2x - 29 = -11",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 29 to both sides: 2x = -11 + 29 = 18. Step 2: Divide by 2: x = 18\/2 = 9.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":45567,
+    "question":"Find the Least Common Multiple (LCM) of 25 and 26",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(25, 26) = (25 \u00d7 26) \/ 1 = 650.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":813,
+    "question":"Evaluate the indefinite integral: \u222b (9x^4) dx",
+    "formula":"Power Rule for Integration: \u222b x^n dx = (x^(n+1))\/(n+1) + C",
+    "solution":"\u222b 9x^4 dx = (9\/5)x^5 + C.",
+    "topic":"Calculus",
+    "difficulty":"Hard",
+    "template":"evaluate the indefinite integral: \u222b (<n>x^<n>) dx"
+  },
+  {
+    "id":58847,
+    "question":"Find the Least Common Multiple (LCM) of 39 and 38",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(39, 38) = (39 \u00d7 38) \/ 1 = 1482.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":30554,
+    "question":"Solve the linear equation: 2x - 23 = -15",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 23 to both sides: 2x = -15 + 23 = 8. Step 2: Divide by 2: x = 8\/2 = 4.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":78194,
+    "question":"Solve the linear equation: 5x - 27 = -12",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 27 to both sides: 5x = -12 + 27 = 15. Step 2: Divide by 5: x = 15\/5 = 3.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":52847,
+    "question":"Find the Least Common Multiple (LCM) of 49 and 29",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(49, 29) = (49 \u00d7 29) \/ 1 = 1421.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":76287,
+    "question":"Find the Least Common Multiple (LCM) of 30 and 27",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(30, 27) = (30 \u00d7 27) \/ 3 = 270.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":24887,
+    "question":"Find the Least Common Multiple (LCM) of 57 and 21",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(57, 21) = (57 \u00d7 21) \/ 3 = 399.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":13616,
+    "question":"Calculate the Simple Interest on principal P = $5000 at annual rate r = 7% for t = 5 years",
+    "formula":"SI = (P * R * T) \/ 100, Total Amount = P + SI",
+    "solution":"SI = (5000 \u00d7 7 \u00d7 5) \/ 100 = $1750.00. Total accumulated amount = $6750.00.",
+    "topic":"Applied & Financial Math",
+    "difficulty":"Medium",
+    "template":"calculate the simple interest on principal p = $<n> at annual rate r = <n>% for t = <n> years"
+  },
+  {
+    "id":1003,
+    "question":"Calculate the circumference of a circle with radius r = 11 cm",
+    "formula":"Circumference = 2 * \u03c0 * r",
+    "solution":"Circumference = 2 \u00d7 \u03c0 \u00d7 11 = 2 \u00d7 3.14159 \u00d7 11 \u2248 69.12 cm.",
+    "topic":"Geometry",
+    "difficulty":"Easy",
+    "template":"calculate the circumference of a circle with radius r = <n> cm"
+  },
+  {
+    "id":9527,
+    "question":"Find the Least Common Multiple (LCM) of 14 and 9",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(14, 9) = (14 \u00d7 9) \/ 1 = 126.",
+    "topic":"Number Theory",
+    "difficulty":"Medium",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":5114,
+    "question":"Solve the linear equation: 2x - 28 = -18",
+    "formula":"ax - b = c  =>  x = (c + b) \/ a",
+    "solution":"Step 1: Add 28 to both sides: 2x = -18 + 28 = 10. Step 2: Divide by 2: x = 10\/2 = 5.",
+    "topic":"Algebra",
+    "difficulty":"Medium",
+    "template":"solve the linear equation: <n>x - <n> = -<n>"
+  },
+  {
+    "id":18687,
+    "question":"Find the Least Common Multiple (LCM) of 15 and 49",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(15, 49) = (15 \u00d7 49) \/ 1 = 735.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":13887,
+    "question":"Find the Least Common Multiple (LCM) of 39 and 5",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(39, 5) = (39 \u00d7 5) \/ 1 = 195.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":53967,
+    "question":"Find the Least Common Multiple (LCM) of 43 and 10",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(43, 10) = (43 \u00d7 10) \/ 1 = 430.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":74767,
+    "question":"Find the Least Common Multiple (LCM) of 23 and 11",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(23, 11) = (23 \u00d7 11) \/ 1 = 253.",
+    "topic":"Number Theory",
+    "difficulty":"Easy",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  },
+  {
+    "id":27567,
+    "question":"Find the Least Common Multiple (LCM) of 49 and 37",
+    "formula":"LCM(a, b) = (|a * b|) \/ GCD(a, b)",
+    "solution":"LCM(49, 37) = (49 \u00d7 37) \/ 1 = 1813.",
+    "topic":"Number Theory",
+    "difficulty":"Hard",
+    "template":"find the least common multiple (lcm) of <n> and <n>"
+  }
+]

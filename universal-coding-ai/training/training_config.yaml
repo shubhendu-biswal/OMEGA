@@ -1,0 +1,52 @@
+model:
+  name: "Nexora 4.1 (Qwen2.5-Coder-1.5B Fine-Tuned)"
+  base_dir: "model/base"
+  final_dir: "model/final/nexora-4.1"
+  checkpoints_dir: "model/checkpoints"
+
+dataset:
+  raw_path: "dataset/raw/raw_dataset.json"
+  cleaned_path: "dataset/cleaned/cleaned_dataset.json"
+  processed_path: "dataset/processed/instruction_dataset.json"
+  train_path: "dataset/train/train.json"
+  validation_path: "dataset/validation/validation.json"
+  test_path: "dataset/test/test.json"
+
+training:
+  epochs: 3
+  learning_rate: 0.0002
+  batch_size: 2
+  gradient_accumulation_steps: 4
+  max_sequence_length: 1024
+  mixed_precision: "fp16"
+  save_steps: 50
+  eval_steps: 50
+  logging_steps: 10
+  device_fallback: "cpu"
+
+lora:
+  enabled: true
+  r: 8
+  alpha: 16
+  dropout: 0.05
+  target_modules: ["q_proj", "v_proj", "k_proj", "o_proj"]
+
+languages:
+  - Java
+  - Python
+  - C
+  - C++
+  - JavaScript
+  - TypeScript
+  - C#
+  - Go
+  - Rust
+  - Kotlin
+  - Swift
+  - PHP
+  - Ruby
+  - Dart
+  - Scala
+  - R
+  - SQL
+  - MATLAB

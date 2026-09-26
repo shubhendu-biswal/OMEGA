@@ -1,0 +1,1365 @@
+{
+  "confusion_matrix": [
+    [
+      411,
+      0,
+      1,
+      1,
+      3,
+      0,
+      1,
+      3
+    ],
+    [
+      0,
+      369,
+      0,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      11,
+      0,
+      733,
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      1,
+      0,
+      0,
+      317,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1093,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      906,
+      1,
+      0
+    ],
+    [
+      21,
+      0,
+      1,
+      1,
+      1,
+      1,
+      633,
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      2,
+      59,
+      0,
+      1301
+    ]
+  ],
+  "classes": [
+    "agriculture",
+    "conversation",
+    "crop_recommendation",
+    "fertilizer_recommendation",
+    "gk",
+    "math",
+    "out_of_scope",
+    "realtime"
+  ],
+  "realtime_misclassified": [
+    {
+      "text": "What is the humidity and wind speed in Berlin now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8517,
+      "true_conf": 0.0611
+    },
+    {
+      "text": "What is the humidity and wind speed in Tokyo now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.847,
+      "true_conf": 0.074
+    },
+    {
+      "text": "What is the humidity and wind speed in Paris now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8569,
+      "true_conf": 0.0433
+    },
+    {
+      "text": "What is the humidity and wind speed in Bhopal now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8442,
+      "true_conf": 0.0572
+    },
+    {
+      "text": "What is the humidity and wind speed in Mumbai now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7442,
+      "true_conf": 0.1819
+    },
+    {
+      "text": "What is the humidity and wind speed in Nagpur now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8403,
+      "true_conf": 0.0693
+    },
+    {
+      "text": "What is the humidity and wind speed in Shimla now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8298,
+      "true_conf": 0.0698
+    },
+    {
+      "text": "What is the humidity and wind speed in Mandya now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8616,
+      "true_conf": 0.0668
+    },
+    {
+      "text": "What is the humidity and wind speed in Guntur now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8703,
+      "true_conf": 0.0592
+    },
+    {
+      "text": "What is the humidity and wind speed in Sydney now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8254,
+      "true_conf": 0.0935
+    },
+    {
+      "text": "What is the humidity and wind speed in Hyderabad now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7862,
+      "true_conf": 0.1145
+    },
+    {
+      "text": "What is the humidity and wind speed in Raipur now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8436,
+      "true_conf": 0.0773
+    },
+    {
+      "text": "What is the humidity and wind speed in Indore now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8573,
+      "true_conf": 0.0569
+    },
+    {
+      "text": "Who is the current Prime Minister of the United Kingdom right now?",
+      "true": "realtime",
+      "pred": "gk",
+      "conf": 0.8595,
+      "true_conf": 0.1385
+    },
+    {
+      "text": "What is the humidity and wind speed in Rajkot now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7969,
+      "true_conf": 0.1305
+    },
+    {
+      "text": "What is the humidity and wind speed in Karnal now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8344,
+      "true_conf": 0.0649
+    },
+    {
+      "text": "What is the humidity and wind speed in Varanasi now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8116,
+      "true_conf": 0.0842
+    },
+    {
+      "text": "What is the humidity and wind speed in Bhatinda now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8595,
+      "true_conf": 0.0683
+    },
+    {
+      "text": "What is the humidity and wind speed in Meerut now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8181,
+      "true_conf": 0.1044
+    },
+    {
+      "text": "What is the humidity and wind speed in Bhubaneswar now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7474,
+      "true_conf": 0.1535
+    },
+    {
+      "text": "What is the humidity and wind speed in Hapur now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8663,
+      "true_conf": 0.0564
+    },
+    {
+      "text": "What is the humidity and wind speed in Guwahati now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8144,
+      "true_conf": 0.0891
+    },
+    {
+      "text": "What is the humidity and wind speed in Muzaffarnagar now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7267,
+      "true_conf": 0.1817
+    },
+    {
+      "text": "What is the humidity and wind speed in Jodhpur now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8165,
+      "true_conf": 0.1001
+    },
+    {
+      "text": "What is the humidity and wind speed in Patna now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8606,
+      "true_conf": 0.0506
+    },
+    {
+      "text": "What is the humidity and wind speed in Dubai now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8467,
+      "true_conf": 0.0577
+    },
+    {
+      "text": "What is the humidity and wind speed in Ahmedabad now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7912,
+      "true_conf": 0.1199
+    },
+    {
+      "text": "What is the humidity and wind speed in Amritsar now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7936,
+      "true_conf": 0.104
+    },
+    {
+      "text": "What is the humidity and wind speed in Unjha now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8599,
+      "true_conf": 0.0611
+    },
+    {
+      "text": "What is the humidity and wind speed in Visakhapatnam now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.73,
+      "true_conf": 0.1753
+    },
+    {
+      "text": "What is the humidity and wind speed in Lucknow now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8308,
+      "true_conf": 0.0828
+    },
+    {
+      "text": "What is the humidity and wind speed in Warangal now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7949,
+      "true_conf": 0.0815
+    },
+    {
+      "text": "What is the humidity and wind speed in Pune now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8704,
+      "true_conf": 0.0426
+    },
+    {
+      "text": "What is the humidity and wind speed in New York now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.6981,
+      "true_conf": 0.2024
+    },
+    {
+      "text": "What is the humidity and wind speed in Ludhiana now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8063,
+      "true_conf": 0.0948
+    },
+    {
+      "text": "What is the humidity and wind speed in Ranchi now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8224,
+      "true_conf": 0.0582
+    },
+    {
+      "text": "What is the humidity and wind speed in Coimbatore now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8185,
+      "true_conf": 0.0918
+    },
+    {
+      "text": "What is the humidity and wind speed in Gwalior now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.811,
+      "true_conf": 0.0847
+    },
+    {
+      "text": "What is the humidity and wind speed in Kochi now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.842,
+      "true_conf": 0.0567
+    },
+    {
+      "text": "What is the humidity and wind speed in Nashik now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8404,
+      "true_conf": 0.0729
+    },
+    {
+      "text": "What is the humidity and wind speed in Khanna now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8552,
+      "true_conf": 0.0653
+    },
+    {
+      "text": "What is the humidity and wind speed in Chandigarh now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7968,
+      "true_conf": 0.1002
+    },
+    {
+      "text": "What is the humidity and wind speed in Chennai now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8305,
+      "true_conf": 0.0686
+    },
+    {
+      "text": "What is the humidity and wind speed in Kolkata now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8266,
+      "true_conf": 0.0671
+    },
+    {
+      "text": "What is the humidity and wind speed in Kolhapur now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.825,
+      "true_conf": 0.0814
+    },
+    {
+      "text": "What is the humidity and wind speed in Dehradun now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8217,
+      "true_conf": 0.0887
+    },
+    {
+      "text": "What is the humidity and wind speed in Ganganagar now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8183,
+      "true_conf": 0.1001
+    },
+    {
+      "text": "What is the humidity and wind speed in Alwar now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8413,
+      "true_conf": 0.0558
+    },
+    {
+      "text": "What is the humidity and wind speed in Delhi now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7855,
+      "true_conf": 0.0938
+    },
+    {
+      "text": "What is the humidity and wind speed in Singapore now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8343,
+      "true_conf": 0.0754
+    },
+    {
+      "text": "Who is the current President of France in 2026?",
+      "true": "realtime",
+      "pred": "gk",
+      "conf": 0.9894,
+      "true_conf": 0.0065
+    },
+    {
+      "text": "What is the humidity and wind speed in Mandsaur now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8527,
+      "true_conf": 0.0855
+    },
+    {
+      "text": "What is the humidity and wind speed in Surat now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8367,
+      "true_conf": 0.0739
+    },
+    {
+      "text": "What is the humidity and wind speed in Bareilly now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8328,
+      "true_conf": 0.0891
+    },
+    {
+      "text": "What is the humidity and wind speed in San Francisco now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.6319,
+      "true_conf": 0.2738
+    },
+    {
+      "text": "What is the humidity and wind speed in Jaipur now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.835,
+      "true_conf": 0.0704
+    },
+    {
+      "text": "What is the humidity and wind speed in Srinagar now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8122,
+      "true_conf": 0.0887
+    },
+    {
+      "text": "What is the humidity and wind speed in Toronto now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.822,
+      "true_conf": 0.0777
+    },
+    {
+      "text": "What is the humidity and wind speed in Bengaluru now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.7972,
+      "true_conf": 0.1137
+    },
+    {
+      "text": "What is the humidity and wind speed in London now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8639,
+      "true_conf": 0.0556
+    },
+    {
+      "text": "What is the humidity and wind speed in Kota now?",
+      "true": "realtime",
+      "pred": "math",
+      "conf": 0.8695,
+      "true_conf": 0.0468
+    }
+  ],
+  "top_pairs": {
+    "realtime->math": [
+      {
+        "text": "What is the humidity and wind speed in Berlin now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8517,
+        "true_conf": 0.0611
+      },
+      {
+        "text": "What is the humidity and wind speed in Tokyo now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.847,
+        "true_conf": 0.074
+      },
+      {
+        "text": "What is the humidity and wind speed in Paris now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8569,
+        "true_conf": 0.0433
+      },
+      {
+        "text": "What is the humidity and wind speed in Bhopal now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8442,
+        "true_conf": 0.0572
+      },
+      {
+        "text": "What is the humidity and wind speed in Mumbai now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7442,
+        "true_conf": 0.1819
+      },
+      {
+        "text": "What is the humidity and wind speed in Nagpur now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8403,
+        "true_conf": 0.0693
+      },
+      {
+        "text": "What is the humidity and wind speed in Shimla now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8298,
+        "true_conf": 0.0698
+      },
+      {
+        "text": "What is the humidity and wind speed in Mandya now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8616,
+        "true_conf": 0.0668
+      },
+      {
+        "text": "What is the humidity and wind speed in Guntur now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8703,
+        "true_conf": 0.0592
+      },
+      {
+        "text": "What is the humidity and wind speed in Sydney now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8254,
+        "true_conf": 0.0935
+      },
+      {
+        "text": "What is the humidity and wind speed in Hyderabad now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7862,
+        "true_conf": 0.1145
+      },
+      {
+        "text": "What is the humidity and wind speed in Raipur now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8436,
+        "true_conf": 0.0773
+      },
+      {
+        "text": "What is the humidity and wind speed in Indore now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8573,
+        "true_conf": 0.0569
+      },
+      {
+        "text": "What is the humidity and wind speed in Rajkot now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7969,
+        "true_conf": 0.1305
+      },
+      {
+        "text": "What is the humidity and wind speed in Karnal now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8344,
+        "true_conf": 0.0649
+      },
+      {
+        "text": "What is the humidity and wind speed in Varanasi now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8116,
+        "true_conf": 0.0842
+      },
+      {
+        "text": "What is the humidity and wind speed in Bhatinda now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8595,
+        "true_conf": 0.0683
+      },
+      {
+        "text": "What is the humidity and wind speed in Meerut now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8181,
+        "true_conf": 0.1044
+      },
+      {
+        "text": "What is the humidity and wind speed in Bhubaneswar now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7474,
+        "true_conf": 0.1535
+      },
+      {
+        "text": "What is the humidity and wind speed in Hapur now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8663,
+        "true_conf": 0.0564
+      },
+      {
+        "text": "What is the humidity and wind speed in Guwahati now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8144,
+        "true_conf": 0.0891
+      },
+      {
+        "text": "What is the humidity and wind speed in Muzaffarnagar now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7267,
+        "true_conf": 0.1817
+      },
+      {
+        "text": "What is the humidity and wind speed in Jodhpur now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8165,
+        "true_conf": 0.1001
+      },
+      {
+        "text": "What is the humidity and wind speed in Patna now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8606,
+        "true_conf": 0.0506
+      },
+      {
+        "text": "What is the humidity and wind speed in Dubai now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8467,
+        "true_conf": 0.0577
+      },
+      {
+        "text": "What is the humidity and wind speed in Ahmedabad now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7912,
+        "true_conf": 0.1199
+      },
+      {
+        "text": "What is the humidity and wind speed in Amritsar now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7936,
+        "true_conf": 0.104
+      },
+      {
+        "text": "What is the humidity and wind speed in Unjha now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8599,
+        "true_conf": 0.0611
+      },
+      {
+        "text": "What is the humidity and wind speed in Visakhapatnam now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.73,
+        "true_conf": 0.1753
+      },
+      {
+        "text": "What is the humidity and wind speed in Lucknow now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8308,
+        "true_conf": 0.0828
+      },
+      {
+        "text": "What is the humidity and wind speed in Warangal now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7949,
+        "true_conf": 0.0815
+      },
+      {
+        "text": "What is the humidity and wind speed in Pune now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8704,
+        "true_conf": 0.0426
+      },
+      {
+        "text": "What is the humidity and wind speed in New York now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.6981,
+        "true_conf": 0.2024
+      },
+      {
+        "text": "What is the humidity and wind speed in Ludhiana now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8063,
+        "true_conf": 0.0948
+      },
+      {
+        "text": "What is the humidity and wind speed in Ranchi now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8224,
+        "true_conf": 0.0582
+      },
+      {
+        "text": "What is the humidity and wind speed in Coimbatore now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8185,
+        "true_conf": 0.0918
+      },
+      {
+        "text": "What is the humidity and wind speed in Gwalior now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.811,
+        "true_conf": 0.0847
+      },
+      {
+        "text": "What is the humidity and wind speed in Kochi now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.842,
+        "true_conf": 0.0567
+      },
+      {
+        "text": "What is the humidity and wind speed in Nashik now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8404,
+        "true_conf": 0.0729
+      },
+      {
+        "text": "What is the humidity and wind speed in Khanna now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8552,
+        "true_conf": 0.0653
+      },
+      {
+        "text": "What is the humidity and wind speed in Chandigarh now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7968,
+        "true_conf": 0.1002
+      },
+      {
+        "text": "What is the humidity and wind speed in Chennai now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8305,
+        "true_conf": 0.0686
+      },
+      {
+        "text": "What is the humidity and wind speed in Kolkata now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8266,
+        "true_conf": 0.0671
+      },
+      {
+        "text": "What is the humidity and wind speed in Kolhapur now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.825,
+        "true_conf": 0.0814
+      },
+      {
+        "text": "What is the humidity and wind speed in Dehradun now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8217,
+        "true_conf": 0.0887
+      },
+      {
+        "text": "What is the humidity and wind speed in Ganganagar now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8183,
+        "true_conf": 0.1001
+      },
+      {
+        "text": "What is the humidity and wind speed in Alwar now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8413,
+        "true_conf": 0.0558
+      },
+      {
+        "text": "What is the humidity and wind speed in Delhi now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7855,
+        "true_conf": 0.0938
+      },
+      {
+        "text": "What is the humidity and wind speed in Singapore now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8343,
+        "true_conf": 0.0754
+      },
+      {
+        "text": "What is the humidity and wind speed in Mandsaur now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8527,
+        "true_conf": 0.0855
+      },
+      {
+        "text": "What is the humidity and wind speed in Surat now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8367,
+        "true_conf": 0.0739
+      },
+      {
+        "text": "What is the humidity and wind speed in Bareilly now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8328,
+        "true_conf": 0.0891
+      },
+      {
+        "text": "What is the humidity and wind speed in San Francisco now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.6319,
+        "true_conf": 0.2738
+      },
+      {
+        "text": "What is the humidity and wind speed in Jaipur now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.835,
+        "true_conf": 0.0704
+      },
+      {
+        "text": "What is the humidity and wind speed in Srinagar now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8122,
+        "true_conf": 0.0887
+      },
+      {
+        "text": "What is the humidity and wind speed in Toronto now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.822,
+        "true_conf": 0.0777
+      },
+      {
+        "text": "What is the humidity and wind speed in Bengaluru now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.7972,
+        "true_conf": 0.1137
+      },
+      {
+        "text": "What is the humidity and wind speed in London now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8639,
+        "true_conf": 0.0556
+      },
+      {
+        "text": "What is the humidity and wind speed in Kota now?",
+        "true": "realtime",
+        "pred": "math",
+        "conf": 0.8695,
+        "true_conf": 0.0468
+      }
+    ],
+    "agriculture->gk": [
+      {
+        "text": "Prachin Bharat mein krishi ki kya padhhati thi?",
+        "true": "agriculture",
+        "pred": "gk",
+        "conf": 0.9775,
+        "true_conf": 0.0016
+      },
+      {
+        "text": "ICAR ki sthapna kis varsh hui thi?",
+        "true": "agriculture",
+        "pred": "gk",
+        "conf": 0.9931,
+        "true_conf": 0.0017
+      },
+      {
+        "text": "Bharat mein harit kranti ke janak kaun mane jate hain?",
+        "true": "agriculture",
+        "pred": "gk",
+        "conf": 0.9913,
+        "true_conf": 0.0012
+      }
+    ],
+    "agriculture->realtime": [
+      {
+        "text": "Mirch ke paudhe me marodiy rog ka ilaj kya hai?",
+        "true": "agriculture",
+        "pred": "realtime",
+        "conf": 0.9733,
+        "true_conf": 0.0071
+      },
+      {
+        "text": "Aaj mandi me sarso aur chana ka taaza bhav",
+        "true": "agriculture",
+        "pred": "realtime",
+        "conf": 0.8953,
+        "true_conf": 0.1011
+      },
+      {
+        "text": "Current market rate of soybean per quintal in Madhya Pradesh",
+        "true": "agriculture",
+        "pred": "realtime",
+        "conf": 0.9877,
+        "true_conf": 0.0036
+      }
+    ],
+    "realtime->gk": [
+      {
+        "text": "Who is the current Prime Minister of the United Kingdom right now?",
+        "true": "realtime",
+        "pred": "gk",
+        "conf": 0.8595,
+        "true_conf": 0.1385
+      },
+      {
+        "text": "Who is the current President of France in 2026?",
+        "true": "realtime",
+        "pred": "gk",
+        "conf": 0.9894,
+        "true_conf": 0.0065
+      }
+    ],
+    "out_of_scope->agriculture": [
+      {
+        "text": "What are the benefits of eating almonds?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6101,
+        "true_conf": 0.0024
+      },
+      {
+        "text": "What are the benefits of eating turmeric?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6465,
+        "true_conf": 0.0037
+      },
+      {
+        "text": "What are the benefits of eating blueberries?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6347,
+        "true_conf": 0.0077
+      },
+      {
+        "text": "What are the benefits of eating sweet potato?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.5227,
+        "true_conf": 0.0028
+      },
+      {
+        "text": "What are the benefits of eating quinoa?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6243,
+        "true_conf": 0.0035
+      },
+      {
+        "text": "Sir dard aur bukhar ke liye konsi tablet lu?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.4752,
+        "true_conf": 0.0063
+      },
+      {
+        "text": "What are the benefits of eating walnuts?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6473,
+        "true_conf": 0.0065
+      },
+      {
+        "text": "Delhi se manali jane ka sabse accha route",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.5806,
+        "true_conf": 0.0082
+      },
+      {
+        "text": "What are the benefits of eating yogurt?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.5533,
+        "true_conf": 0.0017
+      },
+      {
+        "text": "What are the benefits of eating green tea?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.7586,
+        "true_conf": 0.0061
+      },
+      {
+        "text": "What are the benefits of eating spinach?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6464,
+        "true_conf": 0.0047
+      },
+      {
+        "text": "Goa ke best tourist spots aur hotel booking",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.8409,
+        "true_conf": 0.1481
+      },
+      {
+        "text": "What are the benefits of eating lentils?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.639,
+        "true_conf": 0.0025
+      },
+      {
+        "text": "What are the benefits of eating avocado?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6178,
+        "true_conf": 0.0033
+      },
+      {
+        "text": "What are the benefits of eating oats?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.5251,
+        "true_conf": 0.0019
+      },
+      {
+        "text": "What are the benefits of eating broccoli?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6375,
+        "true_conf": 0.0042
+      },
+      {
+        "text": "What are the benefits of eating salmon?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6313,
+        "true_conf": 0.0018
+      },
+      {
+        "text": "What are the symptoms and home remedies for migraine headache?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.4948,
+        "true_conf": 0.0652
+      },
+      {
+        "text": "Bukhar sirdard jukam khansi ki dawai tablet ya syrup",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.4643,
+        "true_conf": 0.07
+      },
+      {
+        "text": "What are the benefits of eating garlic?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.6265,
+        "true_conf": 0.002
+      },
+      {
+        "text": "What is the best itinerary for a 5-day trip to Paris?",
+        "true": "out_of_scope",
+        "pred": "agriculture",
+        "conf": 0.8964,
+        "true_conf": 0.0369
+      }
+    ],
+    "crop_recommendation->agriculture": [
+      {
+        "text": "Which crop is suitable for spring season?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9745,
+        "true_conf": 0.0091
+      },
+      {
+        "text": "Which crop is suitable for kharif season?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9671,
+        "true_conf": 0.0172
+      },
+      {
+        "text": "Which crop is suitable for monsoon season?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9721,
+        "true_conf": 0.0106
+      },
+      {
+        "text": "Which crop is suitable for rabi season?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9655,
+        "true_conf": 0.0153
+      },
+      {
+        "text": "Which crop is suitable for summer season?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9738,
+        "true_conf": 0.0094
+      },
+      {
+        "text": "Kali mitti me gehu ugaya ja sakta hai kya?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.5503,
+        "true_conf": 0.1604
+      },
+      {
+        "text": "Balui mitti ke liye kisan ko konsa anaj bona chahiye?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.4955,
+        "true_conf": 0.3742
+      },
+      {
+        "text": "Best crop recommendation for winter rabi season",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.972,
+        "true_conf": 0.0085
+      },
+      {
+        "text": "Which crop is suitable for zaid season?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9723,
+        "true_conf": 0.01
+      },
+      {
+        "text": "Which crop is suitable for autumn season?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9709,
+        "true_conf": 0.0127
+      },
+      {
+        "text": "Which crop is suitable for winter season?",
+        "true": "crop_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9717,
+        "true_conf": 0.0104
+      }
+    ],
+    "crop_recommendation->gk": [
+      {
+        "text": "Chana aur matar ki kheti ke liye kaun sa mausam behtar hai?",
+        "true": "crop_recommendation",
+        "pred": "gk",
+        "conf": 0.4324,
+        "true_conf": 0.2615
+      }
+    ],
+    "out_of_scope->realtime": [
+      {
+        "text": "Flight ticket cancellation policy kya hai?",
+        "true": "out_of_scope",
+        "pred": "realtime",
+        "conf": 0.9721,
+        "true_conf": 0.0077
+      }
+    ],
+    "crop_recommendation->realtime": [
+      {
+        "text": "Zaid ke mausam me tarbooz kharbuja bona kaisa rahega?",
+        "true": "crop_recommendation",
+        "pred": "realtime",
+        "conf": 0.9432,
+        "true_conf": 0.0024
+      }
+    ],
+    "agriculture->out_of_scope": [
+      {
+        "text": "Ganne me red rot rog ka lakshan aur roktham",
+        "true": "agriculture",
+        "pred": "out_of_scope",
+        "conf": 0.4641,
+        "true_conf": 0.2197
+      }
+    ],
+    "fertilizer_recommendation->agriculture": [
+      {
+        "text": "Alu ke khet me DAP kitna dalna sahi rahega?",
+        "true": "fertilizer_recommendation",
+        "pred": "agriculture",
+        "conf": 0.9779,
+        "true_conf": 0.0039
+      }
+    ],
+    "out_of_scope->gk": [
+      {
+        "text": "Which antibiotic is prescribed for bacterial throat infection?",
+        "true": "out_of_scope",
+        "pred": "gk",
+        "conf": 0.7728,
+        "true_conf": 0.1803
+      }
+    ],
+    "conversation->gk": [
+      {
+        "text": "Aapka developer kaun hai?",
+        "true": "conversation",
+        "pred": "gk",
+        "conf": 0.6938,
+        "true_conf": 0.2417
+      }
+    ],
+    "out_of_scope->math": [
+      {
+        "text": "What is Blockchain?",
+        "true": "out_of_scope",
+        "pred": "math",
+        "conf": 0.6273,
+        "true_conf": 0.3669
+      }
+    ],
+    "agriculture->crop_recommendation": [
+      {
+        "text": "Methods for rainwater harvesting in dryland farming",
+        "true": "agriculture",
+        "pred": "crop_recommendation",
+        "conf": 0.3518,
+        "true_conf": 0.3306
+      }
+    ],
+    "math->out_of_scope": [
+      {
+        "text": "Ek dukandar 200 ki vastu 250 me bechta hai to labh pratishat batao",
+        "true": "math",
+        "pred": "out_of_scope",
+        "conf": 0.5403,
+        "true_conf": 0.3877
+      }
+    ],
+    "agriculture->fertilizer_recommendation": [
+      {
+        "text": "Kharpatwarnashi dawa ka chhidkaw kab kare?",
+        "true": "agriculture",
+        "pred": "fertilizer_recommendation",
+        "conf": 0.6614,
+        "true_conf": 0.3217
+      }
+    ],
+    "out_of_scope->fertilizer_recommendation": [
+      {
+        "text": "Knee pain ke liye doctor se kab mile?",
+        "true": "out_of_scope",
+        "pred": "fertilizer_recommendation",
+        "conf": 0.347,
+        "true_conf": 0.0021
+      }
+    ],
+    "conversation->realtime": [
+      {
+        "text": "Aapka naam kya hai?",
+        "true": "conversation",
+        "pred": "realtime",
+        "conf": 0.9472,
+        "true_conf": 0.0438
+      }
+    ],
+    "out_of_scope->crop_recommendation": [
+      {
+        "text": "Dard nivarak goli konsi leni chahiye?",
+        "true": "out_of_scope",
+        "pred": "crop_recommendation",
+        "conf": 0.8676,
+        "true_conf": 0.0434
+      }
+    ],
+    "gk->realtime": [
+      {
+        "text": "What was the exchange rate of Indian rupee against US dollar in 1947?",
+        "true": "gk",
+        "pred": "realtime",
+        "conf": 0.8672,
+        "true_conf": 0.1287
+      }
+    ]
+  }
+}

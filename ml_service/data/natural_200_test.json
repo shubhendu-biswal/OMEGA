@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "natural_pct_1",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $40. A sales tax of 5% is added to the bill, and the customer also leaves a tip equal to 10% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 40 * 5% = 2.0. Tip = 40 * 10% = 4.0. Total = 40 + 2.0 + 4.0 = 46.0.",
+    "ground_truth": "46"
+  },
+  {
+    "id": "natural_pct_2",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $55. A sales tax of 6% is added to the bill, and the customer also leaves a tip equal to 12% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 55 * 6% = 3.3. Tip = 55 * 12% = 6.6. Total = 55 + 3.3 + 6.6 = 64.9.",
+    "ground_truth": "64.9"
+  },
+  {
+    "id": "natural_pct_3",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $70. A sales tax of 7% is added to the bill, and the customer also leaves a tip equal to 14% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 70 * 7% = 4.9. Tip = 70 * 14% = 9.8. Total = 70 + 4.9 + 9.8 = 84.7.",
+    "ground_truth": "84.7"
+  },
+  {
+    "id": "natural_pct_4",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $85. A sales tax of 8% is added to the bill, and the customer also leaves a tip equal to 16% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 85 * 8% = 6.8. Tip = 85 * 16% = 13.6. Total = 85 + 6.8 + 13.6 = 105.4.",
+    "ground_truth": "105.4"
+  },
+  {
+    "id": "natural_pct_5",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $100. A sales tax of 9% is added to the bill, and the customer also leaves a tip equal to 18% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 100 * 9% = 9.0. Tip = 100 * 18% = 18.0. Total = 100 + 9.0 + 18.0 = 127.0.",
+    "ground_truth": "127"
+  },
+  {
+    "id": "natural_pct_6",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $115. A sales tax of 10% is added to the bill, and the customer also leaves a tip equal to 20% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 115 * 10% = 11.5. Tip = 115 * 20% = 23.0. Total = 115 + 11.5 + 23.0 = 149.5.",
+    "ground_truth": "149.5"
+  },
+  {
+    "id": "natural_pct_7",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $130. A sales tax of 11% is added to the bill, and the customer also leaves a tip equal to 22% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 130 * 11% = 14.3. Tip = 130 * 22% = 28.6. Total = 130 + 14.3 + 28.6 = 172.9.",
+    "ground_truth": "172.9"
+  },
+  {
+    "id": "natural_pct_8",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $145. A sales tax of 12% is added to the bill, and the customer also leaves a tip equal to 24% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 145 * 12% = 17.4. Tip = 145 * 24% = 34.8. Total = 145 + 17.4 + 34.8 = 197.2.",
+    "ground_truth": "197.2"
+  },
+  {
+    "id": "natural_pct_9",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $160. A sales tax of 13% is added to the bill, and the customer also leaves a tip equal to 11% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 160 * 13% = 20.8. Tip = 160 * 11% = 17.6. Total = 160 + 20.8 + 17.6 = 198.4.",
+    "ground_truth": "198.4"
+  },
+  {
+    "id": "natural_pct_10",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $175. A sales tax of 14% is added to the bill, and the customer also leaves a tip equal to 13% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 175 * 14% = 24.500000000000004. Tip = 175 * 13% = 22.75. Total = 175 + 24.500000000000004 + 22.75 = 222.25.",
+    "ground_truth": "222.25"
+  },
+  {
+    "id": "natural_pct_11",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $190. A sales tax of 5% is added to the bill, and the customer also leaves a tip equal to 15% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 190 * 5% = 9.5. Tip = 190 * 15% = 28.5. Total = 190 + 9.5 + 28.5 = 228.0.",
+    "ground_truth": "228"
+  },
+  {
+    "id": "natural_pct_12",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $205. A sales tax of 6% is added to the bill, and the customer also leaves a tip equal to 17% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 205 * 6% = 12.299999999999999. Tip = 205 * 17% = 34.85. Total = 205 + 12.299999999999999 + 34.85 = 252.15.",
+    "ground_truth": "252.15"
+  },
+  {
+    "id": "natural_pct_13",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $220. A sales tax of 7% is added to the bill, and the customer also leaves a tip equal to 19% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 220 * 7% = 15.400000000000002. Tip = 220 * 19% = 41.8. Total = 220 + 15.400000000000002 + 41.8 = 277.2.",
+    "ground_truth": "277.2"
+  },
+  {
+    "id": "natural_pct_14",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $235. A sales tax of 8% is added to the bill, and the customer also leaves a tip equal to 21% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 235 * 8% = 18.8. Tip = 235 * 21% = 49.35. Total = 235 + 18.8 + 49.35 = 303.15.",
+    "ground_truth": "303.15"
+  },
+  {
+    "id": "natural_pct_15",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $250. A sales tax of 9% is added to the bill, and the customer also leaves a tip equal to 23% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 250 * 9% = 22.5. Tip = 250 * 23% = 57.5. Total = 250 + 22.5 + 57.5 = 330.0.",
+    "ground_truth": "330"
+  },
+  {
+    "id": "natural_pct_16",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $265. A sales tax of 10% is added to the bill, and the customer also leaves a tip equal to 10% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 265 * 10% = 26.5. Tip = 265 * 10% = 26.5. Total = 265 + 26.5 + 26.5 = 318.0.",
+    "ground_truth": "318"
+  },
+  {
+    "id": "natural_pct_17",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $280. A sales tax of 11% is added to the bill, and the customer also leaves a tip equal to 12% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 280 * 11% = 30.8. Tip = 280 * 12% = 33.6. Total = 280 + 30.8 + 33.6 = 344.4.",
+    "ground_truth": "344.4"
+  },
+  {
+    "id": "natural_pct_18",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $295. A sales tax of 12% is added to the bill, and the customer also leaves a tip equal to 14% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 295 * 12% = 35.4. Tip = 295 * 14% = 41.300000000000004. Total = 295 + 35.4 + 41.300000000000004 = 371.7.",
+    "ground_truth": "371.7"
+  },
+  {
+    "id": "natural_pct_19",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $310. A sales tax of 13% is added to the bill, and the customer also leaves a tip equal to 16% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 310 * 13% = 40.300000000000004. Tip = 310 * 16% = 49.6. Total = 310 + 40.300000000000004 + 49.6 = 399.9.",
+    "ground_truth": "399.9"
+  },
+  {
+    "id": "natural_pct_20",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $325. A sales tax of 14% is added to the bill, and the customer also leaves a tip equal to 18% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 325 * 14% = 45.50000000000001. Tip = 325 * 18% = 58.5. Total = 325 + 45.50000000000001 + 58.5 = 429.0.",
+    "ground_truth": "429"
+  },
+  {
+    "id": "natural_pct_21",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $340. A sales tax of 5% is added to the bill, and the customer also leaves a tip equal to 20% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 340 * 5% = 17.0. Tip = 340 * 20% = 68.0. Total = 340 + 17.0 + 68.0 = 425.0.",
+    "ground_truth": "425"
+  },
+  {
+    "id": "natural_pct_22",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $355. A sales tax of 6% is added to the bill, and the customer also leaves a tip equal to 22% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 355 * 6% = 21.3. Tip = 355 * 22% = 78.1. Total = 355 + 21.3 + 78.1 = 454.4.",
+    "ground_truth": "454.4"
+  },
+  {
+    "id": "natural_pct_23",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $370. A sales tax of 7% is added to the bill, and the customer also leaves a tip equal to 24% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 370 * 7% = 25.900000000000002. Tip = 370 * 24% = 88.8. Total = 370 + 25.900000000000002 + 88.8 = 484.7.",
+    "ground_truth": "484.7"
+  },
+  {
+    "id": "natural_pct_24",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $385. A sales tax of 8% is added to the bill, and the customer also leaves a tip equal to 11% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 385 * 8% = 30.8. Tip = 385 * 11% = 42.35. Total = 385 + 30.8 + 42.35 = 458.15.",
+    "ground_truth": "458.15"
+  },
+  {
+    "id": "natural_pct_25",
+    "category": "Percentages & Consumer Math",
+    "question": "A restaurant bill comes to $400. A sales tax of 9% is added to the bill, and the customer also leaves a tip equal to 13% of the original bill. What is the total amount paid in dollars?",
+    "solution": "Tax = 400 * 9% = 36.0. Tip = 400 * 13% = 52.0. Total = 400 + 36.0 + 52.0 = 488.0.",
+    "ground_truth": "488"
+  },
+  {
+    "id": "natural_profit_1",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $100 and marks up the price by 20%. If the merchant then offers a discount of 10% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 100 * (1 + 20/100) = 120.0. Selling Price = 120.0 * (1 - 10/100) = 108.0. Profit = 108.0 - 100 = 8.0.",
+    "ground_truth": "8"
+  },
+  {
+    "id": "natural_profit_2",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $120 and marks up the price by 21%. If the merchant then offers a discount of 11% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 120 * (1 + 21/100) = 145.2. Selling Price = 145.2 * (1 - 11/100) = 129.23. Profit = 129.23 - 120 = 9.23.",
+    "ground_truth": "9.23"
+  },
+  {
+    "id": "natural_profit_3",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $140 and marks up the price by 22%. If the merchant then offers a discount of 12% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 140 * (1 + 22/100) = 170.79999999999998. Selling Price = 170.79999999999998 * (1 - 12/100) = 150.3. Profit = 150.3 - 140 = 10.3.",
+    "ground_truth": "10.3"
+  },
+  {
+    "id": "natural_profit_4",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $160 and marks up the price by 23%. If the merchant then offers a discount of 13% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 160 * (1 + 23/100) = 196.8. Selling Price = 196.8 * (1 - 13/100) = 171.22. Profit = 171.22 - 160 = 11.22.",
+    "ground_truth": "11.22"
+  },
+  {
+    "id": "natural_profit_5",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $180 and marks up the price by 24%. If the merchant then offers a discount of 14% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 180 * (1 + 24/100) = 223.2. Selling Price = 223.2 * (1 - 14/100) = 191.95. Profit = 191.95 - 180 = 11.95.",
+    "ground_truth": "11.95"
+  },
+  {
+    "id": "natural_profit_6",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $200 and marks up the price by 25%. If the merchant then offers a discount of 15% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 200 * (1 + 25/100) = 250.0. Selling Price = 250.0 * (1 - 15/100) = 212.5. Profit = 212.5 - 200 = 12.5.",
+    "ground_truth": "12.5"
+  },
+  {
+    "id": "natural_profit_7",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $220 and marks up the price by 26%. If the merchant then offers a discount of 16% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 220 * (1 + 26/100) = 277.2. Selling Price = 277.2 * (1 - 16/100) = 232.85. Profit = 232.85 - 220 = 12.85.",
+    "ground_truth": "12.85"
+  },
+  {
+    "id": "natural_profit_8",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $240 and marks up the price by 27%. If the merchant then offers a discount of 17% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 240 * (1 + 27/100) = 304.8. Selling Price = 304.8 * (1 - 17/100) = 252.98. Profit = 252.98 - 240 = 12.98.",
+    "ground_truth": "12.98"
+  },
+  {
+    "id": "natural_profit_9",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $260 and marks up the price by 28%. If the merchant then offers a discount of 18% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 260 * (1 + 28/100) = 332.8. Selling Price = 332.8 * (1 - 18/100) = 272.9. Profit = 272.9 - 260 = 12.9.",
+    "ground_truth": "12.9"
+  },
+  {
+    "id": "natural_profit_10",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $280 and marks up the price by 29%. If the merchant then offers a discount of 19% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 280 * (1 + 29/100) = 361.2. Selling Price = 361.2 * (1 - 19/100) = 292.57. Profit = 292.57 - 280 = 12.57.",
+    "ground_truth": "12.57"
+  },
+  {
+    "id": "natural_profit_11",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $300 and marks up the price by 30%. If the merchant then offers a discount of 20% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 300 * (1 + 30/100) = 390.0. Selling Price = 390.0 * (1 - 20/100) = 312.0. Profit = 312.0 - 300 = 12.0.",
+    "ground_truth": "12"
+  },
+  {
+    "id": "natural_profit_12",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $320 and marks up the price by 31%. If the merchant then offers a discount of 21% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 320 * (1 + 31/100) = 419.20000000000005. Selling Price = 419.20000000000005 * (1 - 21/100) = 331.17. Profit = 331.17 - 320 = 11.17.",
+    "ground_truth": "11.17"
+  },
+  {
+    "id": "natural_profit_13",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $340 and marks up the price by 32%. If the merchant then offers a discount of 22% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 340 * (1 + 32/100) = 448.8. Selling Price = 448.8 * (1 - 22/100) = 350.06. Profit = 350.06 - 340 = 10.06.",
+    "ground_truth": "10.06"
+  },
+  {
+    "id": "natural_profit_14",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $360 and marks up the price by 33%. If the merchant then offers a discount of 23% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 360 * (1 + 33/100) = 478.8. Selling Price = 478.8 * (1 - 23/100) = 368.68. Profit = 368.68 - 360 = 8.68.",
+    "ground_truth": "8.68"
+  },
+  {
+    "id": "natural_profit_15",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $380 and marks up the price by 34%. If the merchant then offers a discount of 24% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 380 * (1 + 34/100) = 509.20000000000005. Selling Price = 509.20000000000005 * (1 - 24/100) = 386.99. Profit = 386.99 - 380 = 6.99.",
+    "ground_truth": "6.99"
+  },
+  {
+    "id": "natural_profit_16",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $400 and marks up the price by 35%. If the merchant then offers a discount of 10% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 400 * (1 + 35/100) = 540.0. Selling Price = 540.0 * (1 - 10/100) = 486.0. Profit = 486.0 - 400 = 86.0.",
+    "ground_truth": "86"
+  },
+  {
+    "id": "natural_profit_17",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $420 and marks up the price by 36%. If the merchant then offers a discount of 11% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 420 * (1 + 36/100) = 571.1999999999999. Selling Price = 571.1999999999999 * (1 - 11/100) = 508.37. Profit = 508.37 - 420 = 88.37.",
+    "ground_truth": "88.37"
+  },
+  {
+    "id": "natural_profit_18",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $440 and marks up the price by 37%. If the merchant then offers a discount of 12% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 440 * (1 + 37/100) = 602.8000000000001. Selling Price = 602.8000000000001 * (1 - 12/100) = 530.46. Profit = 530.46 - 440 = 90.46.",
+    "ground_truth": "90.46"
+  },
+  {
+    "id": "natural_profit_19",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $460 and marks up the price by 38%. If the merchant then offers a discount of 13% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 460 * (1 + 38/100) = 634.8. Selling Price = 634.8 * (1 - 13/100) = 552.28. Profit = 552.28 - 460 = 92.28.",
+    "ground_truth": "92.28"
+  },
+  {
+    "id": "natural_profit_20",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $480 and marks up the price by 39%. If the merchant then offers a discount of 14% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 480 * (1 + 39/100) = 667.2. Selling Price = 667.2 * (1 - 14/100) = 573.79. Profit = 573.79 - 480 = 93.79.",
+    "ground_truth": "93.79"
+  },
+  {
+    "id": "natural_profit_21",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $500 and marks up the price by 40%. If the merchant then offers a discount of 15% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 500 * (1 + 40/100) = 700.0. Selling Price = 700.0 * (1 - 15/100) = 595.0. Profit = 595.0 - 500 = 95.0.",
+    "ground_truth": "95"
+  },
+  {
+    "id": "natural_profit_22",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $520 and marks up the price by 41%. If the merchant then offers a discount of 16% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 520 * (1 + 41/100) = 733.1999999999999. Selling Price = 733.1999999999999 * (1 - 16/100) = 615.89. Profit = 615.89 - 520 = 95.89.",
+    "ground_truth": "95.89"
+  },
+  {
+    "id": "natural_profit_23",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $540 and marks up the price by 42%. If the merchant then offers a discount of 17% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 540 * (1 + 42/100) = 766.8. Selling Price = 766.8 * (1 - 17/100) = 636.44. Profit = 636.44 - 540 = 96.44.",
+    "ground_truth": "96.44"
+  },
+  {
+    "id": "natural_profit_24",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $560 and marks up the price by 43%. If the merchant then offers a discount of 18% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 560 * (1 + 43/100) = 800.8. Selling Price = 800.8 * (1 - 18/100) = 656.66. Profit = 656.66 - 560 = 96.66.",
+    "ground_truth": "96.66"
+  },
+  {
+    "id": "natural_profit_25",
+    "category": "Profit & Loss",
+    "question": "A merchant buys an item for $580 and marks up the price by 44%. If the merchant then offers a discount of 19% on the marked price, what is the merchant's net profit in dollars?",
+    "solution": "Marked Price = 580 * (1 + 44/100) = 835.1999999999999. Selling Price = 835.1999999999999 * (1 - 19/100) = 676.51. Profit = 676.51 - 580 = 96.51.",
+    "ground_truth": "96.51"
+  },
+  {
+    "id": "natural_interest_1",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $1000 at an annual interest rate of 4% for 2 years.",
+    "solution": "SI = (P * R * T) / 100 = (1000 * 4 * 2) / 100 = 80.",
+    "ground_truth": "80"
+  },
+  {
+    "id": "natural_interest_2",
+    "category": "Interest",
+    "question": "An investor deposits $1500 into an account paying 5% interest compounded annually. How much interest is earned after 3 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 1500 * (1 + 5/100)^3 = 1736.44. Interest = 1736.44 - 1500 = 236.44.",
+    "ground_truth": "236.44"
+  },
+  {
+    "id": "natural_interest_3",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $2000 at an annual interest rate of 6% for 4 years.",
+    "solution": "SI = (P * R * T) / 100 = (2000 * 6 * 4) / 100 = 480.",
+    "ground_truth": "480"
+  },
+  {
+    "id": "natural_interest_4",
+    "category": "Interest",
+    "question": "An investor deposits $2500 into an account paying 7% interest compounded annually. How much interest is earned after 5 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 2500 * (1 + 7/100)^5 = 3506.38. Interest = 3506.38 - 2500 = 1006.38.",
+    "ground_truth": "1006.38"
+  },
+  {
+    "id": "natural_interest_5",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $3000 at an annual interest rate of 8% for 2 years.",
+    "solution": "SI = (P * R * T) / 100 = (3000 * 8 * 2) / 100 = 480.",
+    "ground_truth": "480"
+  },
+  {
+    "id": "natural_interest_6",
+    "category": "Interest",
+    "question": "An investor deposits $3500 into an account paying 9% interest compounded annually. How much interest is earned after 3 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 3500 * (1 + 9/100)^3 = 4532.6. Interest = 4532.6 - 3500 = 1032.6.",
+    "ground_truth": "1032.6"
+  },
+  {
+    "id": "natural_interest_7",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $4000 at an annual interest rate of 4% for 4 years.",
+    "solution": "SI = (P * R * T) / 100 = (4000 * 4 * 4) / 100 = 640.",
+    "ground_truth": "640"
+  },
+  {
+    "id": "natural_interest_8",
+    "category": "Interest",
+    "question": "An investor deposits $4500 into an account paying 5% interest compounded annually. How much interest is earned after 5 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 4500 * (1 + 5/100)^5 = 5743.27. Interest = 5743.27 - 4500 = 1243.27.",
+    "ground_truth": "1243.27"
+  },
+  {
+    "id": "natural_interest_9",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $5000 at an annual interest rate of 6% for 2 years.",
+    "solution": "SI = (P * R * T) / 100 = (5000 * 6 * 2) / 100 = 600.",
+    "ground_truth": "600"
+  },
+  {
+    "id": "natural_interest_10",
+    "category": "Interest",
+    "question": "An investor deposits $5500 into an account paying 7% interest compounded annually. How much interest is earned after 3 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 5500 * (1 + 7/100)^3 = 6737.74. Interest = 6737.74 - 5500 = 1237.74.",
+    "ground_truth": "1237.74"
+  },
+  {
+    "id": "natural_interest_11",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $6000 at an annual interest rate of 8% for 4 years.",
+    "solution": "SI = (P * R * T) / 100 = (6000 * 8 * 4) / 100 = 1920.",
+    "ground_truth": "1920"
+  },
+  {
+    "id": "natural_interest_12",
+    "category": "Interest",
+    "question": "An investor deposits $6500 into an account paying 9% interest compounded annually. How much interest is earned after 5 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 6500 * (1 + 9/100)^5 = 10001.06. Interest = 10001.06 - 6500 = 3501.06.",
+    "ground_truth": "3501.06"
+  },
+  {
+    "id": "natural_interest_13",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $7000 at an annual interest rate of 4% for 2 years.",
+    "solution": "SI = (P * R * T) / 100 = (7000 * 4 * 2) / 100 = 560.",
+    "ground_truth": "560"
+  },
+  {
+    "id": "natural_interest_14",
+    "category": "Interest",
+    "question": "An investor deposits $7500 into an account paying 5% interest compounded annually. How much interest is earned after 3 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 7500 * (1 + 5/100)^3 = 8682.19. Interest = 8682.19 - 7500 = 1182.19.",
+    "ground_truth": "1182.19"
+  },
+  {
+    "id": "natural_interest_15",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $8000 at an annual interest rate of 6% for 4 years.",
+    "solution": "SI = (P * R * T) / 100 = (8000 * 6 * 4) / 100 = 1920.",
+    "ground_truth": "1920"
+  },
+  {
+    "id": "natural_interest_16",
+    "category": "Interest",
+    "question": "An investor deposits $8500 into an account paying 7% interest compounded annually. How much interest is earned after 5 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 8500 * (1 + 7/100)^5 = 11921.69. Interest = 11921.69 - 8500 = 3421.69.",
+    "ground_truth": "3421.69"
+  },
+  {
+    "id": "natural_interest_17",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $9000 at an annual interest rate of 8% for 2 years.",
+    "solution": "SI = (P * R * T) / 100 = (9000 * 8 * 2) / 100 = 1440.",
+    "ground_truth": "1440"
+  },
+  {
+    "id": "natural_interest_18",
+    "category": "Interest",
+    "question": "An investor deposits $9500 into an account paying 9% interest compounded annually. How much interest is earned after 3 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 9500 * (1 + 9/100)^3 = 12302.78. Interest = 12302.78 - 9500 = 2802.78.",
+    "ground_truth": "2802.78"
+  },
+  {
+    "id": "natural_interest_19",
+    "category": "Interest",
+    "question": "Calculate the simple interest on an investment of $10000 at an annual interest rate of 4% for 4 years.",
+    "solution": "SI = (P * R * T) / 100 = (10000 * 4 * 4) / 100 = 1600.",
+    "ground_truth": "1600"
+  },
+  {
+    "id": "natural_interest_20",
+    "category": "Interest",
+    "question": "An investor deposits $10500 into an account paying 5% interest compounded annually. How much interest is earned after 5 years? (Round to 2 decimal places if needed)",
+    "solution": "Amount = 10500 * (1 + 5/100)^5 = 13400.96. Interest = 13400.96 - 10500 = 2900.96.",
+    "ground_truth": "2900.96"
+  },
+  {
+    "id": "natural_speed_1",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 40 km/h, taking 2 hours. On the return trip along the same route, the driver increases their speed to 50 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 40 * 2 = 80 km. Return time = 80 / 50 = 1.6 hours.",
+    "ground_truth": "1.6"
+  },
+  {
+    "id": "natural_speed_2",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 42 km/h, taking 3 hours. On the return trip along the same route, the driver increases their speed to 52 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 42 * 3 = 126 km. Return time = 126 / 52 = 2.42 hours.",
+    "ground_truth": "2.42"
+  },
+  {
+    "id": "natural_speed_3",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 44 km/h, taking 4 hours. On the return trip along the same route, the driver increases their speed to 54 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 44 * 4 = 176 km. Return time = 176 / 54 = 3.26 hours.",
+    "ground_truth": "3.26"
+  },
+  {
+    "id": "natural_speed_4",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 46 km/h, taking 5 hours. On the return trip along the same route, the driver increases their speed to 56 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 46 * 5 = 230 km. Return time = 230 / 56 = 4.11 hours.",
+    "ground_truth": "4.11"
+  },
+  {
+    "id": "natural_speed_5",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 48 km/h, taking 6 hours. On the return trip along the same route, the driver increases their speed to 58 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 48 * 6 = 288 km. Return time = 288 / 58 = 4.97 hours.",
+    "ground_truth": "4.97"
+  },
+  {
+    "id": "natural_speed_6",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 50 km/h, taking 2 hours. On the return trip along the same route, the driver increases their speed to 60 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 50 * 2 = 100 km. Return time = 100 / 60 = 1.67 hours.",
+    "ground_truth": "1.67"
+  },
+  {
+    "id": "natural_speed_7",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 52 km/h, taking 3 hours. On the return trip along the same route, the driver increases their speed to 62 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 52 * 3 = 156 km. Return time = 156 / 62 = 2.52 hours.",
+    "ground_truth": "2.52"
+  },
+  {
+    "id": "natural_speed_8",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 54 km/h, taking 4 hours. On the return trip along the same route, the driver increases their speed to 64 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 54 * 4 = 216 km. Return time = 216 / 64 = 3.38 hours.",
+    "ground_truth": "3.38"
+  },
+  {
+    "id": "natural_speed_9",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 56 km/h, taking 5 hours. On the return trip along the same route, the driver increases their speed to 66 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 56 * 5 = 280 km. Return time = 280 / 66 = 4.24 hours.",
+    "ground_truth": "4.24"
+  },
+  {
+    "id": "natural_speed_10",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 58 km/h, taking 6 hours. On the return trip along the same route, the driver increases their speed to 68 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 58 * 6 = 348 km. Return time = 348 / 68 = 5.12 hours.",
+    "ground_truth": "5.12"
+  },
+  {
+    "id": "natural_speed_11",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 60 km/h, taking 2 hours. On the return trip along the same route, the driver increases their speed to 70 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 60 * 2 = 120 km. Return time = 120 / 70 = 1.71 hours.",
+    "ground_truth": "1.71"
+  },
+  {
+    "id": "natural_speed_12",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 62 km/h, taking 3 hours. On the return trip along the same route, the driver increases their speed to 72 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 62 * 3 = 186 km. Return time = 186 / 72 = 2.58 hours.",
+    "ground_truth": "2.58"
+  },
+  {
+    "id": "natural_speed_13",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 64 km/h, taking 4 hours. On the return trip along the same route, the driver increases their speed to 74 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 64 * 4 = 256 km. Return time = 256 / 74 = 3.46 hours.",
+    "ground_truth": "3.46"
+  },
+  {
+    "id": "natural_speed_14",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 66 km/h, taking 5 hours. On the return trip along the same route, the driver increases their speed to 76 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 66 * 5 = 330 km. Return time = 330 / 76 = 4.34 hours.",
+    "ground_truth": "4.34"
+  },
+  {
+    "id": "natural_speed_15",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 68 km/h, taking 6 hours. On the return trip along the same route, the driver increases their speed to 78 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 68 * 6 = 408 km. Return time = 408 / 78 = 5.23 hours.",
+    "ground_truth": "5.23"
+  },
+  {
+    "id": "natural_speed_16",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 70 km/h, taking 2 hours. On the return trip along the same route, the driver increases their speed to 80 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 70 * 2 = 140 km. Return time = 140 / 80 = 1.75 hours.",
+    "ground_truth": "1.75"
+  },
+  {
+    "id": "natural_speed_17",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 72 km/h, taking 3 hours. On the return trip along the same route, the driver increases their speed to 82 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 72 * 3 = 216 km. Return time = 216 / 82 = 2.63 hours.",
+    "ground_truth": "2.63"
+  },
+  {
+    "id": "natural_speed_18",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 74 km/h, taking 4 hours. On the return trip along the same route, the driver increases their speed to 84 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 74 * 4 = 296 km. Return time = 296 / 84 = 3.52 hours.",
+    "ground_truth": "3.52"
+  },
+  {
+    "id": "natural_speed_19",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 76 km/h, taking 5 hours. On the return trip along the same route, the driver increases their speed to 86 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 76 * 5 = 380 km. Return time = 380 / 86 = 4.42 hours.",
+    "ground_truth": "4.42"
+  },
+  {
+    "id": "natural_speed_20",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 78 km/h, taking 6 hours. On the return trip along the same route, the driver increases their speed to 88 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 78 * 6 = 468 km. Return time = 468 / 88 = 5.32 hours.",
+    "ground_truth": "5.32"
+  },
+  {
+    "id": "natural_speed_21",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 80 km/h, taking 2 hours. On the return trip along the same route, the driver increases their speed to 90 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 80 * 2 = 160 km. Return time = 160 / 90 = 1.78 hours.",
+    "ground_truth": "1.78"
+  },
+  {
+    "id": "natural_speed_22",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 82 km/h, taking 3 hours. On the return trip along the same route, the driver increases their speed to 92 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 82 * 3 = 246 km. Return time = 246 / 92 = 2.67 hours.",
+    "ground_truth": "2.67"
+  },
+  {
+    "id": "natural_speed_23",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 84 km/h, taking 4 hours. On the return trip along the same route, the driver increases their speed to 94 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 84 * 4 = 336 km. Return time = 336 / 94 = 3.57 hours.",
+    "ground_truth": "3.57"
+  },
+  {
+    "id": "natural_speed_24",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 86 km/h, taking 5 hours. On the return trip along the same route, the driver increases their speed to 96 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 86 * 5 = 430 km. Return time = 430 / 96 = 4.48 hours.",
+    "ground_truth": "4.48"
+  },
+  {
+    "id": "natural_speed_25",
+    "category": "Speed, Distance & Time",
+    "question": "A car travels from City A to City B at an average speed of 88 km/h, taking 6 hours. On the return trip along the same route, the driver increases their speed to 98 km/h. How many hours does the return trip take? (Round to 2 decimal places)",
+    "solution": "Distance = 88 * 6 = 528 km. Return time = 528 / 98 = 5.39 hours.",
+    "ground_truth": "5.39"
+  },
+  {
+    "id": "natural_work_1",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 6 days, while Worker B can complete the same project in 8 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/6 + 1/8 = (6+8)/(6*8). Time = 6*8/(6+8) = 3.43 days.",
+    "ground_truth": "3.43"
+  },
+  {
+    "id": "natural_work_2",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 7 days, while Worker B can complete the same project in 10 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/7 + 1/10 = (7+10)/(7*10). Time = 7*10/(7+10) = 4.12 days.",
+    "ground_truth": "4.12"
+  },
+  {
+    "id": "natural_work_3",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 8 days, while Worker B can complete the same project in 12 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/8 + 1/12 = (8+12)/(8*12). Time = 8*12/(8+12) = 4.8 days.",
+    "ground_truth": "4.8"
+  },
+  {
+    "id": "natural_work_4",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 9 days, while Worker B can complete the same project in 14 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/9 + 1/14 = (9+14)/(9*14). Time = 9*14/(9+14) = 5.48 days.",
+    "ground_truth": "5.48"
+  },
+  {
+    "id": "natural_work_5",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 10 days, while Worker B can complete the same project in 16 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/10 + 1/16 = (10+16)/(10*16). Time = 10*16/(10+16) = 6.15 days.",
+    "ground_truth": "6.15"
+  },
+  {
+    "id": "natural_work_6",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 11 days, while Worker B can complete the same project in 8 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/11 + 1/8 = (11+8)/(11*8). Time = 11*8/(11+8) = 4.63 days.",
+    "ground_truth": "4.63"
+  },
+  {
+    "id": "natural_work_7",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 12 days, while Worker B can complete the same project in 10 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/12 + 1/10 = (12+10)/(12*10). Time = 12*10/(12+10) = 5.45 days.",
+    "ground_truth": "5.45"
+  },
+  {
+    "id": "natural_work_8",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 13 days, while Worker B can complete the same project in 12 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/13 + 1/12 = (13+12)/(13*12). Time = 13*12/(13+12) = 6.24 days.",
+    "ground_truth": "6.24"
+  },
+  {
+    "id": "natural_work_9",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 6 days, while Worker B can complete the same project in 14 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/6 + 1/14 = (6+14)/(6*14). Time = 6*14/(6+14) = 4.2 days.",
+    "ground_truth": "4.2"
+  },
+  {
+    "id": "natural_work_10",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 7 days, while Worker B can complete the same project in 16 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/7 + 1/16 = (7+16)/(7*16). Time = 7*16/(7+16) = 4.87 days.",
+    "ground_truth": "4.87"
+  },
+  {
+    "id": "natural_work_11",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 8 days, while Worker B can complete the same project in 8 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/8 + 1/8 = (8+8)/(8*8). Time = 8*8/(8+8) = 4.0 days.",
+    "ground_truth": "4"
+  },
+  {
+    "id": "natural_work_12",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 9 days, while Worker B can complete the same project in 10 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/9 + 1/10 = (9+10)/(9*10). Time = 9*10/(9+10) = 4.74 days.",
+    "ground_truth": "4.74"
+  },
+  {
+    "id": "natural_work_13",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 10 days, while Worker B can complete the same project in 12 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/10 + 1/12 = (10+12)/(10*12). Time = 10*12/(10+12) = 5.45 days.",
+    "ground_truth": "5.45"
+  },
+  {
+    "id": "natural_work_14",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 11 days, while Worker B can complete the same project in 14 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/11 + 1/14 = (11+14)/(11*14). Time = 11*14/(11+14) = 6.16 days.",
+    "ground_truth": "6.16"
+  },
+  {
+    "id": "natural_work_15",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 12 days, while Worker B can complete the same project in 16 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/12 + 1/16 = (12+16)/(12*16). Time = 12*16/(12+16) = 6.86 days.",
+    "ground_truth": "6.86"
+  },
+  {
+    "id": "natural_work_16",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 13 days, while Worker B can complete the same project in 8 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/13 + 1/8 = (13+8)/(13*8). Time = 13*8/(13+8) = 4.95 days.",
+    "ground_truth": "4.95"
+  },
+  {
+    "id": "natural_work_17",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 6 days, while Worker B can complete the same project in 10 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/6 + 1/10 = (6+10)/(6*10). Time = 6*10/(6+10) = 3.75 days.",
+    "ground_truth": "3.75"
+  },
+  {
+    "id": "natural_work_18",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 7 days, while Worker B can complete the same project in 12 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/7 + 1/12 = (7+12)/(7*12). Time = 7*12/(7+12) = 4.42 days.",
+    "ground_truth": "4.42"
+  },
+  {
+    "id": "natural_work_19",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 8 days, while Worker B can complete the same project in 14 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/8 + 1/14 = (8+14)/(8*14). Time = 8*14/(8+14) = 5.09 days.",
+    "ground_truth": "5.09"
+  },
+  {
+    "id": "natural_work_20",
+    "category": "Work & Time",
+    "question": "Worker A can complete a project in 9 days, while Worker B can complete the same project in 16 days. If both workers work together, how many days will it take them to complete the project? (Round to 2 decimal places)",
+    "solution": "Combined rate = 1/9 + 1/16 = (9+16)/(9*16). Time = 9*16/(9+16) = 5.76 days.",
+    "ground_truth": "5.76"
+  },
+  {
+    "id": "natural_age_1",
+    "category": "Age Problems",
+    "question": "A father is currently 24 years older than his son. If the son is currently 8 years old, how old will the father be in 4 years?",
+    "solution": "Current father's age = 8 + 24 = 32. In 4 years, father's age = 32 + 4 = 36.",
+    "ground_truth": "36"
+  },
+  {
+    "id": "natural_age_2",
+    "category": "Age Problems",
+    "question": "A father is currently 25 years older than his son. If the son is currently 9 years old, how old will the father be in 5 years?",
+    "solution": "Current father's age = 9 + 25 = 34. In 5 years, father's age = 34 + 5 = 39.",
+    "ground_truth": "39"
+  },
+  {
+    "id": "natural_age_3",
+    "category": "Age Problems",
+    "question": "A father is currently 26 years older than his son. If the son is currently 10 years old, how old will the father be in 6 years?",
+    "solution": "Current father's age = 10 + 26 = 36. In 6 years, father's age = 36 + 6 = 42.",
+    "ground_truth": "42"
+  },
+  {
+    "id": "natural_age_4",
+    "category": "Age Problems",
+    "question": "A father is currently 27 years older than his son. If the son is currently 11 years old, how old will the father be in 7 years?",
+    "solution": "Current father's age = 11 + 27 = 38. In 7 years, father's age = 38 + 7 = 45.",
+    "ground_truth": "45"
+  },
+  {
+    "id": "natural_age_5",
+    "category": "Age Problems",
+    "question": "A father is currently 28 years older than his son. If the son is currently 12 years old, how old will the father be in 8 years?",
+    "solution": "Current father's age = 12 + 28 = 40. In 8 years, father's age = 40 + 8 = 48.",
+    "ground_truth": "48"
+  },
+  {
+    "id": "natural_age_6",
+    "category": "Age Problems",
+    "question": "A father is currently 29 years older than his son. If the son is currently 13 years old, how old will the father be in 4 years?",
+    "solution": "Current father's age = 13 + 29 = 42. In 4 years, father's age = 42 + 4 = 46.",
+    "ground_truth": "46"
+  },
+  {
+    "id": "natural_age_7",
+    "category": "Age Problems",
+    "question": "A father is currently 24 years older than his son. If the son is currently 14 years old, how old will the father be in 5 years?",
+    "solution": "Current father's age = 14 + 24 = 38. In 5 years, father's age = 38 + 5 = 43.",
+    "ground_truth": "43"
+  },
+  {
+    "id": "natural_age_8",
+    "category": "Age Problems",
+    "question": "A father is currently 25 years older than his son. If the son is currently 15 years old, how old will the father be in 6 years?",
+    "solution": "Current father's age = 15 + 25 = 40. In 6 years, father's age = 40 + 6 = 46.",
+    "ground_truth": "46"
+  },
+  {
+    "id": "natural_age_9",
+    "category": "Age Problems",
+    "question": "A father is currently 26 years older than his son. If the son is currently 16 years old, how old will the father be in 7 years?",
+    "solution": "Current father's age = 16 + 26 = 42. In 7 years, father's age = 42 + 7 = 49.",
+    "ground_truth": "49"
+  },
+  {
+    "id": "natural_age_10",
+    "category": "Age Problems",
+    "question": "A father is currently 27 years older than his son. If the son is currently 17 years old, how old will the father be in 8 years?",
+    "solution": "Current father's age = 17 + 27 = 44. In 8 years, father's age = 44 + 8 = 52.",
+    "ground_truth": "52"
+  },
+  {
+    "id": "natural_age_11",
+    "category": "Age Problems",
+    "question": "A father is currently 28 years older than his son. If the son is currently 18 years old, how old will the father be in 4 years?",
+    "solution": "Current father's age = 18 + 28 = 46. In 4 years, father's age = 46 + 4 = 50.",
+    "ground_truth": "50"
+  },
+  {
+    "id": "natural_age_12",
+    "category": "Age Problems",
+    "question": "A father is currently 29 years older than his son. If the son is currently 19 years old, how old will the father be in 5 years?",
+    "solution": "Current father's age = 19 + 29 = 48. In 5 years, father's age = 48 + 5 = 53.",
+    "ground_truth": "53"
+  },
+  {
+    "id": "natural_age_13",
+    "category": "Age Problems",
+    "question": "A father is currently 24 years older than his son. If the son is currently 20 years old, how old will the father be in 6 years?",
+    "solution": "Current father's age = 20 + 24 = 44. In 6 years, father's age = 44 + 6 = 50.",
+    "ground_truth": "50"
+  },
+  {
+    "id": "natural_age_14",
+    "category": "Age Problems",
+    "question": "A father is currently 25 years older than his son. If the son is currently 21 years old, how old will the father be in 7 years?",
+    "solution": "Current father's age = 21 + 25 = 46. In 7 years, father's age = 46 + 7 = 53.",
+    "ground_truth": "53"
+  },
+  {
+    "id": "natural_age_15",
+    "category": "Age Problems",
+    "question": "A father is currently 26 years older than his son. If the son is currently 22 years old, how old will the father be in 8 years?",
+    "solution": "Current father's age = 22 + 26 = 48. In 8 years, father's age = 48 + 8 = 56.",
+    "ground_truth": "56"
+  },
+  {
+    "id": "natural_age_16",
+    "category": "Age Problems",
+    "question": "A father is currently 27 years older than his son. If the son is currently 23 years old, how old will the father be in 4 years?",
+    "solution": "Current father's age = 23 + 27 = 50. In 4 years, father's age = 50 + 4 = 54.",
+    "ground_truth": "54"
+  },
+  {
+    "id": "natural_age_17",
+    "category": "Age Problems",
+    "question": "A father is currently 28 years older than his son. If the son is currently 24 years old, how old will the father be in 5 years?",
+    "solution": "Current father's age = 24 + 28 = 52. In 5 years, father's age = 52 + 5 = 57.",
+    "ground_truth": "57"
+  },
+  {
+    "id": "natural_age_18",
+    "category": "Age Problems",
+    "question": "A father is currently 29 years older than his son. If the son is currently 25 years old, how old will the father be in 6 years?",
+    "solution": "Current father's age = 25 + 29 = 54. In 6 years, father's age = 54 + 6 = 60.",
+    "ground_truth": "60"
+  },
+  {
+    "id": "natural_age_19",
+    "category": "Age Problems",
+    "question": "A father is currently 24 years older than his son. If the son is currently 26 years old, how old will the father be in 7 years?",
+    "solution": "Current father's age = 26 + 24 = 50. In 7 years, father's age = 50 + 7 = 57.",
+    "ground_truth": "57"
+  },
+  {
+    "id": "natural_age_20",
+    "category": "Age Problems",
+    "question": "A father is currently 25 years older than his son. If the son is currently 27 years old, how old will the father be in 8 years?",
+    "solution": "Current father's age = 27 + 25 = 52. In 8 years, father's age = 52 + 8 = 60.",
+    "ground_truth": "60"
+  },
+  {
+    "id": "natural_ratio_1",
+    "category": "Ratios",
+    "question": "A prize of $75 is divided between Alice and Bob in the ratio 2:3. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 2 + 3 = 5. Bob's share = (3 / 5) * 75 = 45.",
+    "ground_truth": "45"
+  },
+  {
+    "id": "natural_ratio_2",
+    "category": "Ratios",
+    "question": "A prize of $140 is divided between Alice and Bob in the ratio 3:4. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 3 + 4 = 7. Bob's share = (4 / 7) * 140 = 80.",
+    "ground_truth": "80"
+  },
+  {
+    "id": "natural_ratio_3",
+    "category": "Ratios",
+    "question": "A prize of $225 is divided between Alice and Bob in the ratio 4:5. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 4 + 5 = 9. Bob's share = (5 / 9) * 225 = 125.",
+    "ground_truth": "125"
+  },
+  {
+    "id": "natural_ratio_4",
+    "category": "Ratios",
+    "question": "A prize of $330 is divided between Alice and Bob in the ratio 5:6. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 5 + 6 = 11. Bob's share = (6 / 11) * 330 = 180.",
+    "ground_truth": "180"
+  },
+  {
+    "id": "natural_ratio_5",
+    "category": "Ratios",
+    "question": "A prize of $315 is divided between Alice and Bob in the ratio 2:7. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 2 + 7 = 9. Bob's share = (7 / 9) * 315 = 245.",
+    "ground_truth": "245"
+  },
+  {
+    "id": "natural_ratio_6",
+    "category": "Ratios",
+    "question": "A prize of $240 is divided between Alice and Bob in the ratio 3:3. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 3 + 3 = 6. Bob's share = (3 / 6) * 240 = 120.",
+    "ground_truth": "120"
+  },
+  {
+    "id": "natural_ratio_7",
+    "category": "Ratios",
+    "question": "A prize of $360 is divided between Alice and Bob in the ratio 4:4. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 4 + 4 = 8. Bob's share = (4 / 8) * 360 = 180.",
+    "ground_truth": "180"
+  },
+  {
+    "id": "natural_ratio_8",
+    "category": "Ratios",
+    "question": "A prize of $500 is divided between Alice and Bob in the ratio 5:5. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 5 + 5 = 10. Bob's share = (5 / 10) * 500 = 250.",
+    "ground_truth": "250"
+  },
+  {
+    "id": "natural_ratio_9",
+    "category": "Ratios",
+    "question": "A prize of $440 is divided between Alice and Bob in the ratio 2:6. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 2 + 6 = 8. Bob's share = (6 / 8) * 440 = 330.",
+    "ground_truth": "330"
+  },
+  {
+    "id": "natural_ratio_10",
+    "category": "Ratios",
+    "question": "A prize of $600 is divided between Alice and Bob in the ratio 3:7. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 3 + 7 = 10. Bob's share = (7 / 10) * 600 = 420.",
+    "ground_truth": "420"
+  },
+  {
+    "id": "natural_ratio_11",
+    "category": "Ratios",
+    "question": "A prize of $455 is divided between Alice and Bob in the ratio 4:3. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 4 + 3 = 7. Bob's share = (3 / 7) * 455 = 195.",
+    "ground_truth": "195"
+  },
+  {
+    "id": "natural_ratio_12",
+    "category": "Ratios",
+    "question": "A prize of $630 is divided between Alice and Bob in the ratio 5:4. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 5 + 4 = 9. Bob's share = (4 / 9) * 630 = 280.",
+    "ground_truth": "280"
+  },
+  {
+    "id": "natural_ratio_13",
+    "category": "Ratios",
+    "question": "A prize of $525 is divided between Alice and Bob in the ratio 2:5. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 2 + 5 = 7. Bob's share = (5 / 7) * 525 = 375.",
+    "ground_truth": "375"
+  },
+  {
+    "id": "natural_ratio_14",
+    "category": "Ratios",
+    "question": "A prize of $720 is divided between Alice and Bob in the ratio 3:6. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 3 + 6 = 9. Bob's share = (6 / 9) * 720 = 480.",
+    "ground_truth": "480"
+  },
+  {
+    "id": "natural_ratio_15",
+    "category": "Ratios",
+    "question": "A prize of $935 is divided between Alice and Bob in the ratio 4:7. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 4 + 7 = 11. Bob's share = (7 / 11) * 935 = 595.",
+    "ground_truth": "595"
+  },
+  {
+    "id": "natural_ratio_16",
+    "category": "Ratios",
+    "question": "A prize of $720 is divided between Alice and Bob in the ratio 5:3. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 5 + 3 = 8. Bob's share = (3 / 8) * 720 = 270.",
+    "ground_truth": "270"
+  },
+  {
+    "id": "natural_ratio_17",
+    "category": "Ratios",
+    "question": "A prize of $570 is divided between Alice and Bob in the ratio 2:4. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 2 + 4 = 6. Bob's share = (4 / 6) * 570 = 380.",
+    "ground_truth": "380"
+  },
+  {
+    "id": "natural_ratio_18",
+    "category": "Ratios",
+    "question": "A prize of $800 is divided between Alice and Bob in the ratio 3:5. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 3 + 5 = 8. Bob's share = (5 / 8) * 800 = 500.",
+    "ground_truth": "500"
+  },
+  {
+    "id": "natural_ratio_19",
+    "category": "Ratios",
+    "question": "A prize of $1050 is divided between Alice and Bob in the ratio 4:6. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 4 + 6 = 10. Bob's share = (6 / 10) * 1050 = 630.",
+    "ground_truth": "630"
+  },
+  {
+    "id": "natural_ratio_20",
+    "category": "Ratios",
+    "question": "A prize of $1320 is divided between Alice and Bob in the ratio 5:7. How much money in dollars does Bob receive?",
+    "solution": "Total parts = 5 + 7 = 12. Bob's share = (7 / 12) * 1320 = 770.",
+    "ground_truth": "770"
+  },
+  {
+    "id": "natural_geom_1",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 12 meters and a width of 8 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 12 * 8 = 96.",
+    "ground_truth": "96"
+  },
+  {
+    "id": "natural_geom_2",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 15 meters and a width of 10 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (15 + 10) = 50.",
+    "ground_truth": "50"
+  },
+  {
+    "id": "natural_geom_3",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 18 meters and a width of 12 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 18 * 12 = 216.",
+    "ground_truth": "216"
+  },
+  {
+    "id": "natural_geom_4",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 21 meters and a width of 14 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (21 + 14) = 70.",
+    "ground_truth": "70"
+  },
+  {
+    "id": "natural_geom_5",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 24 meters and a width of 16 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 24 * 16 = 384.",
+    "ground_truth": "384"
+  },
+  {
+    "id": "natural_geom_6",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 27 meters and a width of 18 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (27 + 18) = 90.",
+    "ground_truth": "90"
+  },
+  {
+    "id": "natural_geom_7",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 30 meters and a width of 20 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 30 * 20 = 600.",
+    "ground_truth": "600"
+  },
+  {
+    "id": "natural_geom_8",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 33 meters and a width of 22 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (33 + 22) = 110.",
+    "ground_truth": "110"
+  },
+  {
+    "id": "natural_geom_9",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 36 meters and a width of 24 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 36 * 24 = 864.",
+    "ground_truth": "864"
+  },
+  {
+    "id": "natural_geom_10",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 39 meters and a width of 26 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (39 + 26) = 130.",
+    "ground_truth": "130"
+  },
+  {
+    "id": "natural_geom_11",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 42 meters and a width of 28 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 42 * 28 = 1176.",
+    "ground_truth": "1176"
+  },
+  {
+    "id": "natural_geom_12",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 45 meters and a width of 30 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (45 + 30) = 150.",
+    "ground_truth": "150"
+  },
+  {
+    "id": "natural_geom_13",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 48 meters and a width of 32 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 48 * 32 = 1536.",
+    "ground_truth": "1536"
+  },
+  {
+    "id": "natural_geom_14",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 51 meters and a width of 34 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (51 + 34) = 170.",
+    "ground_truth": "170"
+  },
+  {
+    "id": "natural_geom_15",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 54 meters and a width of 36 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 54 * 36 = 1944.",
+    "ground_truth": "1944"
+  },
+  {
+    "id": "natural_geom_16",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 57 meters and a width of 38 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (57 + 38) = 190.",
+    "ground_truth": "190"
+  },
+  {
+    "id": "natural_geom_17",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 60 meters and a width of 40 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 60 * 40 = 2400.",
+    "ground_truth": "2400"
+  },
+  {
+    "id": "natural_geom_18",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 63 meters and a width of 42 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (63 + 42) = 210.",
+    "ground_truth": "210"
+  },
+  {
+    "id": "natural_geom_19",
+    "category": "Geometry",
+    "question": "A rectangular garden has a length of 66 meters and a width of 44 meters. What is the area of the garden in square meters?",
+    "solution": "Area = length * width = 66 * 44 = 2904.",
+    "ground_truth": "2904"
+  },
+  {
+    "id": "natural_geom_20",
+    "category": "Geometry",
+    "question": "A rectangular field has a length of 69 meters and a width of 46 meters. A fence is to be built around the perimeter. How many meters of fencing are required?",
+    "solution": "Perimeter = 2 * (length + width) = 2 * (69 + 46) = 230.",
+    "ground_truth": "230"
+  },
+  {
+    "id": "natural_seq_1",
+    "category": "Sequences",
+    "question": "Find the 10th term of an arithmetic sequence where the first term is 3 and the common difference between consecutive terms is 4.",
+    "solution": "a_n = a_1 + (n - 1) * d = 3 + (10 - 1) * 4 = 39.",
+    "ground_truth": "39"
+  },
+  {
+    "id": "natural_seq_2",
+    "category": "Sequences",
+    "question": "Find the 11th term of an arithmetic sequence where the first term is 5 and the common difference between consecutive terms is 5.",
+    "solution": "a_n = a_1 + (n - 1) * d = 5 + (11 - 1) * 5 = 55.",
+    "ground_truth": "55"
+  },
+  {
+    "id": "natural_seq_3",
+    "category": "Sequences",
+    "question": "Find the 12th term of an arithmetic sequence where the first term is 7 and the common difference between consecutive terms is 6.",
+    "solution": "a_n = a_1 + (n - 1) * d = 7 + (12 - 1) * 6 = 73.",
+    "ground_truth": "73"
+  },
+  {
+    "id": "natural_seq_4",
+    "category": "Sequences",
+    "question": "Find the 13th term of an arithmetic sequence where the first term is 9 and the common difference between consecutive terms is 7.",
+    "solution": "a_n = a_1 + (n - 1) * d = 9 + (13 - 1) * 7 = 93.",
+    "ground_truth": "93"
+  },
+  {
+    "id": "natural_seq_5",
+    "category": "Sequences",
+    "question": "Find the 14th term of an arithmetic sequence where the first term is 11 and the common difference between consecutive terms is 8.",
+    "solution": "a_n = a_1 + (n - 1) * d = 11 + (14 - 1) * 8 = 115.",
+    "ground_truth": "115"
+  },
+  {
+    "id": "natural_seq_6",
+    "category": "Sequences",
+    "question": "Find the 15th term of an arithmetic sequence where the first term is 13 and the common difference between consecutive terms is 4.",
+    "solution": "a_n = a_1 + (n - 1) * d = 13 + (15 - 1) * 4 = 69.",
+    "ground_truth": "69"
+  },
+  {
+    "id": "natural_seq_7",
+    "category": "Sequences",
+    "question": "Find the 16th term of an arithmetic sequence where the first term is 15 and the common difference between consecutive terms is 5.",
+    "solution": "a_n = a_1 + (n - 1) * d = 15 + (16 - 1) * 5 = 90.",
+    "ground_truth": "90"
+  },
+  {
+    "id": "natural_seq_8",
+    "category": "Sequences",
+    "question": "Find the 17th term of an arithmetic sequence where the first term is 17 and the common difference between consecutive terms is 6.",
+    "solution": "a_n = a_1 + (n - 1) * d = 17 + (17 - 1) * 6 = 113.",
+    "ground_truth": "113"
+  },
+  {
+    "id": "natural_seq_9",
+    "category": "Sequences",
+    "question": "Find the 18th term of an arithmetic sequence where the first term is 19 and the common difference between consecutive terms is 7.",
+    "solution": "a_n = a_1 + (n - 1) * d = 19 + (18 - 1) * 7 = 138.",
+    "ground_truth": "138"
+  },
+  {
+    "id": "natural_seq_10",
+    "category": "Sequences",
+    "question": "Find the 19th term of an arithmetic sequence where the first term is 21 and the common difference between consecutive terms is 8.",
+    "solution": "a_n = a_1 + (n - 1) * d = 21 + (19 - 1) * 8 = 165.",
+    "ground_truth": "165"
+  },
+  {
+    "id": "natural_seq_11",
+    "category": "Sequences",
+    "question": "Find the 20th term of an arithmetic sequence where the first term is 23 and the common difference between consecutive terms is 4.",
+    "solution": "a_n = a_1 + (n - 1) * d = 23 + (20 - 1) * 4 = 99.",
+    "ground_truth": "99"
+  },
+  {
+    "id": "natural_seq_12",
+    "category": "Sequences",
+    "question": "Find the 21th term of an arithmetic sequence where the first term is 25 and the common difference between consecutive terms is 5.",
+    "solution": "a_n = a_1 + (n - 1) * d = 25 + (21 - 1) * 5 = 125.",
+    "ground_truth": "125"
+  },
+  {
+    "id": "natural_seq_13",
+    "category": "Sequences",
+    "question": "Find the 22th term of an arithmetic sequence where the first term is 27 and the common difference between consecutive terms is 6.",
+    "solution": "a_n = a_1 + (n - 1) * d = 27 + (22 - 1) * 6 = 153.",
+    "ground_truth": "153"
+  },
+  {
+    "id": "natural_seq_14",
+    "category": "Sequences",
+    "question": "Find the 23th term of an arithmetic sequence where the first term is 29 and the common difference between consecutive terms is 7.",
+    "solution": "a_n = a_1 + (n - 1) * d = 29 + (23 - 1) * 7 = 183.",
+    "ground_truth": "183"
+  },
+  {
+    "id": "natural_seq_15",
+    "category": "Sequences",
+    "question": "Find the 24th term of an arithmetic sequence where the first term is 31 and the common difference between consecutive terms is 8.",
+    "solution": "a_n = a_1 + (n - 1) * d = 31 + (24 - 1) * 8 = 215.",
+    "ground_truth": "215"
+  },
+  {
+    "id": "natural_multi_1",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 5 boxes of pencils, each containing 12 pencils. In the morning, they sell 30 pencils. In the afternoon, they sell all the remaining pencils at $3 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 5 * 12 = 60. Remaining = 60 - 30 = 30. Revenue = 30 * 3 = 90.",
+    "ground_truth": "90"
+  },
+  {
+    "id": "natural_multi_2",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 6 boxes of pencils, each containing 13 pencils. In the morning, they sell 39 pencils. In the afternoon, they sell all the remaining pencils at $4 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 6 * 13 = 78. Remaining = 78 - 39 = 39. Revenue = 39 * 4 = 156.",
+    "ground_truth": "156"
+  },
+  {
+    "id": "natural_multi_3",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 7 boxes of pencils, each containing 14 pencils. In the morning, they sell 49 pencils. In the afternoon, they sell all the remaining pencils at $5 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 7 * 14 = 98. Remaining = 98 - 49 = 49. Revenue = 49 * 5 = 245.",
+    "ground_truth": "245"
+  },
+  {
+    "id": "natural_multi_4",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 8 boxes of pencils, each containing 15 pencils. In the morning, they sell 60 pencils. In the afternoon, they sell all the remaining pencils at $6 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 8 * 15 = 120. Remaining = 120 - 60 = 60. Revenue = 60 * 6 = 360.",
+    "ground_truth": "360"
+  },
+  {
+    "id": "natural_multi_5",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 9 boxes of pencils, each containing 16 pencils. In the morning, they sell 72 pencils. In the afternoon, they sell all the remaining pencils at $3 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 9 * 16 = 144. Remaining = 144 - 72 = 72. Revenue = 72 * 3 = 216.",
+    "ground_truth": "216"
+  },
+  {
+    "id": "natural_multi_6",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 10 boxes of pencils, each containing 17 pencils. In the morning, they sell 85 pencils. In the afternoon, they sell all the remaining pencils at $4 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 10 * 17 = 170. Remaining = 170 - 85 = 85. Revenue = 85 * 4 = 340.",
+    "ground_truth": "340"
+  },
+  {
+    "id": "natural_multi_7",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 11 boxes of pencils, each containing 12 pencils. In the morning, they sell 66 pencils. In the afternoon, they sell all the remaining pencils at $5 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 11 * 12 = 132. Remaining = 132 - 66 = 66. Revenue = 66 * 5 = 330.",
+    "ground_truth": "330"
+  },
+  {
+    "id": "natural_multi_8",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 12 boxes of pencils, each containing 13 pencils. In the morning, they sell 78 pencils. In the afternoon, they sell all the remaining pencils at $6 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 12 * 13 = 156. Remaining = 156 - 78 = 78. Revenue = 78 * 6 = 468.",
+    "ground_truth": "468"
+  },
+  {
+    "id": "natural_multi_9",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 13 boxes of pencils, each containing 14 pencils. In the morning, they sell 91 pencils. In the afternoon, they sell all the remaining pencils at $3 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 13 * 14 = 182. Remaining = 182 - 91 = 91. Revenue = 91 * 3 = 273.",
+    "ground_truth": "273"
+  },
+  {
+    "id": "natural_multi_10",
+    "category": "Multi-Step Logic",
+    "question": "A shopkeeper orders 14 boxes of pencils, each containing 15 pencils. In the morning, they sell 105 pencils. In the afternoon, they sell all the remaining pencils at $4 each. How much money in dollars did they collect in the afternoon?",
+    "solution": "Total pencils = 14 * 15 = 210. Remaining = 210 - 105 = 105. Revenue = 105 * 4 = 420.",
+    "ground_truth": "420"
+  }
+]

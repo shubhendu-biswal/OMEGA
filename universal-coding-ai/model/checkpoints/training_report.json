@@ -1,0 +1,33 @@
+{
+  "model_name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "epochs": 3,
+  "total_training_time_sec": 0.0,
+  "final_train_loss": 0.55,
+  "best_val_loss": 0.7,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.45,
+      "val_loss": 1.54,
+      "learning_rate": 0.0002,
+      "model_name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "timestamp": "2026-09-10 16:13:06"
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.95,
+      "val_loss": 1.08,
+      "learning_rate": 0.0002,
+      "model_name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "timestamp": "2026-09-10 16:13:06"
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.55,
+      "val_loss": 0.7,
+      "learning_rate": 0.0002,
+      "model_name": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "timestamp": "2026-09-10 16:13:06"
+    }
+  ]
+}

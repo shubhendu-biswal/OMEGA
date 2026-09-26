@@ -1,0 +1,510 @@
+[
+  {
+    "text": "which cash crop to grow in punjab during rabi season",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "can i grow dragon fruit in arid desert climate",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "kharif season me dhaan ke alawa kya bo sakte hain",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "short duration vegetable crop between wheat harvest and paddy transplanting",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "low rainfall area me konsi daal ya tilhan lagana faydemand hoga",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "retili balui mitti ke liye best commercial crop batao",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "which pulse crop to cultivate for improving soil fertility",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "waterlogging heavy clay soil me konsi fasal survive kar sakti hai",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "suitable fruit crop for terrace and hilly farming",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "red soil with high temperature and good drainage which crop",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "suggest profitable crops for small farmers in dryland agriculture",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "konsi fasal lagana achha rahega loamy soil me winter season me",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "which intercrop is best with sugarcane farming",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "zaid season me kankad wali mitti me konsi kheti kare",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "best alternative crop for wheat in less water condition",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "can we cultivate sandalwood or teak tree in central india",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "kam pani me hone wali sabse achhi fasal konsi hai",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "suggest crop for saline alkaline soil reclamation",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "multilevel cropping pattern for coastal regions",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "which crop gives maximum yield in black cotton soil",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "kheere aur tarbooj ki kheti ke liye kaisa mausam chahiye",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "garmiyo me khali khet me konsi hari khad ya fasal lagaye",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "crops suitable for polyhouse and greenhouse farming",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "alluvial soil me sarson ke sath kya bo sakte hain",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "dhaan ki jagah makka lagana kaisa rahega is season me",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "which medicinal plants can be grown in poor sandy soil",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "soyabean ke baad kaun si rabi fasal lagana behtar hai",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "best vegetable crops for 60 days short cycle harvest",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "which crop to sow in july in eastern uttar pradesh",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "suggest high value horticulture crop for 2 acres land",
+    "intent": "crop_recommendation"
+  },
+  {
+    "text": "how much dap and potash per acre for sugarcane planting recommended",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "paddy leaves turning yellow from bottom which nutrient deficiency npk",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "zinc sulphate application timing and dosage in paddy nursery",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "dosage of vermicompost and cow dung manure per plant in fruit orchard",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "cotton me square drop rokne ke liye magnesium sulphate spray schedule",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "gehu me pehli sinchai par kitna urea aur zinc dale",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "recommended npk dosage for potato in alluvial soil per hectare",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "sarso me tel ki matra badhane ke liye bentonite sulphur kab dale",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "tamatar me phool aur fal aate samay konsa micronutrient spray kare",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "urea overdose hone par fasal me kya lakshan aate hain aur ilaj",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "19-19-19 water soluble fertilizer spray timing in vegetable crops",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "chane me phool aate waqt kaun si tonic ya khad spray karni chahiye",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "calcium nitrate and boron spray for preventing fruit cracking in pomegranate",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "foliar spray of potassium schoenite for grain filling stage in wheat",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "soil me phosphorus fix ho gaya hai to psb biofertilizer kaise use kare",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "iron deficiency chlorosis in groundnut leaves remedy",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "kitna ssp single super phosphate dalna chahiye tilhan fasal me",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "urea ki top dressing kab aur kaise karni chahiye",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "muriate of potash mop vs sop sulfate of potash comparison in crops",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "organic liquid jeevamrut application schedule in natural farming",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "humic acid and sea weed extract spray benefits for root growth",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "paddy me zinc ki kami se khaira rog ho gaya hai konsa spray kare",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "maize crop me nitrogen ki split dose kab deni chahiye",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "ganna me ratoon management ke liye recommended fertilizer dose",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "best foliar fertilizer for increasing vegetable fruit size and shine",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "dap vs npk 12 32 16 which is better for sowing wheat",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "micronutrient mixture spray concentration per liter water",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "banana plantation me drip fertigation schedule npk",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "biofertilizer azotobacter and rhizobium seed treatment procedure",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "gypsum application in groundnut for calcium and sulphur requirement",
+    "intent": "fertilizer_recommendation"
+  },
+  {
+    "text": "mere sir me subah se bahut tej dard hai konsi tablet khau",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "fever aur khansi jukham ka desi ilaj ya tablet batao",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "best itinerary for 3 days vacation trip to manali and rohtang",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "how to make restaurant style paneer tikka masala at home recipe",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "iphone battery draining very fast after ios update how to fix",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "laptop wifi keeps disconnecting in windows 11 troubleshooting steps",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "how to cure viral fever and dehydration symptoms quickly at home",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "explain react useeffect hook and component lifecycle with code",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "create a rest api using spring boot and postgresql database",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "write a python function to find duplicates in an array algorithm",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "flight tickets from mumbai to dubai cheapest date booking tips",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "hyderabadi dum biryani authentic recipe ingredients step by step",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "pet dard aur vomiting ke liye gharelu nuskhe ya medicine",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "tourist places to visit in goa with family and beach hotels",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "how to train a deep neural network using pytorch lightning",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "chocolate cake recipe without oven at home",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "android phone hanging and overheating problem solution",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "back pain and neck stiffness relief exercises",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "best budget hotels and resorts in ooty hill station",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "sql query to join three tables with group by and having clause",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "chicken curry recipe dhaba style quick cooking",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "ac repair troubleshooting cool air not coming compressor",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "dental toothache severe relief home remedies",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "how to install docker on ubuntu 22.04 server",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "train ticket booking irctc tatkal timings and tips",
+    "intent": "out_of_scope"
+  },
+  {
+    "text": "kya hal chal hai bhai sab badiya",
+    "intent": "conversation"
+  },
+  {
+    "text": "can you solve difficult math problems and agriculture questions",
+    "intent": "conversation"
+  },
+  {
+    "text": "are you a human or an artificial intelligence program bot",
+    "intent": "conversation"
+  },
+  {
+    "text": "who developed you and what can you help me with today",
+    "intent": "conversation"
+  },
+  {
+    "text": "hello omega assistant good morning",
+    "intent": "conversation"
+  },
+  {
+    "text": "shukriya aapka bahut bahut madad ke liye",
+    "intent": "conversation"
+  },
+  {
+    "text": "who made this omega ai app and software",
+    "intent": "conversation"
+  },
+  {
+    "text": "tell me a fun joke or interesting fact about yourself",
+    "intent": "conversation"
+  },
+  {
+    "text": "thanks a lot for your assistance buddy",
+    "intent": "conversation"
+  },
+  {
+    "text": "namaste bhai kaise ho",
+    "intent": "conversation"
+  },
+  {
+    "text": "nice talking to you see you later bye",
+    "intent": "conversation"
+  },
+  {
+    "text": "what features and capabilities do you have omega",
+    "intent": "conversation"
+  },
+  {
+    "text": "kya aap hindi me baat kar sakte ho",
+    "intent": "conversation"
+  },
+  {
+    "text": "you are very helpful and smart ai assistant",
+    "intent": "conversation"
+  },
+  {
+    "text": "good afternoon omega ready to answer my questions",
+    "intent": "conversation"
+  },
+  {
+    "text": "kaise ho dost kya kar rahe ho",
+    "intent": "conversation"
+  },
+  {
+    "text": "explain what services you offer to farmers and students",
+    "intent": "conversation"
+  },
+  {
+    "text": "gehu me peela gerua rog yellow rust ka ilaj aur fungicide dawai",
+    "intent": "agriculture"
+  },
+  {
+    "text": "tamatar me fruit borer kida lag gaya hai konsi dawai spray kare insecticide",
+    "intent": "agriculture"
+  },
+  {
+    "text": "mulching paper lagane ke fayde aur kheti me upyog poly mulching",
+    "intent": "agriculture"
+  },
+  {
+    "text": "chana me ukhta rog fusarium wilt disease ka ilaj aur roktham",
+    "intent": "agriculture"
+  },
+  {
+    "text": "sarso me mahu aphid kida attack rokne ke gharelu aur rasayanik upay",
+    "intent": "agriculture"
+  },
+  {
+    "text": "fasal me kitnashak dawai aur fafundinashak ka chhidkaw schedule",
+    "intent": "agriculture"
+  },
+  {
+    "text": "mirch me leaf curl marodiya rog ka ilaj kya hai",
+    "intent": "agriculture"
+  },
+  {
+    "text": "k कपास me gulabi sundi pink bollworm attack management",
+    "intent": "agriculture"
+  },
+  {
+    "text": "paddy me sheat blight aur blast bimari ka lakshan aur ilaj",
+    "intent": "agriculture"
+  },
+  {
+    "text": "ganna me red rot lalsadan rog ki roktham kaise kare",
+    "intent": "agriculture"
+  },
+  {
+    "text": "aloo me pichheti jhursa late blight ka fungicide spray",
+    "intent": "agriculture"
+  },
+  {
+    "text": "organic pest control neem oil spray dosage in vegetable farming",
+    "intent": "agriculture"
+  },
+  {
+    "text": "pheromone trap aur yellow sticky trap kheti me lagane ke fayde",
+    "intent": "agriculture"
+  },
+  {
+    "text": "soil solarization aur mitti ka upchar kaise kare bimariyo se bachav ke liye",
+    "intent": "agriculture"
+  },
+  {
+    "text": "tamatar me bacterial wilt aur damping off rog ka ilaj",
+    "intent": "agriculture"
+  },
+  {
+    "text": "fasal me fungus aur funghi attack hone par konsa saaf spray kare",
+    "intent": "agriculture"
+  },
+  {
+    "text": "makka me fall armyworm ke kide marne ki dawai",
+    "intent": "agriculture"
+  },
+  {
+    "text": "baigan me tana chhedak aur fal chhedak kide ka ilaj",
+    "intent": "agriculture"
+  },
+  {
+    "text": "drip sinchai lagane par subsidy kitni milti hai kisan ko",
+    "intent": "agriculture"
+  },
+  {
+    "text": "pradhan mantri fasal bima yojana claim process aur portal",
+    "intent": "agriculture"
+  },
+  {
+    "text": "what is the chemical symbol for lead and mercury",
+    "intent": "gk"
+  },
+  {
+    "text": "chemical formula of common salt and baking soda",
+    "intent": "gk"
+  },
+  {
+    "text": "periodic table elements atomic number and chemical symbol",
+    "intent": "gk"
+  },
+  {
+    "text": "what is the chemical symbol of gold and silver in science",
+    "intent": "gk"
+  },
+  {
+    "text": "symbol of iron and copper in chemistry",
+    "intent": "gk"
+  }
+]

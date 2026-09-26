@@ -1,0 +1,44 @@
+{
+  "model_type": "FeatureUnion(Word_Char_TFIDF) + CalibratedClassifierCV(LinearSVC)",
+  "classes": [
+    "agriculture",
+    "conversation",
+    "crop_recommendation",
+    "fertilizer_recommendation",
+    "gk",
+    "math",
+    "out_of_scope",
+    "realtime"
+  ],
+  "num_training_samples": 19406,
+  "synthetic_metrics": {
+    "num_samples": 5877,
+    "accuracy": 0.9932,
+    "macro_f1": 0.9912,
+    "weighted_f1": 0.9932,
+    "realtime_precision": 0.9934,
+    "realtime_recall": 1.0,
+    "realtime_f1": 0.9967,
+    "static_gk_misroute_to_realtime_rate": 0.0009
+  },
+  "handwritten_metrics": {
+    "num_samples": 101,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "classes_below_90_recall": []
+  },
+  "mandi_benchmark": {
+    "before_accuracy": 72.0,
+    "before_confidence": 79.57,
+    "after_accuracy": 100.0,
+    "after_confidence": 99.14
+  },
+  "pass_status": {
+    "mandi_above_90": true,
+    "no_hw_class_below_90_recall": true,
+    "realtime_recall_above_90": true,
+    "gk_misroute_below_5": true,
+    "overall_approved": true
+  },
+  "timestamp": "2026-09-25 23:54:01"
+}

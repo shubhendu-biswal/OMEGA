@@ -1,146 +1,224 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
+import * as THREE from 'three';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { Mic, Power } from 'lucide-react';
 
-/**
- * HologramSphere component rendering the highly animated futuristic central hologram.
- * @param {boolean} computing - Whether the AI is active and "thinking"
- * @param {string} agent - Currently selected AI agent key
- */
-export default function HologramSphere({ computing, agent }) {
-  // Determine if computing modifier should be added
-  const stateClass = computing ? 'computing' : '';
+const DEFAULT_THEME = {
+  primary: '#00e5ff',
+  glow: '#0088ff',
+  secondary: '#80f7ff'
+};
+
+const AGENT_THEMES = {
+  nexus: DEFAULT_THEME,
+  codeforge: { primary: '#3b82f6', glow: '#1d4ed8', secondary: '#93c5fd' },
+  voicepulse: { primary: '#00ff88', glow: '#00cc66', secondary: '#a3ffce' },
+  synapse: { primary: '#00e5ff', glow: '#0088ff', secondary: '#80f7ff' },
+  scribe: { primary: '#00e5ff', glow: '#0088ff', secondary: '#80f7ff' }
+};
+
+export default function HologramSphere({ computing = false, agent = 'nexus', isListening = false, onMicToggle, scale = 1.0 }) {
+  const mountRef = useRef(null);
+  const activeColors = AGENT_THEMES[agent] || DEFAULT_THEME;
+
+  useEffect(() => {
+    const container = mountRef.current;
+    if (!container) return;
+
+    let animationFrameId;
+    const width = container.clientWidth || 380;
+    const height = container.clientHeight || 380;
+
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(45, width / height, 0.1, 1000);
+    camera.position.set(0, 0, 5.0); // Framed perfectly to show full 3D sphere
+
+    const renderer = new THREE.WebGLRenderer({
+      antialias: true,
+      alpha: true,
+      powerPreference: 'high-performance'
+    });
+    renderer.setSize(width, height);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+    while (container.firstChild) {
+      container.removeChild(container.firstChild);
+    }
+    container.appendChild(renderer.domElement);
+
+    const controls = new OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+    controls.dampingFactor = 0.05;
+    controls.enableZoom = false;
+    controls.autoRotate = true;
+    controls.autoRotateSpeed = isListening ? 5.0 : (computing ? 3.5 : 1.5);
+
+    const mainColor = new THREE.Color(isListening ? '#ef4444' : activeColors.primary);
+
+    const hudGroup = new THREE.Group();
+    hudGroup.scale.set(scale, scale, scale);
+    scene.add(hudGroup);
+
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.6);
+    scene.add(ambientLight);
+
+    const pointLight = new THREE.PointLight(mainColor, isListening ? 6 : 3, 20);
+    pointLight.position.set(0, 0, 0);
+    scene.add(pointLight);
+
+    // 1. Inner Holographic Core (Wireframe Icosahedron)
+    const coreGeom = new THREE.IcosahedronGeometry(0.55, 2);
+    const coreMat = new THREE.MeshStandardMaterial({
+      color: isListening ? 0xef4444 : 0x00f2fe,
+      wireframe: true,
+      transparent: true,
+      opacity: 0.8,
+      emissive: isListening ? 0xef4444 : 0x0088ff,
+      emissiveIntensity: isListening ? 0.9 : 0.6
+    });
+    const coreMesh = new THREE.Mesh(coreGeom, coreMat);
+    hudGroup.add(coreMesh);
+
+    // 2. Particle Swarm Cloud Sphere (Multi-layered gradient)
+    const particleCount = 950;
+    const positions = new Float32Array(particleCount * 3);
+    const colors = new Float32Array(particleCount * 3);
+
+    const c1 = new THREE.Color(isListening ? '#ef4444' : '#00f2fe');
+    const c2 = new THREE.Color(isListening ? '#ff7878' : '#a855f7');
+    const c3 = new THREE.Color(isListening ? '#fcd34d' : '#38bdf8');
+
+    for (let i = 0; i < particleCount; i++) {
+      const u = Math.random();
+      const v = Math.random();
+      const theta = u * 2.0 * Math.PI;
+      const phi = Math.acos(2.0 * v - 1.0);
+      const r = 1.15 + (Math.random() - 0.5) * 0.35;
+
+      const x = r * Math.sin(phi) * Math.cos(theta);
+      const y = r * Math.sin(phi) * Math.sin(theta);
+      const z = r * Math.cos(phi);
+
+      positions[i * 3] = x;
+      positions[i * 3 + 1] = y;
+      positions[i * 3 + 2] = z;
+
+      const randVal = Math.random();
+      const mixedColor = randVal < 0.5 ? c1.clone().lerp(c2, randVal * 2) : c2.clone().lerp(c3, (randVal - 0.5) * 2);
+      colors[i * 3] = mixedColor.r;
+      colors[i * 3 + 1] = mixedColor.g;
+      colors[i * 3 + 2] = mixedColor.b;
+    }
+
+    const particlesGeom = new THREE.BufferGeometry();
+    particlesGeom.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+    particlesGeom.setAttribute('color', new THREE.BufferAttribute(colors, 3));
+
+    const particlesMat = new THREE.PointsMaterial({
+      size: 0.048,
+      vertexColors: true,
+      transparent: true,
+      opacity: 0.85
+    });
+
+    const particleSphere = new THREE.Points(particlesGeom, particlesMat);
+    hudGroup.add(particleSphere);
+
+    // 3. Multi-Axial Gyroscopic Orbital Rings
+    const ringMat1 = new THREE.MeshBasicMaterial({ color: isListening ? 0xef4444 : 0x00f2fe, wireframe: true, transparent: true, opacity: 0.75 });
+    const ringMat2 = new THREE.MeshBasicMaterial({ color: isListening ? 0xff7878 : 0xa855f7, wireframe: true, transparent: true, opacity: 0.6 });
+    const ringMat3 = new THREE.MeshBasicMaterial({ color: isListening ? 0xfcd34d : 0x38bdf8, wireframe: true, transparent: true, opacity: 0.5 });
+
+    const ring1 = new THREE.Mesh(new THREE.TorusGeometry(1.5, 0.014, 16, 100), ringMat1);
+    ring1.rotation.x = Math.PI / 3;
+    hudGroup.add(ring1);
+
+    const ring2 = new THREE.Mesh(new THREE.TorusGeometry(1.7, 0.012, 16, 100), ringMat2);
+    ring2.rotation.y = Math.PI / 4;
+    hudGroup.add(ring2);
+
+    const ring3 = new THREE.Mesh(new THREE.TorusGeometry(1.9, 0.01, 16, 100), ringMat3);
+    ring3.rotation.x = -Math.PI / 6;
+    hudGroup.add(ring3);
+
+    let clock = new THREE.Clock();
+
+    const animate = () => {
+      animationFrameId = requestAnimationFrame(animate);
+      const elapsed = clock.getElapsedTime();
+      controls.update();
+
+      const speedMult = isListening ? 2.5 : 1.0;
+      ring1.rotation.z = elapsed * 0.4 * speedMult;
+      ring2.rotation.x = elapsed * 0.3 * speedMult;
+      ring3.rotation.y = elapsed * 0.5 * speedMult;
+      coreMesh.rotation.y = elapsed * 0.6 * speedMult;
+
+      renderer.render(scene, camera);
+    };
+
+    animate();
+
+    const handleResize = () => {
+      if (!container || !renderer || !camera) return;
+      const newW = container.clientWidth || 380;
+      const newH = container.clientHeight || 380;
+      if (newW > 0 && newH > 0) {
+        camera.aspect = newW / newH;
+        camera.updateProjectionMatrix();
+        renderer.setSize(newW, newH);
+      }
+    };
+
+    const resizeObserver = new ResizeObserver(() => {
+      handleResize();
+    });
+    resizeObserver.observe(container);
+
+    // Initial resize trigger after DOM layout frame
+    setTimeout(handleResize, 50);
+
+    let startX = 0;
+    let startY = 0;
+    let isClickCandidate = false;
+
+    const handlePointerDown = (e) => {
+      startX = e.clientX;
+      startY = e.clientY;
+      isClickCandidate = true;
+    };
+
+    const handlePointerUp = (e) => {
+      if (!isClickCandidate) return;
+      isClickCandidate = false;
+      const dist = Math.hypot(e.clientX - startX, e.clientY - startY);
+      if (dist < 6) {
+        if (onMicToggle) onMicToggle();
+      }
+    };
+
+    renderer.domElement.addEventListener('pointerdown', handlePointerDown);
+    renderer.domElement.addEventListener('pointerup', handlePointerUp);
+
+    return () => {
+      renderer.domElement.removeEventListener('pointerdown', handlePointerDown);
+      renderer.domElement.removeEventListener('pointerup', handlePointerUp);
+      window.removeEventListener('resize', handleResize);
+      resizeObserver.disconnect();
+      cancelAnimationFrame(animationFrameId);
+      controls.dispose();
+      renderer.dispose();
+      scene.clear();
+    };
+  }, [computing, agent, isListening, onMicToggle]);
 
   return (
-    <div className="hologram-outer">
-      {/* Dynamic Back-Glow */}
-      <div className="hologram-glow-core"></div>
-
-      {/* Hologram SVG */}
-      <svg
-        className="hologram-canvas"
-        viewBox="0 0 400 400"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <defs>
-          {/* Radial Gradient for central core sphere */}
-          <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
-            <stop offset="0%" stopColor="var(--accent)" stopOpacity="1" />
-            <stop offset="35%" stopColor="var(--accent)" stopOpacity="0.85" />
-            <stop offset="70%" stopColor="var(--accent)" stopOpacity="0.45" />
-            <stop offset="100%" stopColor="var(--accent)" stopOpacity="0" />
-          </radialGradient>
-
-          {/* Linear gradient for orbit rings */}
-          <linearGradient id="orbitGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stopColor="var(--accent)" stopOpacity="0.6" />
-            <stop offset="50%" stopColor="rgba(255, 255, 255, 0.1)" stopOpacity="0.2" />
-            <stop offset="100%" stopColor="var(--accent)" stopOpacity="0.8" />
-          </linearGradient>
-
-          {/* Soft blur for glowing effect */}
-          <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="6" result="blur" />
-            <feComposite in="SourceGraphic" in2="blur" operator="over" />
-          </filter>
-        </defs>
-
-        {/* Outer Orbit with dotted particles */}
-        <g className={`hologram-ring-outer ${stateClass}`}>
-          {/* Outer circle line */}
-          <circle
-            cx="200"
-            cy="200"
-            r="160"
-            stroke="url(#orbitGrad)"
-            strokeWidth="1"
-            strokeDasharray="4 8 12 8"
-            opacity="0.35"
-          />
-          {/* Outer floating nodes */}
-          <circle cx="200" cy="40" r="3" fill="var(--accent)" filter="url(#neonGlow)" />
-          <circle cx="360" cy="200" r="2.5" fill="var(--accent)" />
-          <circle cx="200" cy="360" r="3" fill="var(--accent)" filter="url(#neonGlow)" />
-          <circle cx="40" cy="200" r="2" fill="rgba(255,255,255,0.6)" />
-        </g>
-
-        {/* Middle Orbit with solid sections and spacing */}
-        <g className={`hologram-ring-middle ${stateClass}`}>
-          {/* Medium circle arcs */}
-          <path
-            d="M 200,60 A 140,140 0 0,1 340,200"
-            stroke="var(--accent)"
-            strokeWidth="1.5"
-            strokeDasharray="40 10 5 10"
-            opacity="0.5"
-          />
-          <path
-            d="M 200,340 A 140,140 0 0,1 60,200"
-            stroke="var(--accent)"
-            strokeWidth="1.5"
-            strokeDasharray="20 20 40 15"
-            opacity="0.4"
-          />
-          
-          {/* Orbiting nodes */}
-          <circle cx="101" cy="98" r="4" fill="var(--accent)" filter="url(#neonGlow)" />
-          <circle cx="299" cy="302" r="3" fill="var(--accent)" />
-        </g>
-
-        {/* Inner Orbit with dense dash styling */}
-        <g className={`hologram-ring-inner ${stateClass}`}>
-          <circle
-            cx="200"
-            cy="200"
-            r="110"
-            stroke="url(#orbitGrad)"
-            strokeWidth="2"
-            strokeDasharray="150 15 30 15"
-            opacity="0.75"
-          />
-          
-          {/* Close-orbit micro particles */}
-          <circle cx="200" cy="90" r="2.5" fill="#fff" filter="url(#neonGlow)" />
-          <circle cx="200" cy="310" r="2" fill="#fff" />
-          <circle cx="110" cy="250" r="3" fill="var(--accent)" />
-          <circle cx="290" cy="150" r="2.5" fill="var(--accent)" filter="url(#neonGlow)" />
-        </g>
-
-        {/* Dynamic Glowing Sphere Center Core */}
-        <circle
-          className={`hologram-globe-core ${stateClass}`}
-          cx="200"
-          cy="200"
-          r="70"
-          fill="url(#coreGlow)"
-          filter="url(#neonGlow)"
-        />
-
-        {/* Central Core Outline with tiny ticks */}
-        <circle
-          cx="200"
-          cy="200"
-          r="70"
-          stroke="var(--accent)"
-          strokeWidth="1"
-          strokeDasharray="10 5"
-          opacity="0.4"
-        />
-
-        {/* Hologram horizontal scanner bar simulation */}
-        <line
-          x1="120"
-          y1="200"
-          x2="280"
-          y2="200"
-          stroke="rgba(255, 255, 255, 0.15)"
-          strokeWidth="1"
-          strokeDasharray="20 4 2 4"
-        />
-        
-        {/* Core crosshair rings */}
-        <circle cx="200" cy="200" r="15" stroke="var(--accent)" strokeWidth="0.75" opacity="0.4" />
-        <circle cx="200" cy="200" r="5" fill="var(--accent)" opacity="0.7" />
-      </svg>
+    <div 
+      className={`hologram-hud-box ${isListening ? 'hologram-listening' : ''}`}
+      onClick={onMicToggle}
+    >
+      {/* 3D Canvas Mount Point */}
+      <div className="hologram-canvas-container" ref={mountRef} />
     </div>
   );
 }

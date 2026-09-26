@@ -1,0 +1,32 @@
+[
+  {
+    "id": "PROB-001",
+    "language": "Java",
+    "category": "Arrays",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in Java:\n\nGiven an array of integers `nums` and an integer `target`, return indices of the two numbers such that they add up to `target`. Assume exactly one solution exists.\n\nConstraints:\n2 <= nums.length <= 10^4, -10^9 <= nums[i] <= 10^9\n\nExamples:\nInput: nums = [2,7,11,15], target = 9 -> Output: [0,1]"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nUse a HashMap to store array elements and their index positions while scanning the array in a single pass. For each element `nums[i]`, compute `complement = target - nums[i]` and check if `complement` exists in the map.\n\n## Algorithm\nHash Table Single Pass Search\n\n## Code\n```java\nimport java.util.HashMap;\nimport java.util.Map;\n\npublic class Solution {\n public static int[] twoSum(int[] nums, int target) {\n Map<Integer, Integer> map = new HashMap<>();\n for (int i = 0; i < nums.length; i++) {\n int complement = target - nums[i];\n if (map.containsKey(complement)) {\n return new int[] { map.get(complement), i };\n }\n map.put(nums[i], i);\n }\n return new int[]{};\n }\n public static void main(String[] args) {\n int[] res = twoSum(new int[]{2, 7, 11, 15}, 9);\n System.out.println(\"[\" + res[0] + \", \" + res[1] + \"]\");\n }\n}\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(n)"
+      }
+    ]
+  },
+  {
+    "id": "PROB-004",
+    "language": "C",
+    "category": "Hashing",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Solve the following programming problem in C:\n\nGiven two strings s and t, return 1 if t is an anagram of s, and 0 otherwise.\n\nConstraints:\n1 <= s.length, t.length <= 5 * 10^4\n\nExamples:\ns = 'anagram', t = 'nagaram' -> 1"
+      },
+      {
+        "role": "assistant",
+        "content": "## Approach\nCount frequencies of characters using a fixed frequency array of size 26 for lowercase English letters. Increment frequency for characters in string `s` and decrement for characters in string `t`.\n\n## Algorithm\nCharacter Frequency Array Hashing\n\n## Code\n```c\n#include <stdio.h>\n#include <string.h>\n#include <stdbool.h>\n\nbool isAnagram(const char* s, const char* t) {\n if (strlen(s) != strlen(t)) return false;\n int count[26] = {0};\n for (int i = 0; s[i] != '\\0'; i++) {\n count[s[i] - 'a']++;\n count[t[i] - 'a']--;\n }\n for (int i = 0; i < 26; i++) {\n if (count[i] != 0) return false;\n }\n return true;\n}\n\nint main() {\n printf(\"%d\\n\", isAnagram(\"anagram\", \"nagaram\"));\n return 0;\n}\n```\n\n## Complexity\n- Time Complexity: O(n)\n- Space Complexity: O(1)"
+      }
+    ]
+  }
+]

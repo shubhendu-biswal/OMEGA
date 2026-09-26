@@ -1,0 +1,18 @@
+{
+  "total_benchmark_records": 2,
+  "evaluation_time_sec": 1.99,
+  "compilation_accuracy": 100.0,
+  "functional_accuracy": 100.0,
+  "test_pass_rate": 100.0,
+  "language_accuracy": 100.0,
+  "language_breakdown": {
+    "Java": {
+      "total": 1,
+      "compiled": 1
+    },
+    "C": {
+      "total": 1,
+      "compiled": 1
+    }
+  }
+}

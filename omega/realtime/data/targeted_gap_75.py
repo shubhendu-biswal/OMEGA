@@ -1,0 +1,91 @@
+import json
+import os
+
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+gap_examples = [
+    # 1. Weather: wind speed, humidity, pressure, gusts, precipitation (40 examples)
+    {"text": "What is the humidity and wind speed in Bhopal today?", "intent": "realtime"},
+    {"text": "Current wind speed and humidity levels in Delhi right now", "intent": "realtime"},
+    {"text": "What is the wind speed in km/h and atmospheric pressure in Mumbai today?", "intent": "realtime"},
+    {"text": "Check humidity, wind speed, and precipitation chance in Kolkata today", "intent": "realtime"},
+    {"text": "What is the wind speed and wind direction in Bengaluru now?", "intent": "realtime"},
+    {"text": "Current humidity percentage and wind gust speed in Chennai right now", "intent": "realtime"},
+    {"text": "What is the wind speed and air pressure in Hyderabad today?", "intent": "realtime"},
+    {"text": "Live wind speed and humidity index in Jaipur right now", "intent": "realtime"},
+    {"text": "Check current wind speed and thunderstorm alert in Lucknow today", "intent": "realtime"},
+    {"text": "What is the wind speed and temperature in Pune this afternoon?", "intent": "realtime"},
+    {"text": "Current wind speed and fog density in Chandigarh today", "intent": "realtime"},
+    {"text": "What is the humidity and wind velocity in Ahmedabad right now?", "intent": "realtime"},
+    {"text": "Check wind speed, rainfall probability, and humidity in Patna today", "intent": "realtime"},
+    {"text": "What is the wind speed in New York City right now?", "intent": "realtime"},
+    {"text": "Current humidity and wind speed in London right now", "intent": "realtime"},
+    {"text": "Wind speed, gust forecast, and humidity in Tokyo today", "intent": "realtime"},
+    {"text": "What is the atmospheric pressure and wind speed in Dubai now?", "intent": "realtime"},
+    {"text": "Current wind speed in Paris right now", "intent": "realtime"},
+    {"text": "What is the relative humidity and wind speed in Singapore today?", "intent": "realtime"},
+    {"text": "Check live wind speed and cloud cover in Toronto today", "intent": "realtime"},
+    {"text": "Current wind speed and wave height forecast in Goa today", "intent": "realtime"},
+    {"text": "What is the humidity, UV index, and wind speed in Shimla today?", "intent": "realtime"},
+    {"text": "Check wind speed and rainfall in Varanasi today", "intent": "realtime"},
+    {"text": "Current wind speed in Srinagar valley right now", "intent": "realtime"},
+    {"text": "What is the wind velocity and humidity in Surat today?", "intent": "realtime"},
+    {"text": "Aaj Delhi me hawa ki gati aur nami kitni hai?", "intent": "realtime"},
+    {"text": "Mumbai me abhi hawa ki speed aur barish ka update", "intent": "realtime"},
+    {"text": "Aaj Lucknow me kitni tez hawa chal rahi hai?", "intent": "realtime"},
+    {"text": "Jaipur me aaj wind speed aur humidity kitni hai?", "intent": "realtime"},
+    {"text": "Kolkata me aaj hawa ki raftaar aur mausam kaisa hai?", "intent": "realtime"},
+    {"text": "Wind speed kitni hai abhi Bangalore me live?", "intent": "realtime"},
+    {"text": "Aaj Patna me nami aur hawa ka kya haal hai?", "intent": "realtime"},
+    {"text": "Current wind speed aur temperature batao Pune ka", "intent": "realtime"},
+    {"text": "Hawa ki speed aur humidity update aaj ka", "intent": "realtime"},
+    {"text": "Atmospheric pressure aur wind speed live report", "intent": "realtime"},
+    {"text": "What is the wind speed and gust velocity in Indore right now?", "intent": "realtime"},
+    {"text": "Humidity level and wind speed in Bhubaneswar today", "intent": "realtime"},
+    {"text": "Check wind speed and cyclone alert in Odisha coast today", "intent": "realtime"},
+    {"text": "Current wind speed and storm warning in Visakhapatnam today", "intent": "realtime"},
+    {"text": "Live humidity and wind speed reading in Dehradun now", "intent": "realtime"},
+
+    # 2. Current political/business leaders & incumbents right now (35 examples)
+    {"text": "Who is the current Prime Minister of the United Kingdom right now?", "intent": "realtime"},
+    {"text": "Who is the current President of France in 2026?", "intent": "realtime"},
+    {"text": "Who is the current President of the United States right now?", "intent": "realtime"},
+    {"text": "Who is the current Prime Minister of Japan right now?", "intent": "realtime"},
+    {"text": "Who is the current Chancellor of Germany right now?", "intent": "realtime"},
+    {"text": "Who is the current Prime Minister of Canada right now?", "intent": "realtime"},
+    {"text": "Who is the current Prime Minister of Australia right now?", "intent": "realtime"},
+    {"text": "Who is the current President of Sri Lanka right now?", "intent": "realtime"},
+    {"text": "Who is the current Chief Minister of Maharashtra right now in 2026?", "intent": "realtime"},
+    {"text": "Who is the current Chief Minister of Delhi right now?", "intent": "realtime"},
+    {"text": "Who is the current Chief Minister of Uttar Pradesh right now?", "intent": "realtime"},
+    {"text": "Who is the current Governor of the Reserve Bank of India right now?", "intent": "realtime"},
+    {"text": "Who is the current Chief Justice of India right now?", "intent": "realtime"},
+    {"text": "Who is the current CEO of Google Alphabet right now?", "intent": "realtime"},
+    {"text": "Who is the current CEO of Microsoft right now?", "intent": "realtime"},
+    {"text": "Who is the current CEO of Twitter / X right now?", "intent": "realtime"},
+    {"text": "Who is the current CEO of OpenAI right now?", "intent": "realtime"},
+    {"text": "Who is the current Secretary General of the United Nations right now?", "intent": "realtime"},
+    {"text": "Who is the current President of the World Bank right now?", "intent": "realtime"},
+    {"text": "Who is serving as the current Finance Minister of India right now?", "intent": "realtime"},
+    {"text": "Who is the current Home Minister of India right now?", "intent": "realtime"},
+    {"text": "Who is the current Defence Minister of India right now?", "intent": "realtime"},
+    {"text": "Who is the current Agriculture Minister of India right now?", "intent": "realtime"},
+    {"text": "Abhi UK ke pradhan mantri kaun hain right now?", "intent": "realtime"},
+    {"text": "France ke current president kaun hain abhi?", "intent": "realtime"},
+    {"text": "America ke vartaman rashtrapati kaun hain 2026 mein?", "intent": "realtime"},
+    {"text": "Abhi Bharat ke RBI governor kaun hain current?", "intent": "realtime"},
+    {"text": "Maharashtra ke current CM kaun hain abhi?", "intent": "realtime"},
+    {"text": "Delhi ke vartaman mukhyamantri kaun hain right now?", "intent": "realtime"},
+    {"text": "Abhi Twitter ke CEO kaun hain latest?", "intent": "realtime"},
+    {"text": "Current Indian cricket team captain right now in 2026", "intent": "realtime"},
+    {"text": "Who is the current captain of India test cricket team right now?", "intent": "realtime"},
+    {"text": "Present head of ISRO right now in 2026", "intent": "realtime"},
+    {"text": "Abhi ISRO ke chairman kaun hain current?", "intent": "realtime"},
+    {"text": "Who holds the post of current Foreign Minister of India right now?", "intent": "realtime"}
+]
+
+out_file = os.path.join(CURRENT_DIR, "targeted_gap_75.json")
+with open(out_file, "w", encoding="utf-8") as f:
+    json.dump(gap_examples, f, indent=2, ensure_ascii=False)
+
+print(f"Generated {len(gap_examples)} targeted gap training examples at: {out_file}")

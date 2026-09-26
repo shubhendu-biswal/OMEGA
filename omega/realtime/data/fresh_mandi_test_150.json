@@ -1,0 +1,602 @@
+[
+  {
+    "text": "aaj subah vashi APMC me pyaz kitne me bika",
+    "intent": "realtime"
+  },
+  {
+    "text": "lasalgaon kanda auction rate per quintal this morning",
+    "intent": "realtime"
+  },
+  {
+    "text": "delhi azadpur wholesale mandi me onion 50 kg sack price",
+    "intent": "realtime"
+  },
+  {
+    "text": "pyaaz bhao aajka pune market",
+    "intent": "realtime"
+  },
+  {
+    "text": "solapur mandi onion arrival and minimum rate today",
+    "intent": "realtime"
+  },
+  {
+    "text": "kisan bhaiyo mahuva mandi me pyaz ka kya rate nikla",
+    "intent": "realtime"
+  },
+  {
+    "text": "hubli market red onion modal price right now",
+    "intent": "realtime"
+  },
+  {
+    "text": "yeotmal APMC pyaz thok rate live",
+    "intent": "realtime"
+  },
+  {
+    "text": "bhavnagar mandi white onion prevailing rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "kurnool APMC summer onion auction price",
+    "intent": "realtime"
+  },
+  {
+    "text": "aaj alwar mandi me fresh pyaz ki boli kitne pe shuru hui",
+    "intent": "realtime"
+  },
+  {
+    "text": "khandwa mandi pyaz rate per kg today",
+    "intent": "realtime"
+  },
+  {
+    "text": "ahmednagar kanda bazaar live rates",
+    "intent": "realtime"
+  },
+  {
+    "text": "satara mandi onion modal price per bag",
+    "intent": "realtime"
+  },
+  {
+    "text": "dindori APMC onion daily rate sheet",
+    "intent": "realtime"
+  },
+  {
+    "text": "bhai aaj ujjain mandi me gehu ka kya rate chal raha hai",
+    "intent": "realtime"
+  },
+  {
+    "text": "sehore mandi sharbati gehu ka live auction bhav",
+    "intent": "realtime"
+  },
+  {
+    "text": "kota mandi durum wheat modal price per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "khanna mandi gehu arrival rate morning session",
+    "intent": "realtime"
+  },
+  {
+    "text": "sirsa grain market wheat per quintal today",
+    "intent": "realtime"
+  },
+  {
+    "text": "harda mandi gehu ka taaza rate kitna hai",
+    "intent": "realtime"
+  },
+  {
+    "text": "baran mandi wheat mill quality price",
+    "intent": "realtime"
+  },
+  {
+    "text": "vidisha mandi lokwan wheat rate per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "shahjahanpur gehu market rate live update",
+    "intent": "realtime"
+  },
+  {
+    "text": "dabwali mandi gehu ka taza bhav bataiye",
+    "intent": "realtime"
+  },
+  {
+    "text": "bikaner mandi gehu standard lot price",
+    "intent": "realtime"
+  },
+  {
+    "text": "patiala grain market wheat wholesale rate today",
+    "intent": "realtime"
+  },
+  {
+    "text": "ratlam APMC gehu modal bhav live",
+    "intent": "realtime"
+  },
+  {
+    "text": "hathras mandi gehu purchase price",
+    "intent": "realtime"
+  },
+  {
+    "text": "gehu bhao karnal grain market",
+    "intent": "realtime"
+  },
+  {
+    "text": "tamatar 25 kg crate rate in kolar market today",
+    "intent": "realtime"
+  },
+  {
+    "text": "tamater bhav deesa vegetable market",
+    "intent": "realtime"
+  },
+  {
+    "text": "pimpalgaon tomato auction average price per crate",
+    "intent": "realtime"
+  },
+  {
+    "text": "madannapalle mandi tamatar wholesale rate morning",
+    "intent": "realtime"
+  },
+  {
+    "text": "chittoor tomato market price per kg live",
+    "intent": "realtime"
+  },
+  {
+    "text": "nashik tomato yard modal rate per box",
+    "intent": "realtime"
+  },
+  {
+    "text": "aaj ranchi mandi me tamatar ka kya wholesale bhav hai",
+    "intent": "realtime"
+  },
+  {
+    "text": "solan mandi hybrid tomato crate price",
+    "intent": "realtime"
+  },
+  {
+    "text": "lucknow dubagga mandi tamatar ka taaza rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "varanasi pahariya mandi tomato prevailing price",
+    "intent": "realtime"
+  },
+  {
+    "text": "sangamner tomato auction rate sheet",
+    "intent": "realtime"
+  },
+  {
+    "text": "jabalpur krishi mandi tamatar bhav per crate",
+    "intent": "realtime"
+  },
+  {
+    "text": "agra mandi deshi tamatar rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "ahmedabad APMC hybrid tamatar daily rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "tamatar crate price shivaji market",
+    "intent": "realtime"
+  },
+  {
+    "text": "kapas rate rajkot commodity yard today",
+    "intent": "realtime"
+  },
+  {
+    "text": "surendranagar mandi shankar-6 cotton spot rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "yeotmal APMC cotton medium staple per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "kadi mandi kapas auction price live",
+    "intent": "realtime"
+  },
+  {
+    "text": "adilabad cotton market modal rate per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "amreli mandi desi kapas rate morning",
+    "intent": "realtime"
+  },
+  {
+    "text": "jalna APMC ru kapas wholesale price",
+    "intent": "realtime"
+  },
+  {
+    "text": "bhatinda mandi narma kapas rate today",
+    "intent": "realtime"
+  },
+  {
+    "text": "sirsa mandi long staple cotton price update",
+    "intent": "realtime"
+  },
+  {
+    "text": "mansa market narma kapas live rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "warangal cotton yard prevailing auction rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "khammam kapas rate per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "hinganghat APMC cotton price sheet",
+    "intent": "realtime"
+  },
+  {
+    "text": "dharwad cotton spot market price",
+    "intent": "realtime"
+  },
+  {
+    "text": "kapas ka taaja dam botad mandi",
+    "intent": "realtime"
+  },
+  {
+    "text": "indore mandi yellow soybean modal rate today per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "latur APMC soyabean auction rate morning",
+    "intent": "realtime"
+  },
+  {
+    "text": "neemuch mandi soybean rate per quintal live",
+    "intent": "realtime"
+  },
+  {
+    "text": "akola market soybean commercial quality price",
+    "intent": "realtime"
+  },
+  {
+    "text": "dewas mandi soybean ka taaza bhav kitna chal raha hai",
+    "intent": "realtime"
+  },
+  {
+    "text": "amravati APMC soybean spot delivery price",
+    "intent": "realtime"
+  },
+  {
+    "text": "nagpur mandi refined soybean lot rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "ujjain APMC soyabean modal price today",
+    "intent": "realtime"
+  },
+  {
+    "text": "washim APMC soybean arrival and auction rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "kota mandi soyabean seed rate per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "seoni mandi soybean modal price list",
+    "intent": "realtime"
+  },
+  {
+    "text": "betul krishi upaj mandi soybean bhav",
+    "intent": "realtime"
+  },
+  {
+    "text": "mandsaur mandi black soybean rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "hingoli mandi soybean wholesale price",
+    "intent": "realtime"
+  },
+  {
+    "text": "soyabean bhav baramati yard",
+    "intent": "realtime"
+  },
+  {
+    "text": "lahsun mandy rat mandsaur today",
+    "intent": "realtime"
+  },
+  {
+    "text": "neemuch mandi ooti garlic modal price per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "kota mandi desi lahsun per bag auction rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "hassan APMC ginger wholesale price per bag",
+    "intent": "realtime"
+  },
+  {
+    "text": "wayanad fresh green ginger mandi price today",
+    "intent": "realtime"
+  },
+  {
+    "text": "shimoga adrak market price per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "pipariya mandi lahsun arrival and modal rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "chhindwara mandi adrak wholesale rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "jaipur terminal market garlic box rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "bhopal mandi lahsun wholesale price per kg",
+    "intent": "realtime"
+  },
+  {
+    "text": "lahsun grade 1 rate pratapgarh mandi",
+    "intent": "realtime"
+  },
+  {
+    "text": "adrak goli quality price siliguri mandi",
+    "intent": "realtime"
+  },
+  {
+    "text": "alwar mandi garlic loose price",
+    "intent": "realtime"
+  },
+  {
+    "text": "shimla ginger wet lot mandi price",
+    "intent": "realtime"
+  },
+  {
+    "text": "garlic mandi price indore krishi upaj",
+    "intent": "realtime"
+  },
+  {
+    "text": "delhi azadpur mandi potato rate per bag today",
+    "intent": "realtime"
+  },
+  {
+    "text": "farrukhabad alu mandi bhav per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "agra cold storage alu market release price",
+    "intent": "realtime"
+  },
+  {
+    "text": "hapur mandi pukhraj potato modal rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "guntur dry red chilli teja variety live rate per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "byadgi chilli auction price in karnataka today",
+    "intent": "realtime"
+  },
+  {
+    "text": "khammam red chilli fatki quality mandi price",
+    "intent": "realtime"
+  },
+  {
+    "text": "jabalpur mandi fresh green peas matar per kg rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "aligarh alu mandi rate 50 kg packet",
+    "intent": "realtime"
+  },
+  {
+    "text": "sambhal potato wholesale yard price",
+    "intent": "realtime"
+  },
+  {
+    "text": "warangal red chilli modal rate live",
+    "intent": "realtime"
+  },
+  {
+    "text": "nashik cauliflower gobhi crate rate APMC",
+    "intent": "realtime"
+  },
+  {
+    "text": "bengaluru market green chilli per kg price",
+    "intent": "realtime"
+  },
+  {
+    "text": "kolhapur yard potato chipsona rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "alu ka wholesale rate kanpur mandi",
+    "intent": "realtime"
+  },
+  {
+    "text": "bharatpur mandi sarso spot price per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "jaipur mandi mustard seed 42 condition rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "alwar oilseed mandi sarso live rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "gulabbagh purnea makka corn modal rate today",
+    "intent": "realtime"
+  },
+  {
+    "text": "chhindwara mandi maize poultry grade price",
+    "intent": "realtime"
+  },
+  {
+    "text": "davangere APMC maize per quintal morning price",
+    "intent": "realtime"
+  },
+  {
+    "text": "bikaner mandi chana dal wholesale rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "latur mandi red gram tur tur dal auction price",
+    "intent": "realtime"
+  },
+  {
+    "text": "gulbarga tur dal mandi modal price today",
+    "intent": "realtime"
+  },
+  {
+    "text": "jalgaon chana auction rate per quintal",
+    "intent": "realtime"
+  },
+  {
+    "text": "akola moong dal wholesale mandi rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "kota mandi black urad per quintal price",
+    "intent": "realtime"
+  },
+  {
+    "text": "hindaun mandi sarso mustard auction price",
+    "intent": "realtime"
+  },
+  {
+    "text": "makka bhav bihar gulabbagh live",
+    "intent": "realtime"
+  },
+  {
+    "text": "sarson ka daam mandi morena",
+    "intent": "realtime"
+  },
+  {
+    "text": "unjha mandi jeera cumin seed auction rate today",
+    "intent": "realtime"
+  },
+  {
+    "text": "rajkot APMC jeera quality 1 modal price",
+    "intent": "realtime"
+  },
+  {
+    "text": "gondal mandi moongfali groundnut pod rate per 20 kg",
+    "intent": "realtime"
+  },
+  {
+    "text": "junagadh APMC groundnut bold variety rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "ramganj mandi dhaniya coriander spot rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "kumbhraj mandi green coriander seed rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "erode mandi finger turmeric live auction price",
+    "intent": "realtime"
+  },
+  {
+    "text": "nizamabad turmeric farmers yard modal rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "sangli haldi market rajapore turmeric rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "dharapuram groundnut kernel market rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "patan mandi castor seed erand rate today",
+    "intent": "realtime"
+  },
+  {
+    "text": "deesa mandi sesamum til white rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "bodeli castor seed APMC wholesale price",
+    "intent": "realtime"
+  },
+  {
+    "text": "jeera bhav unjha live trading session",
+    "intent": "realtime"
+  },
+  {
+    "text": "haldi ka mandi rate duggirala",
+    "intent": "realtime"
+  },
+  {
+    "text": "gold 24k bullion spot rate in zaveri bazaar mumbai today",
+    "intent": "realtime"
+  },
+  {
+    "text": "silver 999 wholesale price per kg mcx live right now",
+    "intent": "realtime"
+  },
+  {
+    "text": "delhi bullion market 22 carat gold rate per 10 grams",
+    "intent": "realtime"
+  },
+  {
+    "text": "sona chandi ka taaza bhav sarafa market indore",
+    "intent": "realtime"
+  },
+  {
+    "text": "chennai gold rate sovereign today live",
+    "intent": "realtime"
+  },
+  {
+    "text": "kolkata sarafa bazaar silver bar price today",
+    "intent": "realtime"
+  },
+  {
+    "text": "jaipur sarafa mandal gold hallmarked rate",
+    "intent": "realtime"
+  },
+  {
+    "text": "ahmedabad gold 99.9 purity spot cash price",
+    "intent": "realtime"
+  },
+  {
+    "text": "crude oil barrel price on mcx commodity exchange now",
+    "intent": "realtime"
+  },
+  {
+    "text": "natural gas mcx spot contract rate today",
+    "intent": "realtime"
+  },
+  {
+    "text": "copper lot price commodity market live",
+    "intent": "realtime"
+  },
+  {
+    "text": "mentha oil spot price sambhal market",
+    "intent": "realtime"
+  },
+  {
+    "text": "guar gum seed rate jodhpur commodity yard today",
+    "intent": "realtime"
+  },
+  {
+    "text": "guar split rate bikaner mandi morning session",
+    "intent": "realtime"
+  },
+  {
+    "text": "rubber rss-4 kottayam spot market auction rate",
+    "intent": "realtime"
+  }
+]

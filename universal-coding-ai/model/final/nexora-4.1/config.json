@@ -1,0 +1,36 @@
+{
+  "model_name": "Nexora 4.1",
+  "model_type": "Nexora-4.1-LLM",
+  "version": "4.1",
+  "base_model": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+  "trained_dataset": "Universal Coding Multi-Language & DSA Instruction Set (18 Languages)",
+  "supported_languages": [
+    "Java",
+    "Python",
+    "C",
+    "C++",
+    "JavaScript",
+    "TypeScript",
+    "C#",
+    "Go",
+    "Rust",
+    "Kotlin",
+    "Swift",
+    "PHP",
+    "Ruby",
+    "Dart",
+    "Scala",
+    "R",
+    "SQL",
+    "MATLAB"
+  ],
+  "task_capabilities": [
+    "Natural Language Problem Understanding",
+    "Inputs / Outputs / Constraints / Edge Cases Identification",
+    "Algorithm & Data Structure Selection",
+    "Complete Executable Code Generation",
+    "Multi-Language Conversion",
+    "Code Optimization & Self-Correction Feedback Loop"
+  ],
+  "created_at": "2026-09-11 10:07:15"
+}

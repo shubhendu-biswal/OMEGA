@@ -1,0 +1,1103 @@
+{
+  "total_queries": 40,
+  "correct_routes": 40,
+  "accuracy_pct": 100.0,
+  "avg_latency_ms": 1549.53,
+  "realtime_with_sources": 20,
+  "realtime_with_timestamp": 20,
+  "downtime_fallback_verified": true,
+  "results": [
+    {
+      "id": 1,
+      "query": "What is the weather in Delhi right now?",
+      "category": "weather",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9955,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "weather",
+      "sources_count": 1,
+      "sources": [
+        {
+          "name": "Open-Meteo Weather API",
+          "url": "https://open-meteo.com/"
+        }
+      ],
+      "timestamp": "2026-09-26 18:42:41 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3578.12,
+      "answer_valid": true,
+      "answer_snippet": "### ⛅ Current Weather for Delhi, National Capital Territory of Delhi, India\n• **Condition**: **Light drizzle**\n• **Temperature**: **23.1°C** (Feels like: 26.7°C)\n• **Relative Humidity**: 83%\n• **Wind ",
+      "answer_full": "### ⛅ Current Weather for Delhi, National Capital Territory of Delhi, India\n• **Condition**: **Light drizzle**\n• **Temperature**: **23.1°C** (Feels like: 26.7°C)\n• **Relative Humidity**: 83%\n• **Wind Speed**: 2.0 km/h\n• **Current Precipitation**: 0.1 mm\n• **Today's Forecast**: High of 29.6°C, Low of 23.3°C (Precipitation Probability: 75%)\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Open-Meteo Weather API](https://open-meteo.com/)\n• **Retrieved**: 2026-09-26 18:42:41 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 2,
+      "query": "Current temperature and forecast in Mumbai",
+      "category": "weather",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9918,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "weather",
+      "sources_count": 1,
+      "sources": [
+        {
+          "name": "Open-Meteo Weather API",
+          "url": "https://open-meteo.com/"
+        }
+      ],
+      "timestamp": "2026-09-26 18:42:44 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3380.29,
+      "answer_valid": true,
+      "answer_snippet": "### ⛅ Current Weather for Mumbai, Maharashtra, India\n• **Condition**: **Partly cloudy**\n• **Temperature**: **27.3°C** (Feels like: 31.9°C)\n• **Relative Humidity**: 81%\n• **Wind Speed**: 8.6 km/h\n• **T",
+      "answer_full": "### ⛅ Current Weather for Mumbai, Maharashtra, India\n• **Condition**: **Partly cloudy**\n• **Temperature**: **27.3°C** (Feels like: 31.9°C)\n• **Relative Humidity**: 81%\n• **Wind Speed**: 8.6 km/h\n• **Today's Forecast**: High of 30.5°C, Low of 27.1°C (Precipitation Probability: 51%)\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Open-Meteo Weather API](https://open-meteo.com/)\n• **Retrieved**: 2026-09-26 18:42:44 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 3,
+      "query": "London weather today",
+      "category": "weather",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9784,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "weather",
+      "sources_count": 1,
+      "sources": [
+        {
+          "name": "Open-Meteo Weather API",
+          "url": "https://open-meteo.com/"
+        }
+      ],
+      "timestamp": "2026-09-26 18:42:47 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3273.18,
+      "answer_valid": true,
+      "answer_snippet": "### ⛅ Current Weather for London, England, United Kingdom\n• **Condition**: **Clear sky**\n• **Temperature**: **20.4°C** (Feels like: 17.4°C)\n• **Relative Humidity**: 28%\n• **Wind Speed**: 7.2 km/h\n• **",
+      "answer_full": "### ⛅ Current Weather for London, England, United Kingdom\n• **Condition**: **Clear sky**\n• **Temperature**: **20.4°C** (Feels like: 17.4°C)\n• **Relative Humidity**: 28%\n• **Wind Speed**: 7.2 km/h\n• **Today's Forecast**: High of 21.3°C, Low of 12.8°C (Precipitation Probability: 0%)\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Open-Meteo Weather API](https://open-meteo.com/)\n• **Retrieved**: 2026-09-26 18:42:47 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 4,
+      "query": "How is the weather in Bengaluru?",
+      "category": "weather",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9344,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "weather",
+      "sources_count": 1,
+      "sources": [
+        {
+          "name": "Open-Meteo Weather API",
+          "url": "https://open-meteo.com/"
+        }
+      ],
+      "timestamp": "2026-09-26 18:42:51 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3480.77,
+      "answer_valid": true,
+      "answer_snippet": "### ⛅ Current Weather for Bengaluru, Karnataka, India\n• **Condition**: **Clear sky**\n• **Temperature**: **21.1°C** (Feels like: 23.2°C)\n• **Relative Humidity**: 86%\n• **Wind Speed**: 6.8 km/h\n• **Toda",
+      "answer_full": "### ⛅ Current Weather for Bengaluru, Karnataka, India\n• **Condition**: **Clear sky**\n• **Temperature**: **21.1°C** (Feels like: 23.2°C)\n• **Relative Humidity**: 86%\n• **Wind Speed**: 6.8 km/h\n• **Today's Forecast**: High of 28.2°C, Low of 19.8°C (Precipitation Probability: 27%)\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Open-Meteo Weather API](https://open-meteo.com/)\n• **Retrieved**: 2026-09-26 18:42:51 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 5,
+      "query": "Current mandi price of onion in Maharashtra",
+      "category": "mandi",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.8284,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Onion (Pyaz) Price in Maharashtra: ₹3595/Quintal Today",
+          "url": "https://www.kisandeals.com/mandiprices/ONION/MAHARASHTRA/ALL"
+        },
+        {
+          "name": "Onion mandi price today in Maharashtra",
+          "url": "https://www.commodityonline.com/mandiprices/onion/maharashtra"
+        },
+        {
+          "name": "Onion market price Today (26 September 2026)",
+          "url": "https://www.commodityonline.com/mandiprices/onion"
+        },
+        {
+          "name": "Onion Mandi Market prices today in Maharashtra",
+          "url": "https://www.napanta.com/agri-commodity-prices/maharashtra/onion"
+        },
+        {
+          "name": "Onion - Wholesale Price & Mandi Rate for Onion in India",
+          "url": "https://dir.indiamart.com/impcat/onion.html"
+        }
+      ],
+      "timestamp": "2026-09-26 18:42:54 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3512.78,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Current mandi price of onion in maharashtra\nBased on verified real-time sources retrieved from the web:\n\n• **Onion (Pyaz) Price in Maharashtra: ₹3595/Quintal Today**: ### ",
+      "answer_full": "### 📰 Real-Time Information: Current mandi price of onion in maharashtra\nBased on verified real-time sources retrieved from the web:\n\n• **Onion (Pyaz) Price in Maharashtra: ₹3595/Quintal Today**: ### Today's Onion wholesale price in Maharashtra is ₹3595 per quintal at APMC mandis. This is the modal (bulk traded) wholesale rate. Retail prices in local markets are typically 10–25% higher due to transport, arhat (commission), and handling costs. ### [...] Onion rate today...\n• **Onion mandi price today in Maharashtra**: The mandi rate of Onion in Maharashtra is ₹3516.67 per quintal. ### How much does 1 kg of Onion cost in Maharashtra today? 1 kg of Onion in Maharashtra costs ₹35.17 today. ### What is the live wholesale Onion rate in Maharashtra mandi? The live wholesale Onion rate in Maharash...\n• **Onion market price Today (26 September 2026)**: As per the latest market rates, the average Onion price is ₹4768.63/Quintal. The lowest market price is ₹0.07/Quintal. The costliest market price is ₹11000/Quintal. ### Mandi Price Weekly Forecast Next week (22 Sep'26 - 28 Sep'26) Subscribe ##### See full mandi price table ## ...\n• **Onion Mandi Market prices today in Maharashtra**: | Karimnagar | Huzzurabad | Paddy(Dhan)(Common) | MTU-1010 | ₹ 2,389 | ₹ 2,389 | ₹ 2,389 | 04 Nov 2025 | For Free Price Alerts | | Karimnagar | Jagtial | Paddy(Dhan)(Common) | MTU-1010 | ₹ 1,891 | ₹ 1,891 | ₹ 1,700 | 04 Nov 2025 | For Free Price Alerts | | Nalgonda | Nidamanoo...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Onion (Pyaz) Price in Maharashtra: ₹3595/Quintal Today](https://www.kisandeals.com/mandiprices/ONION/MAHARASHTRA/ALL)\n• **Source**: [Onion mandi price today in Maharashtra](https://www.commodityonline.com/mandiprices/onion/maharashtra)\n• **Source**: [Onion market price Today (26 September 2026)](https://www.commodityonline.com/mandiprices/onion)\n• **Source**: [Onion Mandi Market prices today in Maharashtra](https://www.napanta.com/agri-commodity-prices/maharashtra/onion)\n• **Source**: [Onion - Wholesale Price & Mandi Rate for Onion in India](https://dir.indiamart.com/impcat/onion.html)\n• **Retrieved**: 2026-09-26 18:42:54 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 6,
+      "query": "What is the price of wheat in Punjab mandi today?",
+      "category": "mandi",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9934,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Wheat (Gehu) Price in Punjab: ₹2650/Quintal Today",
+          "url": "https://www.kisandeals.com/mandiprices/WHEAT/PUNJAB/ALL"
+        },
+        {
+          "name": "Wheat Mandi Market prices today in Punjab",
+          "url": "https://www.napanta.com/agri-commodity-prices/punjab/wheat"
+        },
+        {
+          "name": "Wheat market price Today (26 September 2026)",
+          "url": "https://www.commodityonline.com/mandiprices/wheat"
+        },
+        {
+          "name": "Wheat (Gehu) Price Today: ₹2652/Quintal",
+          "url": "https://www.kisandeals.com/mandiprices/WHEAT/ALL/ALL"
+        },
+        {
+          "name": "Wheat - Wholesale Price & Mandi Rate for Common Wheat",
+          "url": "https://dir.indiamart.com/impcat/wheat.html"
+        }
+      ],
+      "timestamp": "2026-09-26 18:42:58 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3596.98,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: What is the price of wheat in punjab mandi today?\nBased on verified real-time sources retrieved from the web:\n\n• **Wheat (Gehu) Price in Punjab: ₹2650/Quintal Today**: Whe",
+      "answer_full": "### 📰 Real-Time Information: What is the price of wheat in punjab mandi today?\nBased on verified real-time sources retrieved from the web:\n\n• **Wheat (Gehu) Price in Punjab: ₹2650/Quintal Today**: Wheat rate today in Punjab is ₹2767 per quintal (₹27.67 per kg). This is the live Wheat mandi bhav sourced from APMC markets — updated daily from the Government of India's Open Data Platform and eNAM (National Agriculture Market). Looking for Wheat price today per kg or Wheat ...\n• **Wheat Mandi Market prices today in Punjab**: | | | --- | | 1 kg Price: | ₹ 23 /kg | | Quintal (100 kg) Price: | ₹ 2,300 /Quintal | | Ton (1000 kg) Price: | ₹ 23,000 /Ton | | Avg Market Price: | ₹ 2,200/Quintal | | Min Market Price: | ₹ 2,300/Quintal | | Max Market Price: | ₹ 3,000/Quintal | | Price updated: | 06 Nov 2025...\n• **Wheat market price Today (26 September 2026)**: As per the latest market rates, the average Wheat price is ₹2626.97/Quintal. The lowest market price is ₹1750/Quintal. The costliest market price is ₹4001/Quintal. ### Mandi Price Weekly Forecast Next week (26 Sep'26 - 02 Oct'26) Subscribe ##### See full mandi price table ## W...\n• **Wheat (Gehu) Price Today: ₹2652/Quintal**: ### Today's Wheat wholesale price across India is ₹2612 per quintal at APMC mandis. This is the modal (bulk traded) wholesale rate. Retail prices in local markets are typically 10–25% higher due to transport, arhat (commission), and handling costs. ### [...] ### See today's Wh...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Wheat (Gehu) Price in Punjab: ₹2650/Quintal Today](https://www.kisandeals.com/mandiprices/WHEAT/PUNJAB/ALL)\n• **Source**: [Wheat Mandi Market prices today in Punjab](https://www.napanta.com/agri-commodity-prices/punjab/wheat)\n• **Source**: [Wheat market price Today (26 September 2026)](https://www.commodityonline.com/mandiprices/wheat)\n• **Source**: [Wheat (Gehu) Price Today: ₹2652/Quintal](https://www.kisandeals.com/mandiprices/WHEAT/ALL/ALL)\n• **Source**: [Wheat - Wholesale Price & Mandi Rate for Common Wheat](https://dir.indiamart.com/impcat/wheat.html)\n• **Retrieved**: 2026-09-26 18:42:58 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 7,
+      "query": "Potato bhav in Agra mandi",
+      "category": "mandi",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9933,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Potato market price Today (26 September 2026)",
+          "url": "https://www.commodityonline.com/mandiprices/potato"
+        },
+        {
+          "name": "Potato Mandi Market prices today in Keshopur Market",
+          "url": "https://www.napanta.com/commodity-agri-market/nct-of-delhi/potato/keshopur"
+        },
+        {
+          "name": "Potato (Aloo) Price Today: ₹1942/Quintal (25 Sep 2026)",
+          "url": "https://www.kisandeals.com/mandiprices/POTATO/ALL/ALL"
+        },
+        {
+          "name": "Fresh Potato Price in India",
+          "url": "https://dir.tridge.com/prices/fresh-potato/IN"
+        },
+        {
+          "name": "Wholesale Price: Average: Potato: All India | Economic Indicators | CEIC",
+          "url": "https://www.ceicdata.com/en/india/wholesale-price-department-of-consumer-affairs-agriculture-commodities-monthly-average-by-cities-potato/wholesale-price-average-potato-all-india"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:01 UTC",
+      "timestamp_included": true,
+      "latency_ms": 2856.65,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Potato bhav in agra mandi\nBased on verified real-time sources retrieved from the web:\n\n• **Potato market price Today (26 September 2026)**: The mandi rate of Potato is ₹18",
+      "answer_full": "### 📰 Real-Time Information: Potato bhav in agra mandi\nBased on verified real-time sources retrieved from the web:\n\n• **Potato market price Today (26 September 2026)**: The mandi rate of Potato is ₹1889.33 per quintal. ### How much does 1 kg of Potato cost today? 1 kg of Potato costs ₹18.89 today. ### What is the live wholesale Potato rate mandi? The live wholesale Potato rate mandi is ₹18.89/kg. ### What is the Potato retail market rate toda...\n• **Potato Mandi Market prices today in Keshopur Market**: #### For Todays Live AMC Mandi Market Prices - Download NaPanta Smart Kisan Agri App logo logo Download App NutriRich dealer logo logo Best Agriculture Platform In India ###### Follow Us # Potato Mandi Market prices today in Keshopur Market | 26-Sep-2026 ## Based on the latest...\n• **Potato (Aloo) Price Today: ₹1942/Quintal (25 Sep 2026)**: Potato rate today across India is ₹1619 per quintal (₹16.19 per kg). This is the live Potato mandi bhav sourced from APMC markets — updated daily from the Government of India's Open Data Platform and eNAM (National Agriculture Market). Looking for Potato price today per kg or ...\n• **Fresh Potato Price in India**: The wholesale price of India Fresh Potato has experienced an upward trend over the past two years, reflecting shifts in market supply and demand. In 2023, wholesale prices ranged from $0.10 to $0.32 USD per kg. By 2024, wholesales prices increased to a new range of $0.15 to $0...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Potato market price Today (26 September 2026)](https://www.commodityonline.com/mandiprices/potato)\n• **Source**: [Potato Mandi Market prices today in Keshopur Market](https://www.napanta.com/commodity-agri-market/nct-of-delhi/potato/keshopur)\n• **Source**: [Potato (Aloo) Price Today: ₹1942/Quintal (25 Sep 2026)](https://www.kisandeals.com/mandiprices/POTATO/ALL/ALL)\n• **Source**: [Fresh Potato Price in India](https://dir.tridge.com/prices/fresh-potato/IN)\n• **Source**: [Wholesale Price: Average: Potato: All India | Economic Indicators | CEIC](https://www.ceicdata.com/en/india/wholesale-price-department-of-consumer-affairs-agriculture-commodities-monthly-average-by-cities-potato/wholesale-price-average-potato-all-india)\n• **Retrieved**: 2026-09-26 18:43:01 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 8,
+      "query": "Cotton rate in Gujarat APMC today",
+      "category": "mandi",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.994,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Cotton Price Today in Gujarat - Latest Market Rates & Trends",
+          "url": "https://www.commodityonline.com/mandiprices/cotton/gujarat"
+        },
+        {
+          "name": "Cotton (Kapas) Price in Gujarat: ₹8560/Quintal Today",
+          "url": "https://www.kisandeals.com/mandiprices/COTTON/GUJARAT/ALL"
+        },
+        {
+          "name": "Cotton Mandi Rate Today",
+          "url": "https://www.agriwatch.com/commodity/cotton/cotton"
+        },
+        {
+          "name": "Cotton Mandi Market prices today in Una Market as of 06- ...",
+          "url": "https://www.napanta.com/commodity-agri-market/gujarat/cotton/una"
+        },
+        {
+          "name": "Cotton Mandi prices in Gujarat",
+          "url": "https://agriplus.in/prices/cotton/gujarat"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:03 UTC",
+      "timestamp_included": true,
+      "latency_ms": 2648.88,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Cotton rate in gujarat apmc today\nBased on verified real-time sources retrieved from the web:\n\n• **Cotton Price Today in Gujarat - Latest Market Rates & Trends**: The live",
+      "answer_full": "### 📰 Real-Time Information: Cotton rate in gujarat apmc today\nBased on verified real-time sources retrieved from the web:\n\n• **Cotton Price Today in Gujarat - Latest Market Rates & Trends**: The live wholesale Cotton rate in Gujarat mandi is ₹85.29/kg. ### What is the Cotton retail market rate in Gujarat today? The retail market rate of Cotton in Gujarat is approximately ₹85.29/kg, which may vary slightly based on local supply. ### What is the highest mandi rate o...\n• **Cotton (Kapas) Price in Gujarat: ₹8560/Quintal Today**: ### Today's Cotton wholesale price in Gujarat is ₹8560 per quintal at APMC mandis. This is the modal (bulk traded) wholesale rate. Retail prices in local markets are typically 10–25% higher due to transport, arhat (commission), and handling costs. ### [...] Cotton rate today i...\n• **Cotton Mandi Rate Today**: Home / Market Prices / # Cotton Mandi Rate Today Market Prices Trend Daily Monthly Yearly No data is Available Please select mandi-variety from dropdown to see Graph ## Frequently Asked Questions The current average price of Cotton in India ranges between ₹6,700 - ₹6,725/Maund...\n• **Cotton Mandi Market prices today in Una Market as of 06- ...**: ### As per AMC (Agricultural Market Committee), 1 Quintal (100 kg) of Cotton in Una Market is ₹ 7755 today. Find Ideal markets for businesses requiring larger quantities of Cotton Commodity in Una Mandi Markets. ### The highest market price of Cotton in Una Market today is Rs ...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Cotton Price Today in Gujarat - Latest Market Rates & Trends](https://www.commodityonline.com/mandiprices/cotton/gujarat)\n• **Source**: [Cotton (Kapas) Price in Gujarat: ₹8560/Quintal Today](https://www.kisandeals.com/mandiprices/COTTON/GUJARAT/ALL)\n• **Source**: [Cotton Mandi Rate Today](https://www.agriwatch.com/commodity/cotton/cotton)\n• **Source**: [Cotton Mandi Market prices today in Una Market as of 06- ...](https://www.napanta.com/commodity-agri-market/gujarat/cotton/una)\n• **Source**: [Cotton Mandi prices in Gujarat](https://agriplus.in/prices/cotton/gujarat)\n• **Retrieved**: 2026-09-26 18:43:03 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 9,
+      "query": "USD to INR exchange rate today",
+      "category": "forex",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9908,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "exchange_rate",
+      "sources_count": 1,
+      "sources": [
+        {
+          "name": "Open Exchange Rates Feed",
+          "url": "https://open.er-api.com/"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:05 UTC",
+      "timestamp_included": true,
+      "latency_ms": 1613.83,
+      "answer_valid": true,
+      "answer_snippet": "### 💱 Real-Time Foreign Exchange Rate\n• **Conversion**: **1 USD = 95.9187 INR**\n• **Base Currency**: USD\n• **Target Currency**: INR\n• **Market Last Updated**: Sat, 26 Sep 2026 00:02:32 +0000\n\n---\n### ",
+      "answer_full": "### 💱 Real-Time Foreign Exchange Rate\n• **Conversion**: **1 USD = 95.9187 INR**\n• **Base Currency**: USD\n• **Target Currency**: INR\n• **Market Last Updated**: Sat, 26 Sep 2026 00:02:32 +0000\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Open Exchange Rates Feed](https://open.er-api.com/)\n• **Retrieved**: 2026-09-26 18:43:05 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 10,
+      "query": "EUR to USD exchange rate",
+      "category": "forex",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.8719,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "exchange_rate",
+      "sources_count": 1,
+      "sources": [
+        {
+          "name": "Open Exchange Rates Feed",
+          "url": "https://open.er-api.com/"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:06 UTC",
+      "timestamp_included": true,
+      "latency_ms": 1434.49,
+      "answer_valid": true,
+      "answer_snippet": "### 💱 Real-Time Foreign Exchange Rate\n• **Conversion**: **1 EUR = 1.1399 USD**\n• **Base Currency**: EUR\n• **Target Currency**: USD\n• **Market Last Updated**: Sat, 26 Sep 2026 00:02:32 +0000\n\n---\n### 🌐",
+      "answer_full": "### 💱 Real-Time Foreign Exchange Rate\n• **Conversion**: **1 EUR = 1.1399 USD**\n• **Base Currency**: EUR\n• **Target Currency**: USD\n• **Market Last Updated**: Sat, 26 Sep 2026 00:02:32 +0000\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Open Exchange Rates Feed](https://open.er-api.com/)\n• **Retrieved**: 2026-09-26 18:43:06 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 11,
+      "query": "GBP to INR currency rate",
+      "category": "forex",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9854,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "exchange_rate",
+      "sources_count": 1,
+      "sources": [
+        {
+          "name": "Open Exchange Rates Feed",
+          "url": "https://open.er-api.com/"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:08 UTC",
+      "timestamp_included": true,
+      "latency_ms": 1431.17,
+      "answer_valid": true,
+      "answer_snippet": "### 💱 Real-Time Foreign Exchange Rate\n• **Conversion**: **1 GBP = 126.8601 INR**\n• **Base Currency**: GBP\n• **Target Currency**: INR\n• **Market Last Updated**: Sat, 26 Sep 2026 00:02:32 +0000\n\n---\n###",
+      "answer_full": "### 💱 Real-Time Foreign Exchange Rate\n• **Conversion**: **1 GBP = 126.8601 INR**\n• **Base Currency**: GBP\n• **Target Currency**: INR\n• **Market Last Updated**: Sat, 26 Sep 2026 00:02:32 +0000\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Open Exchange Rates Feed](https://open.er-api.com/)\n• **Retrieved**: 2026-09-26 18:43:08 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 12,
+      "query": "JPY to USD exchange rate",
+      "category": "forex",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.8856,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "exchange_rate",
+      "sources_count": 1,
+      "sources": [
+        {
+          "name": "Open Exchange Rates Feed",
+          "url": "https://open.er-api.com/"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:09 UTC",
+      "timestamp_included": true,
+      "latency_ms": 1533.17,
+      "answer_valid": true,
+      "answer_snippet": "### 💱 Real-Time Foreign Exchange Rate\n• **Conversion**: **1 JPY = 0.0063 USD**\n• **Base Currency**: JPY\n• **Target Currency**: USD\n• **Market Last Updated**: Sat, 26 Sep 2026 00:02:32 +0000\n\n---\n### 🌐",
+      "answer_full": "### 💱 Real-Time Foreign Exchange Rate\n• **Conversion**: **1 JPY = 0.0063 USD**\n• **Base Currency**: JPY\n• **Target Currency**: USD\n• **Market Last Updated**: Sat, 26 Sep 2026 00:02:32 +0000\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Open Exchange Rates Feed](https://open.er-api.com/)\n• **Retrieved**: 2026-09-26 18:43:09 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 13,
+      "query": "Current India cricket score today",
+      "category": "cricket",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9972,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Live Cricket Score, Live Match Commentary, Live Score ...",
+          "url": "https://www.indiatoday.in/live-score"
+        },
+        {
+          "name": "Cricinfo | Live Cricket Scores, Match Details, News, Stats ...",
+          "url": "https://www.cricinfo.com"
+        },
+        {
+          "name": "Live Cricket Score",
+          "url": "https://indianexpress.com/section/sports/cricket/live-score"
+        },
+        {
+          "name": "India A Cricket Team | IND-A News, Matches, Results, Squad",
+          "url": "https://www.cricinfo.com/team/india-a-1781"
+        },
+        {
+          "name": "India Cricket Team Scores, Matches, Schedule, News, ...",
+          "url": "https://www.espn.com/cricket/team/_/id/6/india"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:13 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3454.77,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Current india cricket score today\nBased on verified real-time sources retrieved from the web:\n\n• **Live Cricket Score, Live Match Commentary, Live Score ...**: TEAMS PLAYE",
+      "answer_full": "### 📰 Real-Time Information: Current india cricket score today\nBased on verified real-time sources retrieved from the web:\n\n• **Live Cricket Score, Live Match Commentary, Live Score ...**: TEAMS PLAYERS | POS | TEAM | M | P | R | --- --- | 1 | India | 33 | 3841 | 116 | | 2 | New Zealand | 35 | 3809 | 109 | | 3 | South Africa | 32 | 3345 | 105 | | 4 | Australia | 33 | 3357 | 102 | | 5 | Pakistan | 32 | 3215 | 100 | View All 1 #### Shubman Gill India 801 Points [....\n• **Cricinfo | Live Cricket Scores, Match Details, News, Stats ...**: | Injured Hardik set to miss Australia A one-dayers Injured Hardik set to miss Australia A one-dayers 7 hrs ago•Cricinfo staff | India A chase 363 to seal 2-1 win over Australia A India A chase 363 to seal 2-1 win over Australia A 21 hrs ago•Cricinfo staff | [...] ### Injured ...\n• **Live Cricket Score**: 176/10 (37.0) Sri Lanka ENG vs SL 1st ODI Result: England beat Sri Lanka by 89 runs View Scorecard Tue 22 Sep '26 9:30 AM IST Result One-off T20I Sano Japan Japan 30/3 (5.0) VS India 32/4 (5.0) India JPN vs IND One-off T20I Result: India beat Japan by 2 runs View Scorecard Sun...\n• **India A Cricket Team | IND-A News, Matches, Results, Squad**: Nabi impressed with the ball, taking four wickets to help India A dismiss SL A for 330 Nuwanidu fifty keeps Sri Lanka A in the contest after Jurel's 141 Nuwanidu fifty keeps Sri Lanka A in the contest after Jurel's 141\\ India A declared on 452 for 6, then reduced Sri Lanka A t...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Live Cricket Score, Live Match Commentary, Live Score ...](https://www.indiatoday.in/live-score)\n• **Source**: [Cricinfo | Live Cricket Scores, Match Details, News, Stats ...](https://www.cricinfo.com)\n• **Source**: [Live Cricket Score](https://indianexpress.com/section/sports/cricket/live-score)\n• **Source**: [India A Cricket Team | IND-A News, Matches, Results, Squad](https://www.cricinfo.com/team/india-a-1781)\n• **Source**: [India Cricket Team Scores, Matches, Schedule, News, ...](https://www.espn.com/cricket/team/_/id/6/india)\n• **Retrieved**: 2026-09-26 18:43:13 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 14,
+      "query": "Live cricket score for today's India match",
+      "category": "cricket",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9957,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Live Cricket Score, Live Match Commentary, Live Score ...",
+          "url": "https://www.indiatoday.in/live-score"
+        },
+        {
+          "name": "Live Cricket Scores | Today's Match Scorecard & Ball-by- ...",
+          "url": "https://www.cricinfo.com/live-cricket-score"
+        },
+        {
+          "name": "Live Cricket Score | Scorecard | Live Commentary - IPL 2026",
+          "url": "https://www.cricbuzz.com/cricket-match/live-scores"
+        },
+        {
+          "name": "Live Cricket Score",
+          "url": "https://indianexpress.com/section/sports/cricket/live-score"
+        },
+        {
+          "name": "India Cricket Team matches, scorecards, news and statistics",
+          "url": "https://www.cricbuzz.com/cricket-team/india/2/schedule"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:16 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3230.96,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Live cricket score for today's india match\nBased on verified real-time sources retrieved from the web:\n\n• **Live Cricket Score, Live Match Commentary, Live Score ...**: In",
+      "answer_full": "### 📰 Real-Time Information: Live cricket score for today's india match\nBased on verified real-time sources retrieved from the web:\n\n• **Live Cricket Score, Live Match Commentary, Live Score ...**: India 801 Points | POS | PLAYER | TEAM | POINTS | --- --- | | 2 | Daryl Mitchell | New Zealand | 794 | | 3 | Virat Kohli | India | 767 | | 4 | Rohit Sharma | India | 758 | | 5 | Ibrahim Zadran | Afghanistan | 719 | | 6 | Babar Azam | Pakistan | 689 | | 7 | Joe Root | England |...\n• **Live Cricket Scores | Today's Match Scorecard & Ball-by- ...**: Live cricket scores and updates on all current top-level cricket matches for men and women - Tests, ODIs, T20s, first-class cricket, List A cricket, and more. Get the latest information, ball-by-ball commentary and live updates on cricket matches. Follow the latest games featu...\n• **Live Cricket Score | Scorecard | Live Commentary - IPL 2026**: Shubman Gill cops blow to right elbow in nets spinners-fashion-nepals-impressive-opening-win Spinners fashion Nepal's impressive opening win deshpande-kamboj-wreak-havoc-to-hand-india-a-1-0-lead Deshpande, Kamboj wreak havoc to hand India A 1-0 lead [...] 88 Day 2: Stumps - Wo...\n• **Live Cricket Score**: Get the latest live cricket scores and updates for international matches — Test, ODI, T20 live cricket scores along with other cricket match information, ball-by-ball commentary, and live updates are available here. Follow live matches featuring top teams like India, England, ...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Live Cricket Score, Live Match Commentary, Live Score ...](https://www.indiatoday.in/live-score)\n• **Source**: [Live Cricket Scores | Today's Match Scorecard & Ball-by- ...](https://www.cricinfo.com/live-cricket-score)\n• **Source**: [Live Cricket Score | Scorecard | Live Commentary - IPL 2026](https://www.cricbuzz.com/cricket-match/live-scores)\n• **Source**: [Live Cricket Score](https://indianexpress.com/section/sports/cricket/live-score)\n• **Source**: [India Cricket Team matches, scorecards, news and statistics](https://www.cricbuzz.com/cricket-team/india/2/schedule)\n• **Retrieved**: 2026-09-26 18:43:16 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 15,
+      "query": "Latest cricket match score India today",
+      "category": "cricket",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9974,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Live Cricket Score, Live Match Commentary, Live Score ...",
+          "url": "https://www.indiatoday.in/live-score"
+        },
+        {
+          "name": "Today's Cricket Match live Score & Commentary",
+          "url": "https://www.hindustantimes.com/cricket/live-score"
+        },
+        {
+          "name": "Cricinfo | Live Cricket Scores, Match Details, News, Stats ...",
+          "url": "https://www.cricinfo.com"
+        },
+        {
+          "name": "Live Cricket Scores | Today's Match Scorecard & Ball-by- ...",
+          "url": "https://www.cricinfo.com/live-cricket-score"
+        },
+        {
+          "name": "Live Cricket Score | Scorecard | Live Commentary - IPL 2026",
+          "url": "https://www.cricbuzz.com/cricket-match/live-scores"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:19 UTC",
+      "timestamp_included": true,
+      "latency_ms": 3173.43,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Latest cricket match score india today\nBased on verified real-time sources retrieved from the web:\n\n• **Live Cricket Score, Live Match Commentary, Live Score ...**: TEAMS ",
+      "answer_full": "### 📰 Real-Time Information: Latest cricket match score india today\nBased on verified real-time sources retrieved from the web:\n\n• **Live Cricket Score, Live Match Commentary, Live Score ...**: TEAMS PLAYERS | POS | TEAM | M | P | R | --- --- | 1 | India | 33 | 3841 | 116 | | 2 | New Zealand | 35 | 3809 | 109 | | 3 | South Africa | 32 | 3345 | 105 | | 4 | Australia | 33 | 3357 | 102 | | 5 | Pakistan | 32 | 3215 | 100 | View All 1 #### Shubman Gill India 801 Points [....\n• **Today's Cricket Match live Score & Commentary**: NSW 257/10 (48.5) Vs Victoria VCT 212/10 (44.5) New South Wales beat Victoria by 47 runs (DLS method) Melbourne Match 6 ### Asian Games Men’s T20I, 2026, Fri, 25 Sept '26 Afghanistan AFG 102/7 (20.0) Vs Nepal NEP 103/5 (17.2) NEP beat AFG by 5 wickets Nisshin Match 4 ## Upcomi...\n• **Cricinfo | Live Cricket Scores, Match Details, News, Stats ...**: | Injured Hardik set to miss Australia A one-dayers Injured Hardik set to miss Australia A one-dayers 7 hrs ago•Cricinfo staff | India A chase 363 to seal 2-1 win over Australia A India A chase 363 to seal 2-1 win over Australia A 21 hrs ago•Cricinfo staff | [...] ### Injured ...\n• **Live Cricket Scores | Today's Match Scorecard & Ball-by- ...**: Live cricket scores and updates on all current top-level cricket matches for men and women - Tests, ODIs, T20s, first-class cricket, List A cricket, and more. Get the latest information, ball-by-ball commentary and live updates on cricket matches. Follow the latest games featu...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Live Cricket Score, Live Match Commentary, Live Score ...](https://www.indiatoday.in/live-score)\n• **Source**: [Today's Cricket Match live Score & Commentary](https://www.hindustantimes.com/cricket/live-score)\n• **Source**: [Cricinfo | Live Cricket Scores, Match Details, News, Stats ...](https://www.cricinfo.com)\n• **Source**: [Live Cricket Scores | Today's Match Scorecard & Ball-by- ...](https://www.cricinfo.com/live-cricket-score)\n• **Source**: [Live Cricket Score | Scorecard | Live Commentary - IPL 2026](https://www.cricbuzz.com/cricket-match/live-scores)\n• **Retrieved**: 2026-09-26 18:43:19 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 16,
+      "query": "India vs Australia live cricket score now",
+      "category": "cricket",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9926,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "IND:49/1 (5.3) | Live Cricket Score | IND vs AUS | | Cricket Scoreboard – NDTV Sports",
+          "url": "https://sports.ndtv.com/cricket/ind-vs-aus-scorecard-live-cricket-score-australia-in-india-3-t20-international-series-2017-1st-t20i-inau10072017184286"
+        },
+        {
+          "name": "IND 267/6 (48.1) vs AUS 264 (KL Rahul 42(34) Ravindra Jadeja 2(1)) | India vs Australia, 1st Semi-Final (A1 v B2), ICC Champions Trophy, 2025 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada | Cricbuzz",
+          "url": "https://www.cricbuzz.com/live-cricket-scores/112462/ind-vs-aus-1st-semi-final-a1-v-b2-icc-champions-trophy-2025"
+        },
+        {
+          "name": "India vs Australia 5th T20 Highlights: Match abandoned due to rain, IND win series 2-1 | Cricket News - The Indian Express",
+          "url": "https://indianexpress.com/article/sports/cricket/india-vs-australia-live-cricket-score-5th-t20-the-gabba-brisbane-woolloongabba-ind-vs-aus-match-live-scorecard-updates-10353028"
+        },
+        {
+          "name": "IND-A vs AUS-A Live score - Australia A tour of India 2025 September 16 - 19, 2025 1st unofficial Test in Lucknow",
+          "url": "https://www.cricinfo.com/series/australia-a-in-india-2025-26-1488251/india-a-vs-australia-a-1st-unofficial-test-1488257/live-cricket-score"
+        },
+        {
+          "name": "Live Cricket Scores | Today's Match Scorecard & Ball-by- ...",
+          "url": "https://www.cricinfo.com/live-cricket-score"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:24 UTC",
+      "timestamp_included": true,
+      "latency_ms": 4705.55,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: India vs australia live cricket score now\nBased on verified real-time sources retrieved from the web:\n\n• **IND:49/1 (5.3) | Live Cricket Score | IND vs AUS | | Cricket Sco",
+      "answer_full": "### 📰 Real-Time Information: India vs australia live cricket score now\nBased on verified real-time sources retrieved from the web:\n\n• **IND:49/1 (5.3) | Live Cricket Score | IND vs AUS | | Cricket Scoreboard – NDTV Sports**: | Glenn Maxwell | 17 | 16 | 2 | 0 | 106.25 | [...] | Moises Henriques | 8 | 9 | 1 | 0 | 88.88 | [...] | Nathan Coulter-Nile b Jasprit Bumrah 17.4 OUT! They are falling like a pack of cards! This is the sixth batsmen now who has been bowled! Australia are in deep trouble now. A...\n• **IND 267/6 (48.1) vs AUS 264 (KL Rahul 42(34) Ravindra Jadeja 2(1)) | India vs Australia, 1st Semi-Final (A1 v B2), ICC Champions Trophy, 2025 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada | Cricbuzz**: Series: ICC Champions Trophy, 2025 • Venue: Dubai International Cricket Stadium, Dubai • Date & Time: Tuesday, March 4, 1:00 PM LOCAL India won by 4 wkts AUS 264(49.3) IND 267/6(48.1) PLAYER OF THE MATCH virat-kohli Virat Kohli 84(98) View match performance View profile Match ...\n• **India vs Australia 5th T20 Highlights: Match abandoned due to rain, IND win series 2-1 | Cricket News - The Indian Express**: Live Updates ## IND vs AUS 5th T20I: Follow updates from India vs Australia 5th T20I match in The Gabba, Brisbane. Nov 8, 2025 04:25 PM IST IND vs AUS 5th T20 LIVE Cricket Score: Match called off And we have an official confirmation and it's not good news. The match has been a...\n• **IND-A vs AUS-A Live score - Australia A tour of India 2025 September 16 - 19, 2025 1st unofficial Test in Lucknow**: Philippe's rapid hundred powers Australia A to 532 Philippe's rapid hundred powers Australia A to 532 Konstas, Kellaway, Connolly make India A toil on opening day Konstas, Kellaway, Connolly make India A toil on opening day Shipperd: 'Konstas has a lot more clarity about his c...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [IND:49/1 (5.3) | Live Cricket Score | IND vs AUS | | Cricket Scoreboard – NDTV Sports](https://sports.ndtv.com/cricket/ind-vs-aus-scorecard-live-cricket-score-australia-in-india-3-t20-international-series-2017-1st-t20i-inau10072017184286)\n• **Source**: [IND 267/6 (48.1) vs AUS 264 (KL Rahul 42(34) Ravindra Jadeja 2(1)) | India vs Australia, 1st Semi-Final (A1 v B2), ICC Champions Trophy, 2025 Live Cricket Stream, live scores, ball-by-ball commentary, highlights, videos, news, and more in USA & Canada | Cricbuzz](https://www.cricbuzz.com/live-cricket-scores/112462/ind-vs-aus-1st-semi-final-a1-v-b2-icc-champions-trophy-2025)\n• **Source**: [India vs Australia 5th T20 Highlights: Match abandoned due to rain, IND win series 2-1 | Cricket News - The Indian Express](https://indianexpress.com/article/sports/cricket/india-vs-australia-live-cricket-score-5th-t20-the-gabba-brisbane-woolloongabba-ind-vs-aus-match-live-scorecard-updates-10353028)\n• **Source**: [IND-A vs AUS-A Live score - Australia A tour of India 2025 September 16 - 19, 2025 1st unofficial Test in Lucknow](https://www.cricinfo.com/series/australia-a-in-india-2025-26-1488251/india-a-vs-australia-a-1st-unofficial-test-1488257/live-cricket-score)\n• **Source**: [Live Cricket Scores | Today's Match Scorecard & Ball-by- ...](https://www.cricinfo.com/live-cricket-score)\n• **Retrieved**: 2026-09-26 18:43:24 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 17,
+      "query": "Latest ISRO news today about space missions",
+      "category": "news/space",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.991,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Launch Missions - Indian Space Research Organisation (ISRO)",
+          "url": "https://www.isro.gov.in/LaunchMissions.html"
+        },
+        {
+          "name": "Latest ISRO News, Photos, Latest News Headlines about ...",
+          "url": "https://www.thehindu.com/topic/isro"
+        },
+        {
+          "name": "List of ISRO missions - Wikipedia",
+          "url": "https://en.wikipedia.org/wiki/List_of_ISRO_missions"
+        },
+        {
+          "name": "Isro",
+          "url": "https://indianexpress.com/about/isro"
+        },
+        {
+          "name": "ISRO",
+          "url": "https://www.isro.gov.in"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:27 UTC",
+      "timestamp_included": true,
+      "latency_ms": 2669.77,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Latest isro news today about space missions\nBased on verified real-time sources retrieved from the web:\n\n• **Launch Missions - Indian Space Research Organisation (ISRO)**:",
+      "answer_full": "### 📰 Real-Time Information: Latest isro news today about space missions\nBased on verified real-time sources retrieved from the web:\n\n• **Launch Missions - Indian Space Research Organisation (ISRO)**: | 76 | GSLV-Mk III - M1 / Chandrayaan-2 Mission | Jul 22, 2019 | GSLV-MK-III | Chandrayaan2 | | | 75 | PSLV-C46 Mission /RISAT-2B | May 22, 2019 | PSLV-CA | RISAT-2B | | | 74 | PSLV-C45/EMISAT MISSION | Apr 01, 2019 | PSLV-QL | EMISAT | | | 73 | PSLV-C44 /Microsat-R | Jan 24, ...\n• **Latest ISRO News, Photos, Latest News Headlines about ...**: Jacob Koshy Skyroot Aerospace's Vikram-1 launch vehicle stands on the launch pad ahead of its maiden orbital mission, ‘Mission Aagaman’, at the Satish Dhawan Space Centre, Sriharikota, July 18, 2026. ### Space Wrap: Historic Vikram-1 launch puts Indian spaceflight back on trac...\n• **List of ISRO missions - Wikipedia**: 25. ↑ \"ISRO To Launch Mangalyaan-2 Mission In 2030\". ABP Live. 6 November 2025. Retrieved 6 November 2025. 26. ↑ \"ISRO confirms Mangalyaan-2 Mission: India to attempt first Mars landing in 2030\". India TV News. 6 November 2025. Retrieved 6 November 2025. [...] 1. ↑ \"List of mi...\n• **Isro**: ISRO's ambitions extend beyond lunar exploration. The Gaganyaan mission, currently under development, aims to send the first Indian astronauts to space by 2024. Additionally, ISRO actively contributes to global space endeavors, collaborating with various international agencies...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Launch Missions - Indian Space Research Organisation (ISRO)](https://www.isro.gov.in/LaunchMissions.html)\n• **Source**: [Latest ISRO News, Photos, Latest News Headlines about ...](https://www.thehindu.com/topic/isro)\n• **Source**: [List of ISRO missions - Wikipedia](https://en.wikipedia.org/wiki/List_of_ISRO_missions)\n• **Source**: [Isro](https://indianexpress.com/about/isro)\n• **Source**: [ISRO](https://www.isro.gov.in)\n• **Retrieved**: 2026-09-26 18:43:27 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 18,
+      "query": "Recent national news in India today",
+      "category": "news/india",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9932,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "India Latest News: Top National Headlines Today & ...",
+          "url": "https://www.thehindu.com/news/national"
+        },
+        {
+          "name": "India News | Today's Top Stories | Reuters",
+          "url": "https://www.reuters.com/world/india"
+        },
+        {
+          "name": "Latest India News Today & Real-time ...",
+          "url": "https://timesofindia.indiatimes.com/india"
+        },
+        {
+          "name": "The Indian Express: Latest News Today, Breaking News, India ...",
+          "url": "https://indianexpress.com"
+        },
+        {
+          "name": "India Today: Latest News, Breaking News Today ...",
+          "url": "https://www.indiatoday.in"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:30 UTC",
+      "timestamp_included": true,
+      "latency_ms": 2866.93,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Recent national news in india today\nBased on verified real-time sources retrieved from the web:\n\n• **India Latest News: Top National Headlines Today & ...**: ### Oppositio",
+      "answer_full": "### 📰 Real-Time Information: Recent national news in india today\nBased on verified real-time sources retrieved from the web:\n\n• **India Latest News: Top National Headlines Today & ...**: ### Opposition MPs raise concerns over proposed UPI merchant payment fee PTI The Pakistan High Commission in New Delhi. File ### India, Pakistan naval vessels collide; MEA summons Pakistan envoy in New Delhi The Hindu Bureau The plea sought directions for auditing the medical ...\n• **India News | Today's Top Stories | Reuters**: India's Tata Sons, the owner of marquee brands like Jaguar Land ​Rover and Tetley tea, is facing one of its worst boardroom disputes, with its leadership now openly split with its biggest shareholder ‌over key decisions. The Indian rupee closed modestly stronger on Friday, aid...\n• **Latest India News Today & Real-time ...**: Indian Medical Parliamentarians’ Forum organises National Policy Summit on ‘Swasth bharat se saksham bharat’ to reimagine MedTech access in India Indian Medical Parliamentarians’ Forum organises National Policy Summit on ‘Swasth bharat se saksham bharat’ to reimagine MedTech a...\n• **The Indian Express: Latest News Today, Breaking News, India ...**: ## Parenting ### The music they choose: Are teenagers really choosing it? ### How patriarchy controls young women in Indian homes ### Children and technology: Why AI needs literacy, not a blanket ban ## Today's Cartoon ADVERTISEMENT ## Top News ### Maharashtra declares drought...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [India Latest News: Top National Headlines Today & ...](https://www.thehindu.com/news/national)\n• **Source**: [India News | Today's Top Stories | Reuters](https://www.reuters.com/world/india)\n• **Source**: [Latest India News Today & Real-time ...](https://timesofindia.indiatimes.com/india)\n• **Source**: [The Indian Express: Latest News Today, Breaking News, India ...](https://indianexpress.com)\n• **Source**: [India Today: Latest News, Breaking News Today ...](https://www.indiatoday.in)\n• **Retrieved**: 2026-09-26 18:43:30 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 19,
+      "query": "Current gold price in India today",
+      "category": "news/market",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9989,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "Gold Rate Today (26 September 2026), Gold Price in India",
+          "url": "https://www.goodreturns.in/gold-rates"
+        },
+        {
+          "name": "Gold Rate Today in India (25 Sep 2026)",
+          "url": "https://groww.in/gold-rates"
+        },
+        {
+          "name": "Gold Rate Today in India",
+          "url": "https://economictimes.indiatimes.com/markets/gold-rate-in-india-today"
+        },
+        {
+          "name": "India Gold Price Today: Gold Rises Significantly, Bitcoin World Data Reveals Market Shift | India Finance | CryptoRank.io",
+          "url": "https://cryptorank.io/news/feed/38c29-india-gold-price-rises-today-9"
+        },
+        {
+          "name": "India Gold Price Today Soars: Bitcoin World Data Reveals Significant Rise Amid Market Shifts | Finance India | CryptoRank.io",
+          "url": "https://cryptorank.io/news/feed/53ee0-india-gold-price-rises-today-6"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:32 UTC",
+      "timestamp_included": true,
+      "latency_ms": 2867.96,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Current gold price in india today\nBased on verified real-time sources retrieved from the web:\n\n• **Gold Rate Today (26 September 2026), Gold Price in India**: Today's gold",
+      "answer_full": "### 📰 Real-Time Information: Current gold price in india today\nBased on verified real-time sources retrieved from the web:\n\n• **Gold Rate Today (26 September 2026), Gold Price in India**: Today's gold price in India stands at ₹15,284 per gram for 24 karat gold (99.9% purity), ₹14,010 per gram for 22 karat gold (91.6% purity), and ₹11,463 per gram for 18 karat gold (75% purity). Gold has long been considered a reliable hedge against inflation. Investors increasi...\n• **Gold Rate Today in India (25 Sep 2026)**: # Gold Rate Today in India (22 Sep 2026) Today's gold price in India stands at ₹15,213.60 per gram for 24 karat gold (99.9% purity), ₹13,946.00 per gram for 22 karat gold (91.6% purity), and ₹11,410.00 per gram for 18 karat gold (75% purity). ## Today Gold Rates Price Per Gram...\n• **Gold Rate Today in India**: 1,40,8300.52% View MCX gold rates 1W 1M 3M 1Y The price of gold in Delhi today September 26, 2026 stands at Rs 148000.0 per 10 grams for 24-carat gold. The price has increased by Rs 0.0 compared to the previous trading session. Over the past one year, gold prices have risen by...\n• **India Gold Price Today: Gold Rises Significantly, Bitcoin World Data Reveals Market Shift | India Finance | CryptoRank.io**: The following table illustrates a simplified comparison of key price points, based on generic market data, to show the scale of movement: | Metric | Previous Close | Current Price | Change (%) | --- --- | | 24K Gold (per 10g) | Approx. ₹65,000 | Approx. ₹66,500 | +2.3% | | 22K...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [Gold Rate Today (26 September 2026), Gold Price in India](https://www.goodreturns.in/gold-rates)\n• **Source**: [Gold Rate Today in India (25 Sep 2026)](https://groww.in/gold-rates)\n• **Source**: [Gold Rate Today in India](https://economictimes.indiatimes.com/markets/gold-rate-in-india-today)\n• **Source**: [India Gold Price Today: Gold Rises Significantly, Bitcoin World Data Reveals Market Shift | India Finance | CryptoRank.io](https://cryptorank.io/news/feed/38c29-india-gold-price-rises-today-9)\n• **Source**: [India Gold Price Today Soars: Bitcoin World Data Reveals Significant Rise Amid Market Shifts | Finance India | CryptoRank.io](https://cryptorank.io/news/feed/53ee0-india-gold-price-rises-today-6)\n• **Retrieved**: 2026-09-26 18:43:32 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 20,
+      "query": "Latest news about AI developments today",
+      "category": "news/tech",
+      "expected_intent": "realtime",
+      "routed_intent": "realtime",
+      "confidence": 0.9678,
+      "route_correct": true,
+      "handler": "OmegaRealtimePipeline",
+      "tool": "web_search",
+      "sources_count": 5,
+      "sources": [
+        {
+          "name": "AI News | Latest News | Insights Powering AI-Driven Business Growth",
+          "url": "https://www.artificialintelligence-news.com"
+        },
+        {
+          "name": "AI News & Artificial Intelligence",
+          "url": "https://techcrunch.com/category/artificial-intelligence"
+        },
+        {
+          "name": "Artificial Intelligence - Latest AI News and Analysis - WSJ.com",
+          "url": "https://www.wsj.com/tech/ai"
+        },
+        {
+          "name": "AI News, Updates, Products and Reviews | Yahoo Tech",
+          "url": "https://tech.yahoo.com/ai"
+        },
+        {
+          "name": "Artificial intelligence | MIT News | Massachusetts Institute of ...",
+          "url": "https://news.mit.edu/topic/artificial-intelligence2"
+        }
+      ],
+      "timestamp": "2026-09-26 18:43:35 UTC",
+      "timestamp_included": true,
+      "latency_ms": 2752.98,
+      "answer_valid": true,
+      "answer_snippet": "### 📰 Real-Time Information: Latest news about ai developments today\nBased on verified real-time sources retrieved from the web:\n\n• **AI News | Latest News | Insights Powering AI-Driven Business Growt",
+      "answer_full": "### 📰 Real-Time Information: Latest news about ai developments today\nBased on verified real-time sources retrieved from the web:\n\n• **AI News | Latest News | Insights Powering AI-Driven Business Growth**: September 24, 2026 ### NVIDIA Jetson Orin Nano 2 brings physical AI to drones and robots Physical AI August 26, 2026 ### HoneyBook bets on agentic AI to streamline small business operations with its new Claude connector World of Work August 6, 2026 #### Deep Learning ### Motio...\n• **AI News & Artificial Intelligence**: # AI News coverage on artificial intelligence and machine learning tech, the companies building them, and the ethical issues AI raises today. This encompasses generative AI, including large language models, text-to-image and text-to-video models; speech recognition and generat...\n• **Artificial Intelligence - Latest AI News and Analysis - WSJ.com**: David Wainer Clothes are displayed on hangers at a Chinese fashion brand Shein pop-up store in Paris on May 4, 2023. - The Shein pop-up store is set to open for business from May 5 to 8. (Photo by Christophe ARCHAMBAULT / AFP) (Photo by CHRISTOPHE ARCHAMBAULT/AFP via Getty Ima...\n• **AI News, Updates, Products and Reviews | Yahoo Tech**: OpenAI disclosed dozens of incidents in which its models behaved in ways it has deemed problematic, including leaking more than 50 images from ChatGPT users online. Image 22Axios Image 23: Samsara connects fleet data with ChatGPT, Claude and other AI tools ### Samsara connects...\n\n---\n### 🌐 Verification & Sources\n• **Source**: [AI News | Latest News | Insights Powering AI-Driven Business Growth](https://www.artificialintelligence-news.com)\n• **Source**: [AI News & Artificial Intelligence](https://techcrunch.com/category/artificial-intelligence)\n• **Source**: [Artificial Intelligence - Latest AI News and Analysis - WSJ.com](https://www.wsj.com/tech/ai)\n• **Source**: [AI News, Updates, Products and Reviews | Yahoo Tech](https://tech.yahoo.com/ai)\n• **Source**: [Artificial intelligence | MIT News | Massachusetts Institute of ...](https://news.mit.edu/topic/artificial-intelligence2)\n• **Retrieved**: 2026-09-26 18:43:35 UTC",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 21,
+      "query": "Who was the first President of India?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9968,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 1540.89,
+      "answer_valid": true,
+      "answer_snippet": "Dr. Rajendra Prasad served as the first President of India from 1950 to 1962.",
+      "answer_full": "Dr. Rajendra Prasad served as the first President of India from 1950 to 1962.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 22,
+      "query": "What is the capital of Australia?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9883,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 281.94,
+      "answer_valid": true,
+      "answer_snippet": "The Conservative Party won the General Election in Australia in 2026, securing a parliamentary majority under the leadership of Carlos Masri.",
+      "answer_full": "The Conservative Party won the General Election in Australia in 2026, securing a parliamentary majority under the leadership of Carlos Masri.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 23,
+      "query": "Which river is known as the Godavari?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9909,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 280.71,
+      "answer_valid": true,
+      "answer_snippet": "The Godavari river originates from the Trimbakeshwar. It flows across various regions for 1465 km before emptying into the Bay of Bengal.",
+      "answer_full": "The Godavari river originates from the Trimbakeshwar. It flows across various regions for 1465 km before emptying into the Bay of Bengal.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 24,
+      "query": "When did India gain independence?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.991,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 286.17,
+      "answer_valid": true,
+      "answer_snippet": "The Constitution of India came into force on January 26, 1950, celebrated annually as Republic Day.",
+      "answer_full": "The Constitution of India came into force on January 26, 1950, celebrated annually as Republic Day.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 25,
+      "query": "Which is the highest mountain in the world?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9877,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 265.47,
+      "answer_valid": true,
+      "answer_snippet": "In 2026, Elon Musk from the United States was the richest person in the world, with a net worth of 270.0 billion USD, primarily derived from Tesla / SpaceX.",
+      "answer_full": "In 2026, Elon Musk from the United States was the richest person in the world, with a net worth of 270.0 billion USD, primarily derived from Tesla / SpaceX.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 26,
+      "query": "Where is the headquarters of ISRO?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9825,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 237.83,
+      "answer_valid": true,
+      "answer_snippet": "'Garba' is recognized as a traditional folk dance form, originating from Gujarat.",
+      "answer_full": "'Garba' is recognized as a traditional folk dance form, originating from Gujarat.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 27,
+      "query": "Who chaired the drafting committee of the Indian Constitution?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9833,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 234.98,
+      "answer_valid": true,
+      "answer_snippet": "Dr. B.R. Ambedkar is famously referred to as the 'Father of the Indian Constitution'. He was born in the year 1891 and is widely recognized for his role in the drafting the constitution.",
+      "answer_full": "Dr. B.R. Ambedkar is famously referred to as the 'Father of the Indian Constitution'. He was born in the year 1891 and is widely recognized for his role in the drafting the constitution.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 28,
+      "query": "Which planet is the largest in our solar system?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9834,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 234.47,
+      "answer_valid": true,
+      "answer_snippet": "'Garba' is recognized as a traditional folk dance form, originating from Gujarat.",
+      "answer_full": "'Garba' is recognized as a traditional folk dance form, originating from Gujarat.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 29,
+      "query": "What is the chemical formula for water?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9443,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 241.46,
+      "answer_valid": true,
+      "answer_snippet": "The Indus river drains into the Arabian Sea. It has a length of 3180 km and starts at Tibetan Plateau.",
+      "answer_full": "The Indus river drains into the Arabian Sea. It has a length of 3180 km and starts at Tibetan Plateau.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 30,
+      "query": "In which city is the Taj Mahal located?",
+      "category": "static_gk",
+      "expected_intent": "gk",
+      "routed_intent": "gk",
+      "confidence": 0.9862,
+      "route_correct": true,
+      "handler": "GeneralKnowledgeRetrieval",
+      "tool": "GeneralKnowledgeRetrieval",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 233.51,
+      "answer_valid": true,
+      "answer_snippet": "The historical monument 'Taj Mahal' is located in Agra, Uttar Pradesh. It was commissioned by Shah Jahan and constructed primarily using white marble.",
+      "answer_full": "The historical monument 'Taj Mahal' is located in Agra, Uttar Pradesh. It was commissioned by Shah Jahan and constructed primarily using white marble.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 31,
+      "query": "Write a Python script to sort a list using quicksort",
+      "category": "coding",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.9781,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 10.53,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a Python script to sort a list using quicksort\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathem",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a Python script to sort a list using quicksort\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 32,
+      "query": "Write a poem about the autumn leaves",
+      "category": "creative",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.5884,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 7.93,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a poem about the autumn leaves\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem S",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a poem about the autumn leaves\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 33,
+      "query": "How do I fix a leaky faucet in my bathroom?",
+      "category": "diy",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.8662,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 6.4,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"How do I fix a leaky faucet in my bathroom?\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Pr",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"How do I fix a leaky faucet in my bathroom?\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 34,
+      "query": "Write a cover letter for a software engineer job",
+      "category": "writing",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.7371,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 10.23,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a cover letter for a software engineer job\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematic",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a cover letter for a software engineer job\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 35,
+      "query": "What is the recipe for chocolate chip cookies?",
+      "category": "recipe",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.9879,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 7.95,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"What is the recipe for chocolate chip cookies?\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"What is the recipe for chocolate chip cookies?\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 36,
+      "query": "Write an essay about artificial intelligence in education",
+      "category": "essay",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.9855,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 7.04,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write an essay about artificial intelligence in education\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **M",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write an essay about artificial intelligence in education\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 37,
+      "query": "Write a story about a space pirate",
+      "category": "creative",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.6748,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 8.04,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a story about a space pirate\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Sol",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write a story about a space pirate\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 38,
+      "query": "How do I create a React web component with state?",
+      "category": "coding",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.8608,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 7.2,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"How do I create a React web component with state?\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathemati",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"How do I create a React web component with state?\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 39,
+      "query": "Explain the rules of chess for castling in detail",
+      "category": "games",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.5518,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 7.75,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Explain the rules of chess for castling in detail\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathemati",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Explain the rules of chess for castling in detail\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    },
+    {
+      "id": 40,
+      "query": "Write an itinerary for 3 days in Paris with budget tips",
+      "category": "travel",
+      "expected_intent": "out_of_scope",
+      "routed_intent": "out_of_scope",
+      "confidence": 0.9786,
+      "route_correct": true,
+      "handler": "OutOfScopeHandler",
+      "tool": "OutOfScopeHandler",
+      "sources_count": 0,
+      "sources": [],
+      "timestamp": null,
+      "timestamp_included": false,
+      "latency_ms": 8.19,
+      "answer_valid": true,
+      "answer_snippet": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write an itinerary for 3 days in Paris with budget tips\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mat",
+      "answer_full": "⚠️ **Query Out of Specialized Scope**\n\nYour query: *\"Write an itinerary for 3 days in Paris with budget tips\"* falls outside of Omega's core domain specializations.\n\nOmega is specialized in:\n- 🧮 **Mathematical Problem Solving** (Arithmetic, Algebra, Combinatorics, Word Problems)\n- 🌾 **Agronomy & Agriculture** (Crop Suitability, Fertilizer Planning, Soil & Pest Management)\n- 🇮🇳 **Indian & World General Knowledge**\n- 🌐 **Real-Time Data Retrieval** (Weather, Commodity Mandi Rates, Currency Forex, Live News)\n\nPlease submit a query related to one of these core domains for verified answers.",
+      "manual_correctness": "pending_manual_review"
+    }
+  ]
+}
